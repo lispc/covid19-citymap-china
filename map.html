@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <link rel="stylesheet" href="https://a.amap.com/jsapi_demos/static/demo-center/css/demo-center.css"/>
+    <style>
+        html,
+        body,
+        #container {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+    </style>
+    <title>新冠地级市疫情图</title>
+    <script type="text/javascript" src="./dxy_confirmed_data.js"></script>
+</head>
+<body>
+<div id="container"></div>
+<script src="https://webapi.amap.com/maps?v=1.4.15&key=cddc8264cfa8793b396c890db09d96a0&plugin=Map3D,AMap.DistrictLayer,AMap.Scale,AMap.ToolBar"></script>
+<script src="https://a.amap.com/Loca/static/mock/adcodes.js"></script>
+<script>
+    var map = new AMap.Map("container", {
+        zoom: 4.5,
+        center: [116.412427, 39.303573],
+        pitch: 0,
+        viewMode: '3D',
+    });
+
+    // 创建省份图层
+    var all_provinces = ['110000', '120000', '130000', '140000', '150000', '210000', '220000', '230000', '310000', '320000', '330000', '340000', '350000', '360000', '370000', '410000', '420000', '430000', '440000', '450000', '460000', '500000', '510000', '520000', '530000', '540000', '610000', '620000', '630000', '640000', '650000'];
+    var disProvince = new AMap.DistrictLayer.Province({
+        zIndex: 12,
+        adcode: all_provinces,
+        depth: 1,
+        styles: {
+            'fill': function (properties) {
+                return DATA[properties.adcode]['color']
+            },
+            'province-stroke': 'cornflowerblue',
+            'city-stroke': 'white', // 中国地级市边界
+            'county-stroke': 'rgba(255,255,255,0.5)' // 中国区县边界
+        }
+    });
+
+    disProvince.setMap(map);
+    
+</script>
+</body>
+</html>
