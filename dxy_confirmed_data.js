@@ -1,13 +1,14 @@
+const LAST_UPDATE = "2020.01.25-19:40:55";
 const DATA = {
   "110000": {
-    "confirmedCount": 36,
+    "confirmedCount": 41,
     "cityName": "北京市",
     "color": "#E04B49"
   },
   "120000": {
-    "confirmedCount": 9,
+    "confirmedCount": 10,
     "cityName": "天津市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "130100": {
     "confirmedCount": 4,
@@ -185,7 +186,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "210200": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "大连市",
     "color": "#F08E7E"
   },
@@ -1425,19 +1426,19 @@ const DATA = {
     "color": "#F08E7E"
   },
   "530100": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "昆明市",
     "color": "#F08E7E"
   },
   "530300": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "曲靖市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "530400": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "玉溪市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "530500": {
     "confirmedCount": 0,
@@ -1450,7 +1451,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "530700": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "丽江市",
     "color": "#F08E7E"
   },
@@ -1470,9 +1471,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "532500": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "红河哈尼族彝族自治州",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "532600": {
     "confirmedCount": 0,
@@ -1485,9 +1486,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "532900": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "大理白族自治州",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "533100": {
     "confirmedCount": 0,
@@ -1590,7 +1591,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "620100": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "兰州市",
     "color": "#F08E7E"
   },
@@ -1660,9 +1661,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "630100": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "西宁市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "630200": {
     "confirmedCount": 0,

@@ -3,6 +3,7 @@ import re
 from collections import defaultdict
 import json
 import requests
+import datetime
 
 
 def load_amap_cities():
@@ -29,7 +30,8 @@ def normalize_city_name(dxy_city_name):
     # TODO find a better solution
     manual_mapping = {'锡林郭勒': '锡林郭勒盟', '恩施州': '恩施土家族苗族自治州',
                       '西双版纳州': '西双版纳傣族自治州', '黔南州': '黔南布依族苗族自治州',
-                      '临夏': '临夏回族自治州'
+                      '临夏': '临夏回族自治州', '红河': '红河哈尼族彝族自治州',
+                      '大理': '大理白族自治州'
                       }
     if manual_mapping.get(dxy_city_name):
         return manual_mapping[dxy_city_name]
@@ -75,6 +77,10 @@ def count_to_color(count):
 
 def write_result(result):
     writer = open('dxy_confirmed_data.js', 'w')
+    writer.write('const LAST_UPDATE = "')
+    writer.write(datetime.datetime.now(datetime.timezone(
+        datetime.timedelta(hours=8))).strftime('%Y.%m.%d-%H:%M:%S'))
+    writer.write('";\n')
     writer.write("const DATA = ")
     json.dump(result, writer, indent='  ', ensure_ascii=False)
     writer.close()
