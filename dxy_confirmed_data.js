@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.25-21:59:52";
+const LAST_UPDATE = "2020.01.25-22:09:58";
 const DATA = {
   "110000": {
     "confirmedCount": 41,
@@ -136,9 +136,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "150400": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "赤峰市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "150500": {
     "confirmedCount": 0,
@@ -146,12 +146,12 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "150600": {
-    "confirmedCount": 0,
+    "confirmedCount": 2,
     "cityName": "鄂尔多斯市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "150700": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "呼伦贝尔市",
     "color": "#F08E7E"
   },
@@ -171,7 +171,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "152500": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "锡林郭勒盟",
     "color": "#F08E7E"
   },
