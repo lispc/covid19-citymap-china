@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.25-23:51:01";
+const LAST_UPDATE = "2020.01.26-00:01:07";
 const DATA = {
   "110000": {
     "confirmedCount": 41,
@@ -846,9 +846,9 @@ const DATA = {
     "color": "#73181B"
   },
   "420200": {
-    "confirmedCount": 0,
+    "confirmedCount": 31,
     "cityName": "黄石市",
-    "color": "#FFFFFF"
+    "color": "#E04B49"
   },
   "420300": {
     "confirmedCount": 5,
