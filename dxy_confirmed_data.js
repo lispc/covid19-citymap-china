@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.26-00:31:23";
+const LAST_UPDATE = "2020.01.26-00:41:29";
 const DATA = {
   "110000": {
     "confirmedCount": 41,
@@ -216,9 +216,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "210800": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "营口市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "210900": {
     "confirmedCount": 0,
