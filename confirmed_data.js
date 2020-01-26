@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.26-21:29:15";
+const LAST_UPDATE = "2020.01.26-21:39:22";
 const DATA = {
   "110000": {
     "confirmedCount": 63,
@@ -331,9 +331,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "230800": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "佳木斯市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "230900": {
     "confirmedCount": 0,
