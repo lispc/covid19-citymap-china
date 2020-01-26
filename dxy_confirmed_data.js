@@ -1,14 +1,14 @@
-const LAST_UPDATE = "2020.01.26-08:53:10";
+const LAST_UPDATE = "2020.01.26-09:03:16";
 const DATA = {
   "110000": {
-    "confirmedCount": 42,
+    "confirmedCount": 51,
     "cityName": "北京市",
     "color": "#E04B49"
   },
   "120000": {
-    "confirmedCount": 1,
+    "confirmedCount": 10,
     "cityName": "天津市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "130100": {
     "confirmedCount": 4,
@@ -216,7 +216,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "210800": {
-    "confirmedCount": 2,
+    "confirmedCount": 1,
     "cityName": "营口市",
     "color": "#F08E7E"
   },
@@ -361,7 +361,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "310000": {
-    "confirmedCount": 33,
+    "confirmedCount": 40,
     "cityName": "上海市",
     "color": "#E04B49"
   },
@@ -441,9 +441,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "330300": {
-    "confirmedCount": 1,
+    "confirmedCount": 10,
     "cityName": "温州市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "330400": {
     "confirmedCount": 4,
@@ -476,9 +476,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "331000": {
-    "confirmedCount": 2,
+    "confirmedCount": 20,
     "cityName": "台州市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "331100": {
     "confirmedCount": 0,
@@ -486,9 +486,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "340100": {
-    "confirmedCount": 1,
+    "confirmedCount": 10,
     "cityName": "合肥市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "340200": {
     "confirmedCount": 1,
@@ -676,9 +676,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "370300": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "淄博市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "370400": {
     "confirmedCount": 0,
@@ -696,12 +696,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "370700": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "潍坊市",
     "color": "#F08E7E"
   },
   "370800": {
-    "confirmedCount": 2,
+    "confirmedCount": 4,
     "cityName": "济宁市",
     "color": "#F08E7E"
   },
@@ -711,12 +711,12 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "371000": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "威海市",
     "color": "#F08E7E"
   },
   "371100": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "日照市",
     "color": "#F08E7E"
   },
@@ -726,12 +726,12 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "371300": {
-    "confirmedCount": 3,
+    "confirmedCount": 7,
     "cityName": "临沂市",
     "color": "#F08E7E"
   },
   "371400": {
-    "confirmedCount": 1,
+    "confirmedCount": 3,
     "cityName": "德州市",
     "color": "#F08E7E"
   },
@@ -751,9 +751,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "410100": {
-    "confirmedCount": 8,
+    "confirmedCount": 20,
     "cityName": "郑州市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "410200": {
     "confirmedCount": 0,
@@ -766,14 +766,14 @@ const DATA = {
     "color": "#F08E7E"
   },
   "410400": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "平顶山市",
     "color": "#F08E7E"
   },
   "410500": {
-    "confirmedCount": 0,
+    "confirmedCount": 3,
     "cityName": "安阳市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "410600": {
     "confirmedCount": 0,
@@ -781,7 +781,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "410700": {
-    "confirmedCount": 1,
+    "confirmedCount": 3,
     "cityName": "新乡市",
     "color": "#F08E7E"
   },
@@ -801,19 +801,19 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "411100": {
-    "confirmedCount": 0,
+    "confirmedCount": 3,
     "cityName": "漯河市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "411200": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "三门峡市",
     "color": "#F08E7E"
   },
   "411300": {
-    "confirmedCount": 8,
+    "confirmedCount": 15,
     "cityName": "南阳市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "411400": {
     "confirmedCount": 0,
@@ -821,17 +821,17 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "411500": {
-    "confirmedCount": 6,
+    "confirmedCount": 22,
     "cityName": "信阳市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "411600": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "周口市",
     "color": "#F08E7E"
   },
   "411700": {
-    "confirmedCount": 2,
+    "confirmedCount": 7,
     "cityName": "驻马店市",
     "color": "#F08E7E"
   },
@@ -851,17 +851,17 @@ const DATA = {
     "color": "#E04B49"
   },
   "420300": {
-    "confirmedCount": 2,
+    "confirmedCount": 20,
     "cityName": "十堰市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "420500": {
-    "confirmedCount": 2,
+    "confirmedCount": 20,
     "cityName": "宜昌市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "420600": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "襄阳市",
     "color": "#F08E7E"
   },
@@ -1006,14 +1006,14 @@ const DATA = {
     "color": "#F08E7E"
   },
   "440300": {
-    "confirmedCount": 2,
+    "confirmedCount": 20,
     "cityName": "深圳市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "440400": {
-    "confirmedCount": 1,
+    "confirmedCount": 10,
     "cityName": "珠海市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "440500": {
     "confirmedCount": 1,
@@ -1271,7 +1271,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500000": {
-    "confirmedCount": 48,
+    "confirmedCount": 57,
     "cityName": "重庆市",
     "color": "#E04B49"
   },
