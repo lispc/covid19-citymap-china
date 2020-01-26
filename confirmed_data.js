@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.26-10:02:56";
+const LAST_UPDATE = "2020.01.26-10:13:02";
 const DATA = {
   "110000": {
     "confirmedCount": 51,
@@ -206,9 +206,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "210600": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "丹东市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "210700": {
     "confirmedCount": 0,
@@ -231,9 +231,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "211100": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "盘锦市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "211200": {
     "confirmedCount": 2,
@@ -1591,7 +1591,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "620100": {
-    "confirmedCount": 2,
+    "confirmedCount": 4,
     "cityName": "兰州市",
     "color": "#F08E7E"
   },
@@ -1641,9 +1641,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "621100": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "定西市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "621200": {
     "confirmedCount": 0,
@@ -1701,7 +1701,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "640100": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "银川市",
     "color": "#F08E7E"
   },
@@ -1781,9 +1781,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "654000": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "伊犁哈萨克自治州",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "654200": {
     "confirmedCount": 0,
