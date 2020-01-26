@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.26-19:18:03";
+const LAST_UPDATE = "2020.01.26-19:28:08";
 const DATA = {
   "110000": {
     "confirmedCount": 54,
@@ -566,7 +566,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "350100": {
-    "confirmedCount": 10,
+    "confirmedCount": 13,
     "cityName": "福州市",
     "color": "#E04B49"
   },
@@ -576,9 +576,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "350300": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "莆田市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "350400": {
     "confirmedCount": 4,
@@ -586,7 +586,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "350500": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "泉州市",
     "color": "#F08E7E"
   },
@@ -596,9 +596,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "350700": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "南平市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "350800": {
     "confirmedCount": 0,
