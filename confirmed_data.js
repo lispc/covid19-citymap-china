@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.26-10:43:19";
+const LAST_UPDATE = "2020.01.26-10:53:24";
 const DATA = {
   "110000": {
     "confirmedCount": 51,
@@ -1181,7 +1181,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "460200": {
-    "confirmedCount": 6,
+    "confirmedCount": 8,
     "cityName": "三亚市",
     "color": "#F08E7E"
   },
@@ -1231,9 +1231,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "469023": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "澄迈县",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "469024": {
     "confirmedCount": 1,
