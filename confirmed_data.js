@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.26-18:07:24";
+const LAST_UPDATE = "2020.01.26-18:17:30";
 const DATA = {
   "110000": {
     "confirmedCount": 54,
@@ -1011,7 +1011,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "440400": {
-    "confirmedCount": 10,
+    "confirmedCount": 12,
     "cityName": "珠海市",
     "color": "#E04B49"
   },
@@ -1051,7 +1051,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "441400": {
-    "confirmedCount": 2,
+    "confirmedCount": 1,
     "cityName": "梅州市",
     "color": "#F08E7E"
   },
