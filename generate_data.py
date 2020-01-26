@@ -23,6 +23,10 @@ def load_dxy_data():
     result = json.loads(raw_json, encoding='utf8')
     return result
 
+def load_tx_data():
+    url = 'https://view.inews.qq.com/g2/getOnsInfo?name=wuwei_ww_area_counts'
+    data = json.loads(requests.get(url).json()['data'])
+    return data
 
 def normalize_city_name(dxy_province_name, dxy_city_name):
     # 忽略部分内容
@@ -53,8 +57,9 @@ def normalize_city_name(dxy_province_name, dxy_city_name):
     return normalized_name
 
 
-def get_confirmed_count():
+def get_confirmed_count_dxy():
     confirmed_count = defaultdict(int)
+    suspected_count = defaultdict(int)
     for p in load_dxy_data():
         dxy_province_name = p['provinceName']
         if dxy_province_name in ['香港', '澳门', '台湾']:
@@ -71,18 +76,40 @@ def get_confirmed_count():
                 # 丁香园有重复计算，县级市和地级市重复，如满洲里。因此用累加。TODO 是不是该累加？
                 code = amap_city_to_code[normalized_name]
                 confirmed_count[code] += c["confirmedCount"]
-    return confirmed_count
+    return confirmed_count, suspected_count
 
+def get_confirmed_count_tx():
+    confirmed_count = defaultdict(int)
+    suspected_count = defaultdict(int)
+    for item in load_tx_data():
+        if item['country'] != '中国':
+            continue
+        if item['area'] in ['香港', '澳门', '台湾']:
+            continue
+        if item['area'] in ['北京', '上海', '天津', '重庆']:
+            province_name = item['area'] + '市'
+            code = amap_city_to_code[province_name]
+            confirmed_count[code] += item['confirm']
+            suspected_count[code] += item['suspect']
+            continue
+        normalized_name = normalize_city_name(item['area'], item['city'])
+        if normalized_name != '':
+            code = amap_city_to_code[normalized_name]
+            confirmed_count[code] += item["confirm"]
+            suspected_count[code] += item["suspect"]
+    return confirmed_count, suspected_count        
 
-def count_to_color(count):
+def count_to_color(confirm, suspect):
     # 颜色含义同丁香园
-    if count == 0:
-        return '#FFFFFF'
-    if count < 10:
+    if confirm > 100:
+        return '#73181B'
+    if confirm >= 10:
+        return '#E04B49' 
+    if confirm > 0:
         return '#F08E7E'
-    if count <= 100:
-        return '#E04B49'
-    return '#73181B'
+    if suspect > 0:
+        return '#F2D7A2' 
+    return '#FFFFFF'
 
 
 def write_result(result):
@@ -97,11 +124,13 @@ def write_result(result):
 
 
 def main():
-    confirmed_count = get_confirmed_count()
+    confirmed_count, suspected_count = get_confirmed_count_tx()
     result = {}
     for code in amap_code_to_city:
-        result[code] = {'confirmedCount': confirmed_count.get(code, 0),
-                        'cityName': amap_code_to_city[code], 'color': count_to_color(confirmed_count.get(code, 0))}
+        # 现在数据源的疑似都是 0 了
+        result[code] = {'confirmedCount': confirmed_count[code],
+                        'cityName': amap_code_to_city[code], 
+                        'color': count_to_color(confirmed_count[code], suspected_count[code])}
     write_result(result)
 
 
