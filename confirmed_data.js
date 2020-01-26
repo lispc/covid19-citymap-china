@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.26-10:13:02";
+const LAST_UPDATE = "2020.01.26-10:23:07";
 const DATA = {
   "110000": {
     "confirmedCount": 51,
@@ -1276,7 +1276,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "510100": {
-    "confirmedCount": 16,
+    "confirmedCount": 22,
     "cityName": "成都市",
     "color": "#E04B49"
   },
@@ -1291,7 +1291,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "510500": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "泸州市",
     "color": "#F08E7E"
   },
@@ -1301,7 +1301,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "510700": {
-    "confirmedCount": 2,
+    "confirmedCount": 5,
     "cityName": "绵阳市",
     "color": "#F08E7E"
   },
@@ -1321,19 +1321,19 @@ const DATA = {
     "color": "#F08E7E"
   },
   "511100": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "乐山市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "511300": {
-    "confirmedCount": 0,
+    "confirmedCount": 2,
     "cityName": "南充市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "511400": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "眉山市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "511500": {
     "confirmedCount": 0,
@@ -1371,9 +1371,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "513300": {
-    "confirmedCount": 0,
+    "confirmedCount": 2,
     "cityName": "甘孜藏族自治州",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "513400": {
     "confirmedCount": 0,
