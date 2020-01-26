@@ -113,7 +113,7 @@ def count_to_color(confirm, suspect):
 
 
 def write_result(result):
-    writer = open('dxy_confirmed_data.js', 'w')
+    writer = open('confirmed_data.js', 'w')
     writer.write('const LAST_UPDATE = "')
     writer.write(datetime.datetime.now(datetime.timezone(
         datetime.timedelta(hours=8))).strftime('%Y.%m.%d-%H:%M:%S'))
