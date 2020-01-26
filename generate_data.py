@@ -27,6 +27,7 @@ def load_dxy_data():
 def load_tx_data():
     url = 'https://view.inews.qq.com/g2/getOnsInfo?name=wuwei_ww_area_counts'
     data = json.loads(requests.get(url).json()['data'])
+    print(data)
     return data
 
 
@@ -92,7 +93,7 @@ def get_confirmed_count_tx():
             continue
         if item['area'] in ['香港', '澳门', '台湾']:
             continue
-        if item['area'] in ['北京', '上海', '天津', '重庆']:
+        if item['area'] in ['北京', '上海', '天津']:
             province_name = item['area'] + '市'
             code = amap_city_to_code[province_name]
             confirmed_count[code] += item['confirm']
