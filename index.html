@@ -37,7 +37,8 @@
     });
 
     // 创建省份图层
-    var all_provinces = ['110000', '120000', '130000', '140000', '150000', '210000', '220000', '230000', '310000', '320000', '330000', '340000', '350000', '360000', '370000', '410000', '420000', '430000', '440000', '450000', '460000', '500000', '510000', '520000', '530000', '540000', '610000', '620000', '630000', '640000', '650000'];
+    // 排除重庆(500000)
+    var all_provinces = ['110000', '120000', '130000', '140000', '150000', '210000', '220000', '230000', '310000', '320000', '330000', '340000', '350000', '360000', '370000', '410000', '420000', '430000', '440000', '450000', '460000', '510000', '520000', '530000', '540000', '610000', '620000', '630000', '640000', '650000'];
     var disProvince = new AMap.DistrictLayer.Province({
         zIndex: 12,
         adcode: all_provinces,
@@ -53,7 +54,23 @@
     });
 
     disProvince.setMap(map);
-    
+
+    var disChongqing = new AMap.DistrictLayer.Province({
+        zIndex: 12,
+        adcode: ["500000"],
+        depth: 2,
+        styles: {
+            'fill': function (properties) {
+                return DATA[properties.adcode]['color']
+            },
+            'province-stroke': 'cornflowerblue',
+            'city-stroke': 'white', // 中国地级市边界
+            'county-stroke': 'rgba(255,255,255,0.5)' // 中国区县边界
+        }
+    });
+
+    disChongqing.setMap(map);
+
 </script>
 </body>
 </html>
