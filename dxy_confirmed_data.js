@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.26-08:12:14";
+const LAST_UPDATE = "2020.01.26-08:17:32";
 const DATA = {
   "110000": {
     "confirmedCount": 41,
@@ -1236,9 +1236,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "469024": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "临高县",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "469025": {
     "confirmedCount": 0,
@@ -1256,9 +1256,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "469028": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "陵水黎族自治县",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "469029": {
     "confirmedCount": 0,
