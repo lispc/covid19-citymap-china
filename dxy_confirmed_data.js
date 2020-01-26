@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.26-09:33:33";
+const LAST_UPDATE = "2020.01.26-09:43:38";
 const DATA = {
   "110000": {
     "confirmedCount": 51,
