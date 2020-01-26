@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.27-01:01:17";
+const LAST_UPDATE = "2020.01.27-01:11:22";
 const DATA = {
   "110000": {
     "confirmedCount": 68,
@@ -611,12 +611,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "360100": {
-    "confirmedCount": 4,
+    "confirmedCount": 8,
     "cityName": "南昌市",
     "color": "#F08E7E"
   },
   "360200": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "景德镇市",
     "color": "#F08E7E"
   },
@@ -626,12 +626,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "360400": {
-    "confirmedCount": 2,
+    "confirmedCount": 4,
     "cityName": "九江市",
     "color": "#F08E7E"
   },
   "360500": {
-    "confirmedCount": 1,
+    "confirmedCount": 3,
     "cityName": "新余市",
     "color": "#F08E7E"
   },
@@ -646,17 +646,17 @@ const DATA = {
     "color": "#F08E7E"
   },
   "360800": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "吉安市",
     "color": "#F08E7E"
   },
   "360900": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "宜春市",
     "color": "#F08E7E"
   },
   "361000": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "抚州市",
     "color": "#F08E7E"
   },
