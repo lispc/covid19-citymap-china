@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.26-09:53:44";
+const LAST_UPDATE = "2020.01.26-10:01:08";
 const DATA = {
   "110000": {
     "confirmedCount": 51,
@@ -206,9 +206,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "210600": {
-    "confirmedCount": 1,
+    "confirmedCount": 0,
     "cityName": "丹东市",
-    "color": "#F08E7E"
+    "color": "#FFFFFF"
   },
   "210700": {
     "confirmedCount": 0,
@@ -231,9 +231,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "211100": {
-    "confirmedCount": 1,
+    "confirmedCount": 0,
     "cityName": "盘锦市",
-    "color": "#F08E7E"
+    "color": "#FFFFFF"
   },
   "211200": {
     "confirmedCount": 2,
@@ -1006,7 +1006,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "440300": {
-    "confirmedCount": 26,
+    "confirmedCount": 27,
     "cityName": "深圳市",
     "color": "#E04B49"
   },
@@ -1021,7 +1021,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "440600": {
-    "confirmedCount": 11,
+    "confirmedCount": 10,
     "cityName": "佛山市",
     "color": "#E04B49"
   },
@@ -1541,7 +1541,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "610100": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "西安市",
     "color": "#F08E7E"
   },
@@ -1556,7 +1556,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "610400": {
-    "confirmedCount": 3,
+    "confirmedCount": 2,
     "cityName": "咸阳市",
     "color": "#F08E7E"
   },
@@ -1591,7 +1591,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "620100": {
-    "confirmedCount": 4,
+    "confirmedCount": 2,
     "cityName": "兰州市",
     "color": "#F08E7E"
   },
@@ -1641,9 +1641,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "621100": {
-    "confirmedCount": 1,
+    "confirmedCount": 0,
     "cityName": "定西市",
-    "color": "#F08E7E"
+    "color": "#FFFFFF"
   },
   "621200": {
     "confirmedCount": 0,
@@ -1781,9 +1781,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "654000": {
-    "confirmedCount": 1,
+    "confirmedCount": 0,
     "cityName": "伊犁哈萨克自治州",
-    "color": "#F08E7E"
+    "color": "#FFFFFF"
   },
   "654200": {
     "confirmedCount": 0,
