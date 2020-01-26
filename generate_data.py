@@ -57,6 +57,8 @@ def get_confirmed_count():
     confirmed_count = defaultdict(int)
     for p in load_dxy_data():
         dxy_province_name = p['provinceName']
+        if dxy_province_name in ['香港', '澳门', '台湾']:
+            continue
         if dxy_province_name in ['北京市', '上海市', '天津市', '重庆市']:
             code = amap_city_to_code[dxy_province_name]
             confirmed_count[code] = p['confirmedCount']
