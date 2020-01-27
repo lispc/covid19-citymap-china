@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.27-12:44:26";
+const LAST_UPDATE = "2020.01.27-12:45:55";
 const DATA = {
   "110000": {
     "confirmedCount": 68,
@@ -1271,9 +1271,199 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500000": {
-    "confirmedCount": 110,
+    "confirmedCount": 0,
     "cityName": "重庆市",
-    "color": "#73181B"
+    "color": "#FFFFFF"
+  },
+  "500101": {
+    "confirmedCount": 14,
+    "cityName": "万州区",
+    "color": "#E04B49"
+  },
+  "500102": {
+    "confirmedCount": 1,
+    "cityName": "涪陵区",
+    "color": "#F08E7E"
+  },
+  "500103": {
+    "confirmedCount": 0,
+    "cityName": "渝中区",
+    "color": "#FFFFFF"
+  },
+  "500104": {
+    "confirmedCount": 6,
+    "cityName": "大渡口区",
+    "color": "#F08E7E"
+  },
+  "500105": {
+    "confirmedCount": 3,
+    "cityName": "江北区",
+    "color": "#F08E7E"
+  },
+  "500106": {
+    "confirmedCount": 0,
+    "cityName": "沙坪坝区",
+    "color": "#FFFFFF"
+  },
+  "500107": {
+    "confirmedCount": 4,
+    "cityName": "九龙坡区",
+    "color": "#F08E7E"
+  },
+  "500108": {
+    "confirmedCount": 0,
+    "cityName": "南岸区",
+    "color": "#FFFFFF"
+  },
+  "500109": {
+    "confirmedCount": 0,
+    "cityName": "北碚区",
+    "color": "#FFFFFF"
+  },
+  "500110": {
+    "confirmedCount": 1,
+    "cityName": "綦江区",
+    "color": "#F08E7E"
+  },
+  "500111": {
+    "confirmedCount": 1,
+    "cityName": "大足区",
+    "color": "#F08E7E"
+  },
+  "500112": {
+    "confirmedCount": 12,
+    "cityName": "渝北区",
+    "color": "#E04B49"
+  },
+  "500113": {
+    "confirmedCount": 1,
+    "cityName": "巴南区",
+    "color": "#F08E7E"
+  },
+  "500114": {
+    "confirmedCount": 0,
+    "cityName": "黔江区",
+    "color": "#FFFFFF"
+  },
+  "500115": {
+    "confirmedCount": 6,
+    "cityName": "长寿区",
+    "color": "#F08E7E"
+  },
+  "500116": {
+    "confirmedCount": 2,
+    "cityName": "江津区",
+    "color": "#F08E7E"
+  },
+  "500117": {
+    "confirmedCount": 3,
+    "cityName": "合川区",
+    "color": "#F08E7E"
+  },
+  "500118": {
+    "confirmedCount": 3,
+    "cityName": "永川区",
+    "color": "#F08E7E"
+  },
+  "500119": {
+    "confirmedCount": 0,
+    "cityName": "南川区",
+    "color": "#FFFFFF"
+  },
+  "500120": {
+    "confirmedCount": 3,
+    "cityName": "璧山区",
+    "color": "#F08E7E"
+  },
+  "500151": {
+    "confirmedCount": 1,
+    "cityName": "铜梁区",
+    "color": "#F08E7E"
+  },
+  "500152": {
+    "confirmedCount": 2,
+    "cityName": "潼南区",
+    "color": "#F08E7E"
+  },
+  "500153": {
+    "confirmedCount": 0,
+    "cityName": "荣昌区",
+    "color": "#FFFFFF"
+  },
+  "500154": {
+    "confirmedCount": 7,
+    "cityName": "开州区",
+    "color": "#F08E7E"
+  },
+  "500155": {
+    "confirmedCount": 1,
+    "cityName": "梁平区",
+    "color": "#F08E7E"
+  },
+  "500156": {
+    "confirmedCount": 0,
+    "cityName": "武隆区",
+    "color": "#FFFFFF"
+  },
+  "500229": {
+    "confirmedCount": 1,
+    "cityName": "城口县",
+    "color": "#F08E7E"
+  },
+  "500230": {
+    "confirmedCount": 3,
+    "cityName": "丰都县",
+    "color": "#F08E7E"
+  },
+  "500231": {
+    "confirmedCount": 4,
+    "cityName": "垫江县",
+    "color": "#F08E7E"
+  },
+  "500233": {
+    "confirmedCount": 6,
+    "cityName": "忠县",
+    "color": "#F08E7E"
+  },
+  "500235": {
+    "confirmedCount": 8,
+    "cityName": "云阳县",
+    "color": "#F08E7E"
+  },
+  "500236": {
+    "confirmedCount": 3,
+    "cityName": "奉节县",
+    "color": "#F08E7E"
+  },
+  "500237": {
+    "confirmedCount": 5,
+    "cityName": "巫山县",
+    "color": "#F08E7E"
+  },
+  "500238": {
+    "confirmedCount": 5,
+    "cityName": "巫溪县",
+    "color": "#F08E7E"
+  },
+  "500240": {
+    "confirmedCount": 3,
+    "cityName": "石柱土家族自治县",
+    "color": "#F08E7E"
+  },
+  "500241": {
+    "confirmedCount": 1,
+    "cityName": "秀山土家族苗族自治县",
+    "color": "#F08E7E"
+  },
+  "500242": {
+    "confirmedCount": 0,
+    "cityName": "酉阳土家族苗族自治县",
+    "color": "#FFFFFF"
+  },
+  "500243": {
+    "confirmedCount": 0,
+    "cityName": "彭水苗族土家族自治县",
+    "color": "#FFFFFF"
   },
   "510100": {
     "confirmedCount": 33,
