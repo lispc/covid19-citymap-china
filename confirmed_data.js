@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.27-12:24:04";
+const LAST_UPDATE = "2020.01.27-12:29:09";
 const DATA = {
   "110000": {
     "confirmedCount": 68,
@@ -186,7 +186,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "210200": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "大连市",
     "color": "#F08E7E"
   },
