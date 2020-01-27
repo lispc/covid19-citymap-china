@@ -27,6 +27,7 @@ def load_dxy_data():
 def load_tx_data():
     url = 'https://view.inews.qq.com/g2/getOnsInfo?name=wuwei_ww_area_counts'
     data = json.loads(requests.get(url).json()['data'])
+    print(data)
     return data
 
 
@@ -37,13 +38,16 @@ def normalize_city_name(dxy_province_name, dxy_city_name):
         return ''
 
     # 手动映射
-    manual_mapping = {'巩义': '郑州市', '满洲里': '呼伦贝尔市', '固始县': '信阳市', '阿拉善': '阿拉善盟'}
+    # 高德地图里没有两江新区，姑且算入渝北
+    manual_mapping = {'巩义': '郑州市', '满洲里': '呼伦贝尔市', '固始县': '信阳市', '阿拉善': '阿拉善盟','两江新区':'渝北区'}
     if manual_mapping.get(dxy_city_name):
         return manual_mapping[dxy_city_name]
 
     # 名称规则
     # 例如 临高县 其实是市级
     if dxy_city_name[-1] in ['市', '县', '盟']:
+        normalized_name = dxy_city_name
+    elif dxy_province_name == '重庆市' and dxy_city_name[-1] == '区':
         normalized_name = dxy_city_name
     else:
         normalized_name = dxy_city_name + '市'
@@ -66,7 +70,7 @@ def get_confirmed_count_dxy():
         dxy_province_name = p['provinceName']
         if dxy_province_name in ['香港', '澳门', '台湾']:
             continue
-        if dxy_province_name in ['北京市', '上海市', '天津市', '重庆市']:
+        if dxy_province_name in ['北京市', '上海市', '天津市']:
             code = amap_city_to_code[dxy_province_name]
             confirmed_count[code] = p['confirmedCount']
             continue
@@ -89,7 +93,7 @@ def get_confirmed_count_tx():
             continue
         if item['area'] in ['香港', '澳门', '台湾']:
             continue
-        if item['area'] in ['北京', '上海', '天津', '重庆']:
+        if item['area'] in ['北京', '上海', '天津']:
             province_name = item['area'] + '市'
             code = amap_city_to_code[province_name]
             confirmed_count[code] += item['confirm']
