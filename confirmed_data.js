@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.27-12:18:58";
+const LAST_UPDATE = "2020.01.27-12:24:04";
 const DATA = {
   "110000": {
     "confirmedCount": 68,
@@ -1176,14 +1176,14 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "460100": {
-    "confirmedCount": 3,
+    "confirmedCount": 6,
     "cityName": "海口市",
     "color": "#F08E7E"
   },
   "460200": {
-    "confirmedCount": 8,
+    "confirmedCount": 10,
     "cityName": "三亚市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "460300": {
     "confirmedCount": 0,
@@ -1191,7 +1191,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "460400": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "儋州市",
     "color": "#F08E7E"
   },
@@ -1211,7 +1211,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "469006": {
-    "confirmedCount": 5,
+    "confirmedCount": 7,
     "cityName": "万宁市",
     "color": "#F08E7E"
   },
@@ -1231,7 +1231,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "469023": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "澄迈县",
     "color": "#F08E7E"
   },
