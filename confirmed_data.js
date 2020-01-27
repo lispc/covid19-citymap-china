@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.27-08:35:24";
+const LAST_UPDATE = "2020.01.27-08:45:30";
 const DATA = {
   "110000": {
     "confirmedCount": 68,
@@ -491,17 +491,17 @@ const DATA = {
     "color": "#E04B49"
   },
   "340200": {
-    "confirmedCount": 3,
+    "confirmedCount": 6,
     "cityName": "芜湖市",
     "color": "#F08E7E"
   },
   "340300": {
-    "confirmedCount": 1,
+    "confirmedCount": 3,
     "cityName": "蚌埠市",
     "color": "#F08E7E"
   },
   "340400": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "淮南市",
     "color": "#F08E7E"
   },
@@ -521,7 +521,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "340800": {
-    "confirmedCount": 5,
+    "confirmedCount": 8,
     "cityName": "安庆市",
     "color": "#F08E7E"
   },
@@ -541,7 +541,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "341300": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "宿州市",
     "color": "#F08E7E"
   },
@@ -666,17 +666,17 @@ const DATA = {
     "color": "#F08E7E"
   },
   "370100": {
-    "confirmedCount": 5,
+    "confirmedCount": 7,
     "cityName": "济南市",
     "color": "#F08E7E"
   },
   "370200": {
-    "confirmedCount": 8,
+    "confirmedCount": 10,
     "cityName": "青岛市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "370300": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "淄博市",
     "color": "#F08E7E"
   },
@@ -691,12 +691,12 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "370600": {
-    "confirmedCount": 2,
+    "confirmedCount": 4,
     "cityName": "烟台市",
     "color": "#F08E7E"
   },
   "370700": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "潍坊市",
     "color": "#F08E7E"
   },
@@ -711,12 +711,12 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "371000": {
-    "confirmedCount": 4,
+    "confirmedCount": 7,
     "cityName": "威海市",
     "color": "#F08E7E"
   },
   "371100": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "日照市",
     "color": "#F08E7E"
   },
@@ -731,7 +731,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "371400": {
-    "confirmedCount": 3,
+    "confirmedCount": 6,
     "cityName": "德州市",
     "color": "#F08E7E"
   },
@@ -746,7 +746,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "371700": {
-    "confirmedCount": 1,
+    "confirmedCount": 3,
     "cityName": "菏泽市",
     "color": "#F08E7E"
   },
