@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.27-10:03:09";
+const LAST_UPDATE = "2020.01.27-10:03:41";
 const DATA = {
   "110000": {
     "confirmedCount": 68,
@@ -1276,12 +1276,12 @@ const DATA = {
     "color": "#73181B"
   },
   "510100": {
-    "confirmedCount": 22,
+    "confirmedCount": 33,
     "cityName": "成都市",
     "color": "#E04B49"
   },
   "510300": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "自贡市",
     "color": "#F08E7E"
   },
@@ -1291,7 +1291,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "510500": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "泸州市",
     "color": "#F08E7E"
   },
@@ -1301,7 +1301,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "510700": {
-    "confirmedCount": 5,
+    "confirmedCount": 7,
     "cityName": "绵阳市",
     "color": "#F08E7E"
   },
@@ -1336,17 +1336,17 @@ const DATA = {
     "color": "#F08E7E"
   },
   "511500": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "宜宾市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "511600": {
-    "confirmedCount": 2,
+    "confirmedCount": 6,
     "cityName": "广安市",
     "color": "#F08E7E"
   },
   "511700": {
-    "confirmedCount": 1,
+    "confirmedCount": 3,
     "cityName": "达州市",
     "color": "#F08E7E"
   },
@@ -1361,9 +1361,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "512000": {
-    "confirmedCount": 0,
+    "confirmedCount": 2,
     "cityName": "资阳市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "513200": {
     "confirmedCount": 0,
@@ -1376,9 +1376,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "513400": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "凉山彝族自治州",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "520100": {
     "confirmedCount": 1,
