@@ -27,7 +27,7 @@ def load_dxy_data():
 def load_tx_data():
     url = 'https://view.inews.qq.com/g2/getOnsInfo?name=wuwei_ww_area_counts'
     data = json.loads(requests.get(url).json()['data'])
-    print(data)
+    #print(data)
     return data
 
 
@@ -59,7 +59,8 @@ def normalize_city_name(dxy_province_name, dxy_city_name):
     # cat adcodes|cut -d' ' -f2|cut -c1-2|sort|uniq -c |sort -k2n
     # 所以可以用前两个字
     normalized_name = amap_short_city_to_full_city.get(dxy_city_name[0:2], '')
-    print('fuzz map', dxy_province_name, dxy_city_name, 'to', normalized_name)
+    if normalized_name != dxy_city_name:
+      print('fuzz map', dxy_province_name, dxy_city_name, 'to', normalized_name)
     return normalized_name
 
 
