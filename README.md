@@ -13,5 +13,5 @@ open index.html # 使用高德地图 API 画图，使用了上一步中的获得
 
 ## 效果
 
-![效果图](https://ftp.bmp.ovh/imgs/2020/01/483c984d5f439ad1.png)
+![效果图](demo.png)
 
