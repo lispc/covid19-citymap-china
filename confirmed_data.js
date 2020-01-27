@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.27-18:22:21";
+const LAST_UPDATE = "2020.01.27-18:27:27";
 const DATA = {
   "110000": {
     "confirmedCount": 72,
@@ -1621,7 +1621,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "530300": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "曲靖市",
     "color": "#F08E7E"
   },
@@ -1631,7 +1631,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "530500": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "保山市",
     "color": "#F08E7E"
   },
@@ -1641,7 +1641,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "530700": {
-    "confirmedCount": 2,
+    "confirmedCount": 5,
     "cityName": "丽江市",
     "color": "#F08E7E"
   },
@@ -1661,7 +1661,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "532500": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "红河哈尼族彝族自治州",
     "color": "#F08E7E"
   },
@@ -1676,7 +1676,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "532900": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "大理白族自治州",
     "color": "#F08E7E"
   },
