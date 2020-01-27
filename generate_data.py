@@ -47,7 +47,7 @@ def normalize_city_name(dxy_province_name, dxy_city_name):
     # 例如 临高县 其实是市级
     if dxy_city_name[-1] in ['市', '县', '盟']:
         normalized_name = dxy_city_name
-    elif dxy_province_name == '重庆市' and dxy_city_name[-1] == '区':
+    elif dxy_province_name == '重庆' and dxy_city_name[-1] == '区':
         normalized_name = dxy_city_name
     else:
         normalized_name = dxy_city_name + '市'
@@ -59,8 +59,7 @@ def normalize_city_name(dxy_province_name, dxy_city_name):
     # cat adcodes|cut -d' ' -f2|cut -c1-2|sort|uniq -c |sort -k2n
     # 所以可以用前两个字
     normalized_name = amap_short_city_to_full_city.get(dxy_city_name[0:2], '')
-    if normalized_name != dxy_city_name:
-      print('fuzz map', dxy_province_name, dxy_city_name, 'to', normalized_name)
+    print('fuzz map', dxy_province_name, dxy_city_name, 'to', normalized_name)
     return normalized_name
 
 
