@@ -54,7 +54,7 @@ def normalize_city_name(dxy_province_name, dxy_city_name):
     # adcodes 里面的规范市名，出了 张家口市/张家界市，阿拉善盟/阿拉尔市 外，前两个字都是唯一的
     # cat adcodes|cut -d' ' -f2|cut -c1-2|sort|uniq -c |sort -k2n
     # 所以可以用前两个字
-    normalized_name = amap_short_city_to_full_city[dxy_city_name[0:2]]
+    normalized_name = amap_short_city_to_full_city.get(dxy_city_name[0:2], '')
     print('fuzz map', dxy_province_name, dxy_city_name, 'to', normalized_name)
     return normalized_name
 
