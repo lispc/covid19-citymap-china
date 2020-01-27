@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.27-12:34:15";
+const LAST_UPDATE = "2020.01.27-12:39:21";
 const DATA = {
   "110000": {
     "confirmedCount": 68,
@@ -1701,7 +1701,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "640100": {
-    "confirmedCount": 2,
+    "confirmedCount": 5,
     "cityName": "银川市",
     "color": "#F08E7E"
   },
