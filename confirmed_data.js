@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.27-18:32:33";
+const LAST_UPDATE = "2020.01.27-18:37:39";
 const DATA = {
   "110000": {
     "confirmedCount": 72,
@@ -1181,7 +1181,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "460200": {
-    "confirmedCount": 10,
+    "confirmedCount": 11,
     "cityName": "三亚市",
     "color": "#E04B49"
   },
@@ -1191,7 +1191,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "460400": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "儋州市",
     "color": "#F08E7E"
   },
