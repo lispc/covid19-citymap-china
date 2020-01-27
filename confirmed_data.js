@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.28-03:43:12";
+const LAST_UPDATE = "2020.01.28-03:48:18";
 const DATA = {
   "110000": {
     "confirmedCount": 80,
@@ -661,7 +661,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "361100": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "上饶市",
     "color": "#F08E7E"
   },
