@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.28-08:18:24";
+const LAST_UPDATE = "2020.01.28-08:23:29";
 const DATA = {
   "110000": {
     "confirmedCount": 80,
@@ -751,12 +751,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "410100": {
-    "confirmedCount": 29,
+    "confirmedCount": 37,
     "cityName": "郑州市",
     "color": "#E04B49"
   },
   "410200": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "开封市",
     "color": "#F08E7E"
   },
@@ -771,9 +771,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "410500": {
-    "confirmedCount": 7,
+    "confirmedCount": 11,
     "cityName": "安阳市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "410600": {
     "confirmedCount": 2,
@@ -781,14 +781,14 @@ const DATA = {
     "color": "#F08E7E"
   },
   "410700": {
-    "confirmedCount": 4,
+    "confirmedCount": 6,
     "cityName": "新乡市",
     "color": "#F08E7E"
   },
   "410800": {
-    "confirmedCount": 0,
+    "confirmedCount": 2,
     "cityName": "焦作市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "410900": {
     "confirmedCount": 0,
@@ -796,12 +796,12 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "411000": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "许昌市",
     "color": "#F08E7E"
   },
   "411100": {
-    "confirmedCount": 6,
+    "confirmedCount": 9,
     "cityName": "漯河市",
     "color": "#F08E7E"
   },
@@ -811,29 +811,29 @@ const DATA = {
     "color": "#F08E7E"
   },
   "411300": {
-    "confirmedCount": 19,
+    "confirmedCount": 26,
     "cityName": "南阳市",
     "color": "#E04B49"
   },
   "411400": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "商丘市",
     "color": "#F08E7E"
   },
   "411500": {
-    "confirmedCount": 23,
+    "confirmedCount": 29,
     "cityName": "信阳市",
     "color": "#E04B49"
   },
   "411600": {
-    "confirmedCount": 11,
+    "confirmedCount": 15,
     "cityName": "周口市",
     "color": "#E04B49"
   },
   "411700": {
-    "confirmedCount": 9,
+    "confirmedCount": 10,
     "cityName": "驻马店市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "419001": {
     "confirmedCount": 0,
