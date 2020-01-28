@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.28-08:48:59";
+const LAST_UPDATE = "2020.01.28-08:54:05";
 const DATA = {
   "110000": {
     "confirmedCount": 80,
@@ -366,32 +366,32 @@ const DATA = {
     "color": "#E04B49"
   },
   "320100": {
-    "confirmedCount": 7,
+    "confirmedCount": 10,
     "cityName": "南京市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "320200": {
-    "confirmedCount": 4,
+    "confirmedCount": 6,
     "cityName": "无锡市",
     "color": "#F08E7E"
   },
   "320300": {
-    "confirmedCount": 3,
+    "confirmedCount": 8,
     "cityName": "徐州市",
     "color": "#F08E7E"
   },
   "320400": {
-    "confirmedCount": 6,
+    "confirmedCount": 8,
     "cityName": "常州市",
     "color": "#F08E7E"
   },
   "320500": {
-    "confirmedCount": 8,
+    "confirmedCount": 12,
     "cityName": "苏州市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "320600": {
-    "confirmedCount": 4,
+    "confirmedCount": 6,
     "cityName": "南通市",
     "color": "#F08E7E"
   },
@@ -411,7 +411,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "321000": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "扬州市",
     "color": "#F08E7E"
   },
@@ -421,12 +421,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "321200": {
-    "confirmedCount": 2,
+    "confirmedCount": 4,
     "cityName": "泰州市",
     "color": "#F08E7E"
   },
   "321300": {
-    "confirmedCount": 1,
+    "confirmedCount": 3,
     "cityName": "宿迁市",
     "color": "#F08E7E"
   },
