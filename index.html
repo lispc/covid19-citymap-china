@@ -4,73 +4,61 @@
     <meta charset="utf-8">
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
-    <link rel="stylesheet" href="https://a.amap.com/jsapi_demos/static/demo-center/css/demo-center.css"/>
-    <style type="text/css">html, body, </style>
+    <link rel="stylesheet" href="https://a.amap.com/jsapi_demos/static/demo-center/css/demo-center.css">
+    <style type="text/css">
+        @media (max-width: 1200px) {
+            #main_div {
+                margin: 0 auto;
+                width:375px;
+            }
+            #container {
+                text-align:center;
+                width:375px; 
+                height: 300px; 
+                margin: 0;
+            }
+
+        }
+        @media (min-width: 1201px) {
+            #main_div {
+                margin: 0 auto;
+                width:720px;
+            }
+            #container {
+                text-align:center;
+                width:720px; 
+                height: 576px; 
+                margin: 0;
+            }
+        }
+    </style>
     <title>新冠肺炎地级市疫情图</title>
     <script type="text/javascript" src="./confirmed_data.js"></script>
 </head>
 <body>
-<p style="text-align:center; width: 100%"><h1 id='title' style="text-align:center; width: 100%">新冠肺炎地级市疫情图</h1></p>
-<div style="text-align:center;width: 100%">
-    <div style="margin: 0 auto;width:375px;">
-<div id="container" style="text-align:center;width:375px; height: 300px; margin: 0;">
+    <p style="text-align:center; width: 100%">
+        <h1 id='title' style="text-align:center; width: 100%">
+            新冠肺炎地级市疫情图
+        </h1>
+    </p>
+    <div style="text-align:center;width: 100%">
+        <div id="main_div">
+            <div id="container">
+            </div>
+            <p style="text-align:center; width: 100%">
+                <h1 style="text-align:center; width: 100%">
+                    腾讯新闻疫情网页:
+                </h1>
+            </p>
+            <div id='dxy' style="text-align:center; width:100%; height: 1080px; margin: 0;">
+                <iframe src="https://news.qq.com/zt2020/page/feiyan.htm" width="100%" height="1920"></iframe>
+            </div>
+        </div>
     </div>
-</div>
-</div>
-<p style="text-align:center; width: 100%"><h1 style="text-align:center; width: 100%">腾讯新闻疫情网页:</h1></p>
-<div id='dxy' style="text-align:center; width:100%; height: 1080px; margin: 0;">
-    <iframe src="https://news.qq.com/zt2020/page/feiyan.htm" width="375" height="1920"></iframe>
-</div>
-<script src="https://webapi.amap.com/maps?v=1.4.15&key=cddc8264cfa8793b396c890db09d96a0&plugin=Map3D,AMap.DistrictLayer,AMap.Scale,AMap.ToolBar"></script>
-<script src="https://a.amap.com/Loca/static/mock/adcodes.js"></script>
-<script>
 
-    document.getElementById('title').innerHTML +=  '（最后更新于 ' + LAST_UPDATE + '）';
-
-    var map = new AMap.Map("container", {
-        zoom: 3,
-        center: [108, 38.5],
-        pitch: 0,
-        viewMode: '3D',
-        //zoomEnable:false,
-        //dragEnable: false,
-    });
-
-    // 创建省份图层
-    // 排除重庆(500000)
-    var all_provinces = ['110000', '120000', '130000', '140000', '150000', '210000', '220000', '230000', '310000', '320000', '330000', '340000', '350000', '360000', '370000', '410000', '420000', '430000', '440000', '450000', '460000', '510000', '520000', '530000', '540000', '610000', '620000', '630000', '640000', '650000'];
-    var disProvince = new AMap.DistrictLayer.Province({
-        zIndex: 12,
-        adcode: all_provinces,
-        depth: 1,
-        styles: {
-            'fill': function (properties) {
-                return DATA[properties.adcode]['color']
-            },
-            'province-stroke': 'cornflowerblue',
-            'city-stroke': 'white', // 中国地级市边界
-            'county-stroke': 'rgba(255,255,255,0.5)' // 中国区县边界
-        }
-    });
-
-    disProvince.setMap(map);
-
-    var disChongqing = new AMap.DistrictLayer.Province({
-        zIndex: 12,
-        adcode: ["500000"],
-        depth: 2,
-        styles: {
-            'fill': function (properties) {
-                return DATA[properties.adcode]['color']
-            },
-            'province-stroke': 'cornflowerblue',
-            'city-stroke': 'white', // 中国地级市边界
-            'county-stroke': 'rgba(255,255,255,0.5)' // 中国区县边界
-        }
-    });
-
-    disChongqing.setMap(map);
-
-</script>
+    <script src="https://webapi.amap.com/maps?v=1.4.15&key=cddc8264cfa8793b396c890db09d96a0&plugin=Map3D,AMap.DistrictLayer,AMap.Scale,AMap.ToolBar,DistrictSearch"></script>
+    <!--script src="https://webapi.amap.com/loca?v=1.3.1&key=cddc8264cfa8793b396c890db09d96a0"></script-->
+    <script src="https://a.amap.com/Loca/static/mock/adcodes.js"></script>
+    <script src="./app.js"></script>
 </body>
 </html>
