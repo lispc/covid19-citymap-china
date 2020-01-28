@@ -73,7 +73,7 @@ var disChongqing = new AMap.DistrictLayer.Province({
 });
 
 disChongqing.setMap(map);
-
+/*
 var layer = new AMap.LabelsLayer({
   fitView: true,
   map: map
@@ -172,3 +172,4 @@ map.on("click", function(ev) {
     }
   }
 });
+*/
