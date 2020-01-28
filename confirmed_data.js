@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.28-09:09:21";
+const LAST_UPDATE = "2020.01.28-09:14:27";
 const DATA = {
   "110000": {
     "confirmedCount": 80,
@@ -486,12 +486,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "340100": {
-    "confirmedCount": 13,
+    "confirmedCount": 16,
     "cityName": "合肥市",
     "color": "#E04B49"
   },
   "340200": {
-    "confirmedCount": 6,
+    "confirmedCount": 9,
     "cityName": "芜湖市",
     "color": "#F08E7E"
   },
@@ -506,17 +506,17 @@ const DATA = {
     "color": "#F08E7E"
   },
   "340500": {
-    "confirmedCount": 7,
+    "confirmedCount": 10,
     "cityName": "马鞍山市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "340600": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "淮北市",
     "color": "#F08E7E"
   },
   "340700": {
-    "confirmedCount": 3,
+    "confirmedCount": 9,
     "cityName": "铜陵市",
     "color": "#F08E7E"
   },
@@ -526,17 +526,17 @@ const DATA = {
     "color": "#F08E7E"
   },
   "341000": {
-    "confirmedCount": 1,
+    "confirmedCount": 4,
     "cityName": "黄山市",
     "color": "#F08E7E"
   },
   "341100": {
-    "confirmedCount": 2,
+    "confirmedCount": 4,
     "cityName": "滁州市",
     "color": "#F08E7E"
   },
   "341200": {
-    "confirmedCount": 10,
+    "confirmedCount": 21,
     "cityName": "阜阳市",
     "color": "#E04B49"
   },
@@ -546,12 +546,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "341500": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "六安市",
     "color": "#F08E7E"
   },
   "341600": {
-    "confirmedCount": 6,
+    "confirmedCount": 8,
     "cityName": "亳州市",
     "color": "#F08E7E"
   },
@@ -561,7 +561,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "341800": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "宣城市",
     "color": "#F08E7E"
   },
@@ -1916,7 +1916,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "650100": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "乌鲁木齐市",
     "color": "#F08E7E"
   },
@@ -1926,9 +1926,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "650400": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "吐鲁番市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "650500": {
     "confirmedCount": 0,
