@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.28-09:14:27";
+const LAST_UPDATE = "2020.01.28-09:19:33";
 const DATA = {
   "110000": {
     "confirmedCount": 80,
@@ -1971,7 +1971,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "654000": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "伊犁哈萨克自治州",
     "color": "#F08E7E"
   },
