@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.28-14:04:53";
+const LAST_UPDATE = "2020.01.28-14:09:59";
 const DATA = {
   "110000": {
     "confirmedCount": 80,
@@ -121,9 +121,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "150100": {
-    "confirmedCount": 0,
+    "confirmedCount": 2,
     "cityName": "呼和浩特市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "150200": {
     "confirmedCount": 3,
