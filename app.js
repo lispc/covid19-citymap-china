@@ -3,6 +3,7 @@ var disProvince;
 var disChongqing;
 var layer;
 var verbose = false;
+var cache = new Map();
 
 function initVirusMap() {
   document.getElementById("title").innerHTML +=
@@ -126,77 +127,81 @@ function clickHander(ev) {
         const is_chongqing = props.adcode_pro.toString() == "500000";
         const subdistrict = is_chongqing ? 2 : 1;
         //console.log('subdistrict', subdistrict)
-        var districtSearch = new AMap.DistrictSearch({
-          level: "district",
-          subdistrict: subdistrict
-        });
-        //console.log('search', props.adcode_pro);
-        districtSearch.search(props.adcode_pro.toString(), function(
-          status,
-          result
-        ) {
-          if (verbose) {
-            console.log("status", status);
-            console.log("result", result);
-          }
-          if (status == "complete") {
-            if (!is_chongqing) {
-              for (entry of result.districtList[0].districtList) {
-                const text =
-                  entry.name + seperator + DATA[entry.adcode]["confirmedCount"];
-                //console.log("text", text);
-                const option = {
-                  position: entry.center,
-                  text: { content: text },
-                  rank: entry.adcode == props.adcode.toString() ? 2 : 1
-                };
-                if (verbose) {
-                  console.log("option", option);
-                }
-                var labelMarker = new AMap.LabelMarker(option);
-                layer.add(labelMarker);
-              }
-            } else {
-              // 重庆郊县
-              for (entry of result.districtList[0].districtList[0]
-                .districtList) {
-                const option = {
-                  position: entry.center,
-                  text: {
-                    content:
-                      entry.name +
-                      seperator +
-                      DATA[entry.adcode]["confirmedCount"]
-                  },
-                  rank: entry.adcode == props.adcode.toString() ? 2 : 1
-                };
-                if (verbose) {
-                  console.log("option, 重庆郊县", option);
-                }
-                var labelMarker = new AMap.LabelMarker(option);
-                layer.add(labelMarker);
-              }
-              // 重庆城区
-              var confirmedCount = 0;
-              const chongqing_downtown = result.districtList[0].districtList[1];
-              for (entry of chongqing_downtown.districtList) {
-                confirmedCount += DATA[entry.adcode]["confirmedCount"];
-              }
+        function districtsHandler(result) {
+          if (!is_chongqing) {
+            for (entry of result.districtList[0].districtList) {
+              const text =
+                entry.name + seperator + DATA[entry.adcode]["confirmedCount"];
+              //console.log("text", text);
               const option = {
-                position: chongqing_downtown.center,
-                text: {
-                  content: chongqing_downtown.name + seperator + confirmedCount
-                },
-                rank: props.adcode_cit.toString() == "500100" ? 2 : 1
+                position: entry.center,
+                text: { content: text },
+                rank: entry.adcode == props.adcode.toString() ? 2 : 1
               };
               if (verbose) {
-                console.log("option, 重庆城区", option);
+                console.log("option", option);
               }
               var labelMarker = new AMap.LabelMarker(option);
               layer.add(labelMarker);
             }
+          } else {
+            // 重庆郊县
+            for (entry of result.districtList[0].districtList[0].districtList) {
+              const option = {
+                position: entry.center,
+                text: {
+                  content:
+                    entry.name +
+                    seperator +
+                    DATA[entry.adcode]["confirmedCount"]
+                },
+                rank: entry.adcode == props.adcode.toString() ? 2 : 1
+              };
+              if (verbose) {
+                console.log("option, 重庆郊县", option);
+              }
+              var labelMarker = new AMap.LabelMarker(option);
+              layer.add(labelMarker);
+            }
+            // 重庆城区
+            var confirmedCount = 0;
+            const chongqing_downtown = result.districtList[0].districtList[1];
+            for (entry of chongqing_downtown.districtList) {
+              confirmedCount += DATA[entry.adcode]["confirmedCount"];
+            }
+            const option = {
+              position: chongqing_downtown.center,
+              text: {
+                content: chongqing_downtown.name + seperator + confirmedCount
+              },
+              rank: props.adcode_cit.toString() == "500100" ? 2 : 1
+            };
+            if (verbose) {
+              console.log("option, 重庆城区", option);
+            }
+            var labelMarker = new AMap.LabelMarker(option);
+            layer.add(labelMarker);
           }
+        }
+        var districtSearch = new AMap.DistrictSearch({
+          level: "district",
+          subdistrict: subdistrict
         });
+        const k = props.adcode_pro.toString();
+        if (cache.get(k)) {
+          districtsHandler(cache.get(k));
+        } else {
+          districtSearch.search(k, function(status, result) {
+            if (verbose) {
+              console.log("status", status);
+              console.log("result", result);
+            }
+            if (status == "complete") {
+              cache.set(k, result);
+              districtsHandler(result);
+            }
+          });
+        }
       });
     }
   }
