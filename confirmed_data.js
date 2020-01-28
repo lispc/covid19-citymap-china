@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.28-08:43:53";
+const LAST_UPDATE = "2020.01.28-08:48:59";
 const DATA = {
   "110000": {
     "confirmedCount": 80,
@@ -1611,7 +1611,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "522700": {
-    "confirmedCount": 2,
+    "confirmedCount": 4,
     "cityName": "黔南布依族苗族自治州",
     "color": "#F08E7E"
   },
