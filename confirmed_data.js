@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.28-09:45:02";
+const LAST_UPDATE = "2020.01.28-09:50:08";
 const DATA = {
   "110000": {
     "confirmedCount": 80,
@@ -11,14 +11,14 @@ const DATA = {
     "color": "#E04B49"
   },
   "130100": {
-    "confirmedCount": 7,
+    "confirmedCount": 9,
     "cityName": "石家庄市",
     "color": "#F08E7E"
   },
   "130200": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "唐山市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "130300": {
     "confirmedCount": 0,
@@ -26,12 +26,12 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "130400": {
-    "confirmedCount": 2,
+    "confirmedCount": 4,
     "cityName": "邯郸市",
     "color": "#F08E7E"
   },
   "130500": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "邢台市",
     "color": "#F08E7E"
   },
@@ -51,19 +51,19 @@ const DATA = {
     "color": "#F08E7E"
   },
   "130900": {
-    "confirmedCount": 2,
+    "confirmedCount": 5,
     "cityName": "沧州市",
     "color": "#F08E7E"
   },
   "131000": {
-    "confirmedCount": 2,
+    "confirmedCount": 6,
     "cityName": "廊坊市",
     "color": "#F08E7E"
   },
   "131100": {
-    "confirmedCount": 0,
+    "confirmedCount": 2,
     "cityName": "衡水市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "140100": {
     "confirmedCount": 3,
