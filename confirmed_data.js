@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.28-09:19:33";
+const LAST_UPDATE = "2020.01.28-09:24:39";
 const DATA = {
   "110000": {
     "confirmedCount": 80,
@@ -1466,12 +1466,12 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "510100": {
-    "confirmedCount": 33,
+    "confirmedCount": 37,
     "cityName": "成都市",
     "color": "#E04B49"
   },
   "510300": {
-    "confirmedCount": 2,
+    "confirmedCount": 7,
     "cityName": "自贡市",
     "color": "#F08E7E"
   },
@@ -1481,7 +1481,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "510500": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "泸州市",
     "color": "#F08E7E"
   },
@@ -1491,7 +1491,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "510700": {
-    "confirmedCount": 7,
+    "confirmedCount": 8,
     "cityName": "绵阳市",
     "color": "#F08E7E"
   },
@@ -1501,22 +1501,22 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "510900": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "遂宁市",
     "color": "#F08E7E"
   },
   "511000": {
-    "confirmedCount": 1,
+    "confirmedCount": 3,
     "cityName": "内江市",
     "color": "#F08E7E"
   },
   "511100": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "乐山市",
     "color": "#F08E7E"
   },
   "511300": {
-    "confirmedCount": 2,
+    "confirmedCount": 4,
     "cityName": "南充市",
     "color": "#F08E7E"
   },
@@ -1531,7 +1531,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "511600": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "广安市",
     "color": "#F08E7E"
   },
@@ -1541,7 +1541,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "511800": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "雅安市",
     "color": "#F08E7E"
   },
@@ -1561,12 +1561,12 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "513300": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "甘孜藏族自治州",
     "color": "#F08E7E"
   },
   "513400": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "凉山彝族自治州",
     "color": "#F08E7E"
   },
