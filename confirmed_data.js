@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.28-09:39:56";
+const LAST_UPDATE = "2020.01.28-09:45:02";
 const DATA = {
   "110000": {
     "confirmedCount": 80,
@@ -126,7 +126,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "150200": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "包头市",
     "color": "#F08E7E"
   },
@@ -136,7 +136,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "150400": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "赤峰市",
     "color": "#F08E7E"
   },
@@ -1891,7 +1891,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "640100": {
-    "confirmedCount": 5,
+    "confirmedCount": 7,
     "cityName": "银川市",
     "color": "#F08E7E"
   },
@@ -1901,9 +1901,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "640300": {
-    "confirmedCount": 0,
+    "confirmedCount": 2,
     "cityName": "吴忠市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "640400": {
     "confirmedCount": 1,
