@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.29-06:50:36";
+const LAST_UPDATE = "2020.01.29-06:55:42";
 const DATA = {
   "110000": {
     "confirmedCount": 91,
@@ -861,9 +861,9 @@ const DATA = {
     "color": "#E04B49"
   },
   "420600": {
-    "confirmedCount": 70,
+    "confirmedCount": 131,
     "cityName": "襄阳市",
-    "color": "#E04B49"
+    "color": "#73181B"
   },
   "420700": {
     "confirmedCount": 84,
@@ -911,7 +911,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "429005": {
-    "confirmedCount": 7,
+    "confirmedCount": 8,
     "cityName": "潜江市",
     "color": "#F08E7E"
   },
@@ -921,7 +921,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "429021": {
-    "confirmedCount": 1,
+    "confirmedCount": 3,
     "cityName": "神农架林区",
     "color": "#F08E7E"
   },
