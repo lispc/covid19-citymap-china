@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.28-19:52:10";
+const LAST_UPDATE = "2020.01.28-19:57:15";
 const DATA = {
   "110000": {
     "confirmedCount": 91,
@@ -566,7 +566,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "350100": {
-    "confirmedCount": 18,
+    "confirmedCount": 24,
     "cityName": "福州市",
     "color": "#E04B49"
   },
@@ -591,7 +591,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "350600": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "漳州市",
     "color": "#F08E7E"
   },
