@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.28-09:55:13";
+const LAST_UPDATE = "2020.01.28-10:00:19";
 const DATA = {
   "110000": {
     "confirmedCount": 80,
@@ -431,24 +431,24 @@ const DATA = {
     "color": "#F08E7E"
   },
   "330100": {
-    "confirmedCount": 27,
+    "confirmedCount": 32,
     "cityName": "杭州市",
     "color": "#E04B49"
   },
   "330200": {
-    "confirmedCount": 13,
+    "confirmedCount": 17,
     "cityName": "宁波市",
     "color": "#E04B49"
   },
   "330300": {
-    "confirmedCount": 32,
+    "confirmedCount": 60,
     "cityName": "温州市",
     "color": "#E04B49"
   },
   "330400": {
-    "confirmedCount": 8,
+    "confirmedCount": 11,
     "cityName": "嘉兴市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "330500": {
     "confirmedCount": 3,
@@ -456,12 +456,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "330600": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "绍兴市",
     "color": "#F08E7E"
   },
   "330700": {
-    "confirmedCount": 5,
+    "confirmedCount": 7,
     "cityName": "金华市",
     "color": "#F08E7E"
   },
@@ -481,7 +481,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "331100": {
-    "confirmedCount": 3,
+    "confirmedCount": 5,
     "cityName": "丽水市",
     "color": "#F08E7E"
   },
@@ -1781,9 +1781,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "620100": {
-    "confirmedCount": 8,
+    "confirmedCount": 11,
     "cityName": "兰州市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "620200": {
     "confirmedCount": 0,
@@ -1791,9 +1791,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "620300": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "金昌市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "620400": {
     "confirmedCount": 1,
@@ -1801,9 +1801,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "620500": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "天水市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "620600": {
     "confirmedCount": 0,
