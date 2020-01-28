@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.28-08:08:13";
+const LAST_UPDATE = "2020.01.28-08:13:18";
 const DATA = {
   "110000": {
     "confirmedCount": 80,
@@ -1116,19 +1116,19 @@ const DATA = {
     "color": "#F08E7E"
   },
   "450300": {
-    "confirmedCount": 14,
+    "confirmedCount": 15,
     "cityName": "桂林市",
     "color": "#E04B49"
   },
   "450400": {
-    "confirmedCount": 2,
+    "confirmedCount": 4,
     "cityName": "梧州市",
     "color": "#F08E7E"
   },
   "450500": {
-    "confirmedCount": 9,
+    "confirmedCount": 11,
     "cityName": "北海市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "450600": {
     "confirmedCount": 3,
