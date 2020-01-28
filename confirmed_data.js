@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.28-17:23:45";
+const LAST_UPDATE = "2020.01.28-17:26:30";
 const DATA = {
   "110000": {
     "confirmedCount": 91,
@@ -1986,9 +1986,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "659001": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "石河子市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "659002": {
     "confirmedCount": 0,
