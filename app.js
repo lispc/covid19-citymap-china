@@ -73,13 +73,13 @@ var disChongqing = new AMap.DistrictLayer.Province({
 });
 
 disChongqing.setMap(map);
-/*
+
 var layer = new AMap.LabelsLayer({
   fitView: true,
   map: map
 });
 
-map.on("click", function(ev) {
+function click_hander(ev) {
   //console.log('ev', ev);
   var px = ev.pixel;
   var props = disProvince.getDistrictByContainerPos(px);
@@ -171,5 +171,6 @@ map.on("click", function(ev) {
       });
     }
   }
-});
-*/
+}
+
+//map.on("click", click_hander);
