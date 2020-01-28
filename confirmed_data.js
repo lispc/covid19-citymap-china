@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.28-09:29:45";
+const LAST_UPDATE = "2020.01.28-09:34:51";
 const DATA = {
   "110000": {
     "confirmedCount": 80,
@@ -681,7 +681,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "370400": {
-    "confirmedCount": 3,
+    "confirmedCount": 2,
     "cityName": "枣庄市",
     "color": "#F08E7E"
   },
@@ -706,9 +706,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "370900": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "泰安市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "371000": {
     "confirmedCount": 10,
@@ -1276,7 +1276,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500101": {
-    "confirmedCount": 14,
+    "confirmedCount": 15,
     "cityName": "万州区",
     "color": "#E04B49"
   },
@@ -1296,7 +1296,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500105": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "江北区",
     "color": "#F08E7E"
   },
@@ -1306,14 +1306,14 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500107": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "九龙坡区",
     "color": "#F08E7E"
   },
   "500108": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "南岸区",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "500109": {
     "confirmedCount": 0,
@@ -1321,7 +1321,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500110": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "綦江区",
     "color": "#F08E7E"
   },
@@ -1331,7 +1331,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500112": {
-    "confirmedCount": 12,
+    "confirmedCount": 14,
     "cityName": "渝北区",
     "color": "#E04B49"
   },
@@ -1341,12 +1341,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500114": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "黔江区",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "500115": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "长寿区",
     "color": "#F08E7E"
   },
@@ -1356,7 +1356,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500117": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "合川区",
     "color": "#F08E7E"
   },
@@ -1376,7 +1376,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500151": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "铜梁区",
     "color": "#F08E7E"
   },
@@ -1391,7 +1391,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500154": {
-    "confirmedCount": 7,
+    "confirmedCount": 9,
     "cityName": "开州区",
     "color": "#F08E7E"
   },
@@ -1416,19 +1416,19 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500231": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "垫江县",
     "color": "#F08E7E"
   },
   "500233": {
-    "confirmedCount": 6,
+    "confirmedCount": 9,
     "cityName": "忠县",
     "color": "#F08E7E"
   },
   "500235": {
-    "confirmedCount": 8,
+    "confirmedCount": 10,
     "cityName": "云阳县",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "500236": {
     "confirmedCount": 3,
@@ -1446,7 +1446,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500240": {
-    "confirmedCount": 3,
+    "confirmedCount": 6,
     "cityName": "石柱土家族自治县",
     "color": "#F08E7E"
   },
