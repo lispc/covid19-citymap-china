@@ -82,6 +82,14 @@ function initVirusMap() {
   disChongqing.setMap(map);
 
   //initClickHandler();
+  map.on("complete", function() {
+    layer = new AMap.LabelsLayer({
+      fitView: true
+      //map: map
+    });
+    map.add(layer);
+    map.on("click", clickHander);
+  });
 }
 
 function clickHander(ev) {
@@ -195,10 +203,6 @@ function clickHander(ev) {
 }
 
 function initClickHandler() {
-  layer = new AMap.LabelsLayer({
-    fitView: true,
-    map: map
-  });
   map.on("click", clickHander);
 }
 
