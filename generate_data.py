@@ -27,7 +27,7 @@ def load_dxy_data():
 def load_tx_data():
     url = 'https://view.inews.qq.com/g2/getOnsInfo?name=wuwei_ww_area_counts'
     data = json.loads(requests.get(url).json()['data'])
-    #print(data)
+    # print(data)
     return data
 
 
@@ -39,7 +39,8 @@ def normalize_city_name(dxy_province_name, dxy_city_name):
 
     # 手动映射
     # 高德地图里没有两江新区，姑且算入渝北
-    manual_mapping = {'巩义': '郑州市', '满洲里': '呼伦贝尔市', '固始县': '信阳市', '阿拉善': '阿拉善盟','两江新区':'渝北区'}
+    manual_mapping = {'巩义': '郑州市', '满洲里': '呼伦贝尔市',
+                      '固始县': '信阳市', '阿拉善': '阿拉善盟', '两江新区': '渝北区', '第八师石河子': '石河子市'}
     if manual_mapping.get(dxy_city_name):
         return manual_mapping[dxy_city_name]
 
