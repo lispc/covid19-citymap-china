@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.28-10:15:36";
+const LAST_UPDATE = "2020.01.28-10:20:41";
 const DATA = {
   "110000": {
     "confirmedCount": 80,
@@ -1176,12 +1176,12 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "460100": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "海口市",
     "color": "#F08E7E"
   },
   "460200": {
-    "confirmedCount": 11,
+    "confirmedCount": 14,
     "cityName": "三亚市",
     "color": "#E04B49"
   },
@@ -1201,9 +1201,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "469002": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "琼海市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "469005": {
     "confirmedCount": 0,
@@ -1216,9 +1216,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "469007": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "东方市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "469021": {
     "confirmedCount": 0,
@@ -1266,9 +1266,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "469030": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "琼中黎族苗族自治县",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "500000": {
     "confirmedCount": 0,
