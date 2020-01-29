@@ -7,7 +7,7 @@ import datetime
 
 
 def load_amap_cities():
-    return dict([line.strip().split() for line in open('adcodes').readlines()])
+    return dict([line.strip().split() for line in open('adcodes',encoding='utf8').readlines()])
 
 
 amap_code_to_city = load_amap_cities()
