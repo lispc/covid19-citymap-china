@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.29-15:36:09";
+const LAST_UPDATE = "2020.01.29-15:41:15";
 const DATA = {
   "110000": {
     "confirmedCount": 102,
@@ -581,7 +581,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "350400": {
-    "confirmedCount": 8,
+    "confirmedCount": 9,
     "cityName": "三明市",
     "color": "#F08E7E"
   },
@@ -591,7 +591,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "350600": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "漳州市",
     "color": "#F08E7E"
   },
