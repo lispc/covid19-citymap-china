@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.29-08:58:02";
+const LAST_UPDATE = "2020.01.29-09:03:08";
 const DATA = {
   "110000": {
     "confirmedCount": 91,
@@ -481,7 +481,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "331100": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "丽水市",
     "color": "#F08E7E"
   },
