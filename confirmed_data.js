@@ -1,4 +1,8 @@
+<<<<<<< HEAD:confirmed_data.js
 const LAST_UPDATE = "2020.01.29-11:51:19";
+=======
+const LAST_UPDATE = "2020.01.29-11:49:22";
+>>>>>>> origin/master:confirmed_data.js
 const DATA = {
   "110000": {
     "confirmedCount": 91,
@@ -261,7 +265,11 @@ const DATA = {
     "color": "#F08E7E"
   },
   "220300": {
+<<<<<<< HEAD:confirmed_data.js
     "confirmedCount": 1,
+=======
+    "confirmedCount": 2,
+>>>>>>> origin/master:confirmed_data.js
     "cityName": "四平市",
     "color": "#F08E7E"
   },
@@ -521,7 +529,11 @@ const DATA = {
     "color": "#F08E7E"
   },
   "340800": {
+<<<<<<< HEAD:confirmed_data.js
     "confirmedCount": 14,
+=======
+    "confirmedCount": 18,
+>>>>>>> origin/master:confirmed_data.js
     "cityName": "安庆市",
     "color": "#E04B49"
   },
@@ -1976,9 +1988,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "654200": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "塔城地区",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "654300": {
     "confirmedCount": 0,

@@ -7,7 +7,7 @@ import datetime
 
 
 def load_amap_cities():
-    return dict([line.strip().split() for line in open('adcodes').readlines()])
+    return dict([line.strip().split() for line in open('adcodes',encoding='utf8').readlines()])
 
 
 amap_code_to_city = load_amap_cities()
@@ -39,8 +39,10 @@ def normalize_city_name(dxy_province_name, dxy_city_name):
 
     # 手动映射
     # 高德地图里没有两江新区，姑且算入渝北
-    manual_mapping = {'巩义': '郑州市', '满洲里': '呼伦贝尔市',
-                      '固始县': '信阳市', '阿拉善': '阿拉善盟', '两江新区': '渝北区', '第八师石河子': '石河子市'}
+    manual_mapping = {'巩义': '郑州市', '固始县': '信阳市',
+                      '满洲里': '呼伦贝尔市', '阿拉善': '阿拉善盟',
+                      '宿松': '安庆市', '公主岭': '四平市', '两江新区': '渝北区',
+                      '第七师': '塔城地区', '第八师石河子': '石河子市'}
     if manual_mapping.get(dxy_city_name):
         return manual_mapping[dxy_city_name]
 
