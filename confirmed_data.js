@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.29-19:05:11";
+const LAST_UPDATE = "2020.01.29-19:10:17";
 const DATA = {
   "110000": {
     "confirmedCount": 102,
@@ -241,7 +241,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "211300": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "朝阳市",
     "color": "#F08E7E"
   },
