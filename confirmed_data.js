@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.29-09:08:13";
+const LAST_UPDATE = "2020.01.29-09:13:20";
 const DATA = {
   "110000": {
     "confirmedCount": 91,
@@ -926,37 +926,37 @@ const DATA = {
     "color": "#F08E7E"
   },
   "430100": {
-    "confirmedCount": 24,
+    "confirmedCount": 46,
     "cityName": "长沙市",
     "color": "#E04B49"
   },
   "430200": {
-    "confirmedCount": 7,
+    "confirmedCount": 13,
     "cityName": "株洲市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "430300": {
-    "confirmedCount": 6,
+    "confirmedCount": 8,
     "cityName": "湘潭市",
     "color": "#F08E7E"
   },
   "430400": {
-    "confirmedCount": 7,
+    "confirmedCount": 17,
     "cityName": "衡阳市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "430500": {
-    "confirmedCount": 11,
+    "confirmedCount": 19,
     "cityName": "邵阳市",
     "color": "#E04B49"
   },
   "430600": {
-    "confirmedCount": 17,
+    "confirmedCount": 26,
     "cityName": "岳阳市",
     "color": "#E04B49"
   },
   "430700": {
-    "confirmedCount": 19,
+    "confirmedCount": 26,
     "cityName": "常德市",
     "color": "#E04B49"
   },
@@ -966,7 +966,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "430900": {
-    "confirmedCount": 10,
+    "confirmedCount": 14,
     "cityName": "益阳市",
     "color": "#E04B49"
   },
@@ -976,19 +976,19 @@ const DATA = {
     "color": "#F08E7E"
   },
   "431100": {
-    "confirmedCount": 7,
+    "confirmedCount": 11,
     "cityName": "永州市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "431200": {
-    "confirmedCount": 16,
+    "confirmedCount": 18,
     "cityName": "怀化市",
     "color": "#E04B49"
   },
   "431300": {
-    "confirmedCount": 9,
+    "confirmedCount": 13,
     "cityName": "娄底市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "433100": {
     "confirmedCount": 3,
@@ -1496,7 +1496,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "510800": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "广元市",
     "color": "#F08E7E"
   },
@@ -1526,7 +1526,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "511500": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "宜宾市",
     "color": "#F08E7E"
   },
@@ -1546,7 +1546,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "511900": {
-    "confirmedCount": 2,
+    "confirmedCount": 4,
     "cityName": "巴中市",
     "color": "#F08E7E"
   },
