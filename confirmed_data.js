@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.29-21:27:55";
+const LAST_UPDATE = "2020.01.29-21:33:02";
 const DATA = {
   "110000": {
     "confirmedCount": 102,
@@ -356,9 +356,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "232700": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "大兴安岭地区",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "310000": {
     "confirmedCount": 96,
