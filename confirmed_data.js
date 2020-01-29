@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.30-07:14:18";
+const LAST_UPDATE = "2020.01.30-07:19:23";
 const DATA = {
   "110000": {
     "confirmedCount": 111,
@@ -1276,7 +1276,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500101": {
-    "confirmedCount": 17,
+    "confirmedCount": 24,
     "cityName": "万州区",
     "color": "#E04B49"
   },
@@ -1286,7 +1286,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500103": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "渝中区",
     "color": "#F08E7E"
   },
@@ -1296,7 +1296,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500105": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "江北区",
     "color": "#F08E7E"
   },
@@ -1311,7 +1311,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500108": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "南岸区",
     "color": "#F08E7E"
   },
@@ -1326,12 +1326,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500111": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "大足区",
     "color": "#F08E7E"
   },
   "500112": {
-    "confirmedCount": 14,
+    "confirmedCount": 15,
     "cityName": "渝北区",
     "color": "#E04B49"
   },
@@ -1351,7 +1351,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500116": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "江津区",
     "color": "#F08E7E"
   },
@@ -1391,7 +1391,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500154": {
-    "confirmedCount": 11,
+    "confirmedCount": 13,
     "cityName": "开州区",
     "color": "#E04B49"
   },
