@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.29-10:09:25";
+const LAST_UPDATE = "2020.01.29-10:14:31";
 const DATA = {
   "110000": {
     "confirmedCount": 91,
@@ -1176,7 +1176,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "460100": {
-    "confirmedCount": 7,
+    "confirmedCount": 9,
     "cityName": "海口市",
     "color": "#F08E7E"
   },
@@ -1211,7 +1211,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "469006": {
-    "confirmedCount": 7,
+    "confirmedCount": 8,
     "cityName": "万宁市",
     "color": "#F08E7E"
   },
