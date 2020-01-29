@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.30-06:53:56";
+const LAST_UPDATE = "2020.01.30-06:59:01";
 const DATA = {
   "110000": {
     "confirmedCount": 111,
@@ -841,7 +841,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "420100": {
-    "confirmedCount": 1905,
+    "confirmedCount": 2261,
     "cityName": "武汉市",
     "color": "#73181B"
   },
@@ -851,14 +851,14 @@ const DATA = {
     "color": "#E04B49"
   },
   "420300": {
-    "confirmedCount": 88,
+    "confirmedCount": 119,
     "cityName": "十堰市",
-    "color": "#E04B49"
+    "color": "#73181B"
   },
   "420500": {
-    "confirmedCount": 63,
+    "confirmedCount": 117,
     "cityName": "宜昌市",
-    "color": "#E04B49"
+    "color": "#73181B"
   },
   "420600": {
     "confirmedCount": 131,
@@ -866,47 +866,47 @@ const DATA = {
     "color": "#73181B"
   },
   "420700": {
-    "confirmedCount": 84,
+    "confirmedCount": 123,
     "cityName": "鄂州市",
-    "color": "#E04B49"
+    "color": "#73181B"
   },
   "420800": {
-    "confirmedCount": 142,
+    "confirmedCount": 191,
     "cityName": "荆门市",
     "color": "#73181B"
   },
   "420900": {
-    "confirmedCount": 274,
+    "confirmedCount": 399,
     "cityName": "孝感市",
     "color": "#73181B"
   },
   "421000": {
-    "confirmedCount": 101,
+    "confirmedCount": 151,
     "cityName": "荆州市",
     "color": "#73181B"
   },
   "421100": {
-    "confirmedCount": 324,
+    "confirmedCount": 496,
     "cityName": "黄冈市",
     "color": "#73181B"
   },
   "421200": {
-    "confirmedCount": 112,
+    "confirmedCount": 130,
     "cityName": "咸宁市",
     "color": "#73181B"
   },
   "421300": {
-    "confirmedCount": 116,
+    "confirmedCount": 143,
     "cityName": "随州市",
     "color": "#73181B"
   },
   "422800": {
-    "confirmedCount": 51,
+    "confirmedCount": 66,
     "cityName": "恩施土家族苗族自治州",
     "color": "#E04B49"
   },
   "429004": {
-    "confirmedCount": 32,
+    "confirmedCount": 55,
     "cityName": "仙桃市",
     "color": "#E04B49"
   },
@@ -916,7 +916,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "429006": {
-    "confirmedCount": 34,
+    "confirmedCount": 44,
     "cityName": "天门市",
     "color": "#E04B49"
   },
