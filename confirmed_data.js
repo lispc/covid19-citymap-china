@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.29-12:22:27";
+const LAST_UPDATE = "2020.01.29-12:27:32";
 const DATA = {
   "110000": {
     "confirmedCount": 91,
@@ -1616,12 +1616,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "530100": {
-    "confirmedCount": 12,
+    "confirmedCount": 15,
     "cityName": "昆明市",
     "color": "#E04B49"
   },
   "530300": {
-    "confirmedCount": 2,
+    "confirmedCount": 5,
     "cityName": "曲靖市",
     "color": "#F08E7E"
   },
@@ -1646,9 +1646,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "530800": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "普洱市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "530900": {
     "confirmedCount": 0,
