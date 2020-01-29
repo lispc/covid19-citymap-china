@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.29-09:03:08";
+const LAST_UPDATE = "2020.01.29-09:08:13";
 const DATA = {
   "110000": {
     "confirmedCount": 91,
@@ -1466,7 +1466,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "510100": {
-    "confirmedCount": 37,
+    "confirmedCount": 46,
     "cityName": "成都市",
     "color": "#E04B49"
   },
@@ -1481,12 +1481,12 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "510500": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "泸州市",
     "color": "#F08E7E"
   },
   "510600": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "德阳市",
     "color": "#F08E7E"
   },
@@ -1496,9 +1496,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "510800": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "广元市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "510900": {
     "confirmedCount": 3,
@@ -1506,7 +1506,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "511000": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "内江市",
     "color": "#F08E7E"
   },
@@ -1516,7 +1516,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "511300": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "南充市",
     "color": "#F08E7E"
   },
@@ -1536,7 +1536,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "511700": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "达州市",
     "color": "#F08E7E"
   },
@@ -1546,9 +1546,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "511900": {
-    "confirmedCount": 0,
+    "confirmedCount": 2,
     "cityName": "巴中市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "512000": {
     "confirmedCount": 2,
