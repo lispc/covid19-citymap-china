@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.29-09:59:12";
+const LAST_UPDATE = "2020.01.29-10:04:20";
 const DATA = {
   "110000": {
     "confirmedCount": 91,
@@ -1276,7 +1276,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500101": {
-    "confirmedCount": 15,
+    "confirmedCount": 17,
     "cityName": "万州区",
     "color": "#E04B49"
   },
@@ -1356,7 +1356,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500117": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "合川区",
     "color": "#F08E7E"
   },
@@ -1371,7 +1371,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500120": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "璧山区",
     "color": "#F08E7E"
   },
@@ -1391,9 +1391,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500154": {
-    "confirmedCount": 9,
+    "confirmedCount": 11,
     "cityName": "开州区",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "500155": {
     "confirmedCount": 1,
@@ -1421,17 +1421,17 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500233": {
-    "confirmedCount": 9,
+    "confirmedCount": 11,
     "cityName": "忠县",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "500235": {
-    "confirmedCount": 10,
+    "confirmedCount": 11,
     "cityName": "云阳县",
     "color": "#E04B49"
   },
   "500236": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "奉节县",
     "color": "#F08E7E"
   },
@@ -1446,7 +1446,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500240": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "石柱土家族自治县",
     "color": "#F08E7E"
   },
