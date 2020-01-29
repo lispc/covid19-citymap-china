@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.29-08:27:27";
+const LAST_UPDATE = "2020.01.29-08:32:34";
 const DATA = {
   "110000": {
     "confirmedCount": 91,
@@ -666,7 +666,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "370100": {
-    "confirmedCount": 10,
+    "confirmedCount": 11,
     "cityName": "济南市",
     "color": "#E04B49"
   },
@@ -676,12 +676,12 @@ const DATA = {
     "color": "#E04B49"
   },
   "370300": {
-    "confirmedCount": 2,
+    "confirmedCount": 4,
     "cityName": "淄博市",
     "color": "#F08E7E"
   },
   "370400": {
-    "confirmedCount": 5,
+    "confirmedCount": 8,
     "cityName": "枣庄市",
     "color": "#F08E7E"
   },
@@ -696,7 +696,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "370700": {
-    "confirmedCount": 3,
+    "confirmedCount": 5,
     "cityName": "潍坊市",
     "color": "#F08E7E"
   },
@@ -706,17 +706,17 @@ const DATA = {
     "color": "#F08E7E"
   },
   "370900": {
-    "confirmedCount": 1,
+    "confirmedCount": 3,
     "cityName": "泰安市",
     "color": "#F08E7E"
   },
   "371000": {
-    "confirmedCount": 10,
+    "confirmedCount": 11,
     "cityName": "威海市",
     "color": "#E04B49"
   },
   "371100": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "日照市",
     "color": "#F08E7E"
   },
@@ -726,14 +726,14 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "371300": {
-    "confirmedCount": 8,
+    "confirmedCount": 15,
     "cityName": "临沂市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "371400": {
-    "confirmedCount": 8,
+    "confirmedCount": 11,
     "cityName": "德州市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "371500": {
     "confirmedCount": 3,
@@ -741,12 +741,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "371600": {
-    "confirmedCount": 4,
+    "confirmedCount": 6,
     "cityName": "滨州市",
     "color": "#F08E7E"
   },
   "371700": {
-    "confirmedCount": 5,
+    "confirmedCount": 7,
     "cityName": "菏泽市",
     "color": "#F08E7E"
   },
@@ -1916,7 +1916,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "650100": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "乌鲁木齐市",
     "color": "#F08E7E"
   },
@@ -1971,7 +1971,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "654000": {
-    "confirmedCount": 2,
+    "confirmedCount": 4,
     "cityName": "伊犁哈萨克自治州",
     "color": "#F08E7E"
   },
