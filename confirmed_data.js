@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.29-08:12:10";
+const LAST_UPDATE = "2020.01.29-08:17:16";
 const DATA = {
   "110000": {
     "confirmedCount": 91,
@@ -241,12 +241,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "211300": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "朝阳市",
     "color": "#F08E7E"
   },
   "211400": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "葫芦岛市",
     "color": "#F08E7E"
   },
@@ -1106,7 +1106,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "450100": {
-    "confirmedCount": 5,
+    "confirmedCount": 7,
     "cityName": "南宁市",
     "color": "#F08E7E"
   },
@@ -1116,7 +1116,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "450300": {
-    "confirmedCount": 15,
+    "confirmedCount": 16,
     "cityName": "桂林市",
     "color": "#E04B49"
   },
@@ -1126,12 +1126,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "450500": {
-    "confirmedCount": 11,
+    "confirmedCount": 13,
     "cityName": "北海市",
     "color": "#E04B49"
   },
   "450600": {
-    "confirmedCount": 3,
+    "confirmedCount": 5,
     "cityName": "防城港市",
     "color": "#F08E7E"
   },
