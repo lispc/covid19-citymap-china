@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.30-04:00:34";
+const LAST_UPDATE = "2020.01.30-04:05:40";
 const DATA = {
   "110000": {
     "confirmedCount": 111,
@@ -71,7 +71,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "140200": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "大同市",
     "color": "#F08E7E"
   },
@@ -81,7 +81,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "140400": {
-    "confirmedCount": 1,
+    "confirmedCount": 3,
     "cityName": "长治市",
     "color": "#F08E7E"
   },
@@ -91,7 +91,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "140600": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "朔州市",
     "color": "#F08E7E"
   },
@@ -101,7 +101,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "140800": {
-    "confirmedCount": 4,
+    "confirmedCount": 7,
     "cityName": "运城市",
     "color": "#F08E7E"
   },
@@ -116,7 +116,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "141100": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "吕梁市",
     "color": "#F08E7E"
   },
