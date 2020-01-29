@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.29-16:47:31";
+const LAST_UPDATE = "2020.01.29-16:52:36";
 const DATA = {
   "110000": {
     "confirmedCount": 102,
@@ -1671,9 +1671,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "532800": {
-    "confirmedCount": 6,
+    "confirmedCount": 10,
     "cityName": "西双版纳傣族自治州",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "532900": {
     "confirmedCount": 3,
