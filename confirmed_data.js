@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.29-08:47:50";
+const LAST_UPDATE = "2020.01.29-08:52:57";
 const DATA = {
   "110000": {
     "confirmedCount": 91,
@@ -366,12 +366,12 @@ const DATA = {
     "color": "#E04B49"
   },
   "320100": {
-    "confirmedCount": 10,
+    "confirmedCount": 14,
     "cityName": "南京市",
     "color": "#E04B49"
   },
   "320200": {
-    "confirmedCount": 6,
+    "confirmedCount": 9,
     "cityName": "无锡市",
     "color": "#F08E7E"
   },
@@ -386,7 +386,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "320500": {
-    "confirmedCount": 12,
+    "confirmedCount": 20,
     "cityName": "苏州市",
     "color": "#E04B49"
   },
@@ -401,17 +401,17 @@ const DATA = {
     "color": "#F08E7E"
   },
   "320800": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "淮安市",
     "color": "#F08E7E"
   },
   "320900": {
-    "confirmedCount": 1,
+    "confirmedCount": 6,
     "cityName": "盐城市",
     "color": "#F08E7E"
   },
   "321000": {
-    "confirmedCount": 5,
+    "confirmedCount": 8,
     "cityName": "扬州市",
     "color": "#F08E7E"
   },
@@ -426,7 +426,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "321300": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "宿迁市",
     "color": "#F08E7E"
   },
