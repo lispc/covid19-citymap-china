@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.29-08:22:22";
+const LAST_UPDATE = "2020.01.29-08:27:27";
 const DATA = {
   "110000": {
     "confirmedCount": 91,
@@ -751,12 +751,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "410100": {
-    "confirmedCount": 37,
+    "confirmedCount": 40,
     "cityName": "郑州市",
     "color": "#E04B49"
   },
   "410200": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "开封市",
     "color": "#F08E7E"
   },
@@ -771,17 +771,17 @@ const DATA = {
     "color": "#F08E7E"
   },
   "410500": {
-    "confirmedCount": 11,
+    "confirmedCount": 14,
     "cityName": "安阳市",
     "color": "#E04B49"
   },
   "410600": {
-    "confirmedCount": 2,
+    "confirmedCount": 5,
     "cityName": "鹤壁市",
     "color": "#F08E7E"
   },
   "410700": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "新乡市",
     "color": "#F08E7E"
   },
@@ -791,9 +791,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "410900": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "濮阳市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "411000": {
     "confirmedCount": 2,
@@ -806,32 +806,32 @@ const DATA = {
     "color": "#F08E7E"
   },
   "411200": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "三门峡市",
     "color": "#F08E7E"
   },
   "411300": {
-    "confirmedCount": 26,
+    "confirmedCount": 31,
     "cityName": "南阳市",
     "color": "#E04B49"
   },
   "411400": {
-    "confirmedCount": 7,
+    "confirmedCount": 14,
     "cityName": "商丘市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "411500": {
-    "confirmedCount": 29,
+    "confirmedCount": 32,
     "cityName": "信阳市",
     "color": "#E04B49"
   },
   "411600": {
-    "confirmedCount": 15,
+    "confirmedCount": 19,
     "cityName": "周口市",
     "color": "#E04B49"
   },
   "411700": {
-    "confirmedCount": 10,
+    "confirmedCount": 16,
     "cityName": "驻马店市",
     "color": "#E04B49"
   },
