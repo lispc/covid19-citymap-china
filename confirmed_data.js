@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.29-14:45:09";
+const LAST_UPDATE = "2020.01.29-14:50:14";
 const DATA = {
   "110000": {
     "confirmedCount": 102,
@@ -181,7 +181,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "210100": {
-    "confirmedCount": 8,
+    "confirmedCount": 9,
     "cityName": "沈阳市",
     "color": "#F08E7E"
   },
