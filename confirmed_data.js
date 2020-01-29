@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.29-09:33:43";
+const LAST_UPDATE = "2020.01.29-09:38:49";
 const DATA = {
   "110000": {
     "confirmedCount": 91,
@@ -296,7 +296,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "230100": {
-    "confirmedCount": 10,
+    "confirmedCount": 11,
     "cityName": "哈尔滨市",
     "color": "#E04B49"
   },
@@ -306,9 +306,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "230300": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "鸡西市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "230400": {
     "confirmedCount": 0,
@@ -331,7 +331,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "230800": {
-    "confirmedCount": 1,
+    "confirmedCount": 5,
     "cityName": "佳木斯市",
     "color": "#F08E7E"
   },
