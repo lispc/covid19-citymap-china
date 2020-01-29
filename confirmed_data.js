@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.29-10:29:48";
+const LAST_UPDATE = "2020.01.29-10:34:54";
 const DATA = {
   "110000": {
     "confirmedCount": 91,
@@ -1901,7 +1901,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "640300": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "吴忠市",
     "color": "#F08E7E"
   },
