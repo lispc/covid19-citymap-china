@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.29-11:05:28";
+const LAST_UPDATE = "2020.01.29-11:10:34";
 const DATA = {
   "110000": {
     "confirmedCount": 91,
@@ -6,7 +6,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "120000": {
-    "confirmedCount": 24,
+    "confirmedCount": 25,
     "cityName": "天津市",
     "color": "#E04B49"
   },
@@ -1781,7 +1781,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "620100": {
-    "confirmedCount": 11,
+    "confirmedCount": 14,
     "cityName": "兰州市",
     "color": "#E04B49"
   },
@@ -1811,14 +1811,14 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "620700": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "张掖市",
     "color": "#F08E7E"
   },
   "620800": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "平凉市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "620900": {
     "confirmedCount": 0,
