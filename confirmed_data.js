@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.30-13:40:33";
+const LAST_UPDATE = "2020.01.30-13:45:40";
 const DATA = {
   "110000": {
     "confirmedCount": 114,
@@ -1616,7 +1616,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "530100": {
-    "confirmedCount": 15,
+    "confirmedCount": 21,
     "cityName": "昆明市",
     "color": "#E04B49"
   },
@@ -1626,17 +1626,17 @@ const DATA = {
     "color": "#F08E7E"
   },
   "530400": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "玉溪市",
     "color": "#F08E7E"
   },
   "530500": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "保山市",
     "color": "#F08E7E"
   },
   "530600": {
-    "confirmedCount": 2,
+    "confirmedCount": 4,
     "cityName": "昭通市",
     "color": "#F08E7E"
   },
@@ -1646,7 +1646,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "530800": {
-    "confirmedCount": 1,
+    "confirmedCount": 3,
     "cityName": "普洱市",
     "color": "#F08E7E"
   },
@@ -1661,7 +1661,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "532500": {
-    "confirmedCount": 2,
+    "confirmedCount": 4,
     "cityName": "红河哈尼族彝族自治州",
     "color": "#F08E7E"
   },
@@ -1676,7 +1676,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "532900": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "大理白族自治州",
     "color": "#F08E7E"
   },
