@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.30-16:13:31";
+const LAST_UPDATE = "2020.01.30-16:18:37";
 const DATA = {
   "110000": {
     "confirmedCount": 114,
@@ -1286,7 +1286,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500103": {
-    "confirmedCount": 2,
+    "confirmedCount": 5,
     "cityName": "渝中区",
     "color": "#F08E7E"
   },
@@ -1296,7 +1296,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500105": {
-    "confirmedCount": 6,
+    "confirmedCount": 8,
     "cityName": "江北区",
     "color": "#F08E7E"
   },
@@ -1326,12 +1326,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500111": {
-    "confirmedCount": 2,
+    "confirmedCount": 4,
     "cityName": "大足区",
     "color": "#F08E7E"
   },
   "500112": {
-    "confirmedCount": 15,
+    "confirmedCount": 16,
     "cityName": "渝北区",
     "color": "#E04B49"
   },
@@ -1391,12 +1391,12 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500154": {
-    "confirmedCount": 13,
+    "confirmedCount": 14,
     "cityName": "开州区",
     "color": "#E04B49"
   },
   "500155": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "梁平区",
     "color": "#F08E7E"
   },
@@ -1416,17 +1416,17 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500231": {
-    "confirmedCount": 5,
+    "confirmedCount": 8,
     "cityName": "垫江县",
     "color": "#F08E7E"
   },
   "500233": {
-    "confirmedCount": 11,
+    "confirmedCount": 12,
     "cityName": "忠县",
     "color": "#E04B49"
   },
   "500235": {
-    "confirmedCount": 11,
+    "confirmedCount": 13,
     "cityName": "云阳县",
     "color": "#E04B49"
   },
