@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.30-16:18:37";
+const LAST_UPDATE = "2020.01.30-16:23:43";
 const DATA = {
   "110000": {
     "confirmedCount": 114,
@@ -1441,7 +1441,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500238": {
-    "confirmedCount": 5,
+    "confirmedCount": 7,
     "cityName": "巫溪县",
     "color": "#F08E7E"
   },
