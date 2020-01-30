@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.30-12:49:34";
+const LAST_UPDATE = "2020.01.30-12:54:41";
 const DATA = {
   "110000": {
     "confirmedCount": 111,
@@ -1466,7 +1466,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "510100": {
-    "confirmedCount": 46,
+    "confirmedCount": 59,
     "cityName": "成都市",
     "color": "#E04B49"
   },
@@ -1486,22 +1486,22 @@ const DATA = {
     "color": "#F08E7E"
   },
   "510600": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "德阳市",
     "color": "#F08E7E"
   },
   "510700": {
-    "confirmedCount": 8,
+    "confirmedCount": 9,
     "cityName": "绵阳市",
     "color": "#F08E7E"
   },
   "510800": {
-    "confirmedCount": 1,
+    "confirmedCount": 3,
     "cityName": "广元市",
     "color": "#F08E7E"
   },
   "510900": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "遂宁市",
     "color": "#F08E7E"
   },
@@ -1516,27 +1516,27 @@ const DATA = {
     "color": "#F08E7E"
   },
   "511300": {
-    "confirmedCount": 5,
+    "confirmedCount": 9,
     "cityName": "南充市",
     "color": "#F08E7E"
   },
   "511400": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "眉山市",
     "color": "#F08E7E"
   },
   "511500": {
-    "confirmedCount": 2,
+    "confirmedCount": 5,
     "cityName": "宜宾市",
     "color": "#F08E7E"
   },
   "511600": {
-    "confirmedCount": 7,
+    "confirmedCount": 9,
     "cityName": "广安市",
     "color": "#F08E7E"
   },
   "511700": {
-    "confirmedCount": 4,
+    "confirmedCount": 6,
     "cityName": "达州市",
     "color": "#F08E7E"
   },
@@ -1546,7 +1546,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "511900": {
-    "confirmedCount": 2,
+    "confirmedCount": 4,
     "cityName": "巴中市",
     "color": "#F08E7E"
   },
@@ -1561,7 +1561,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "513300": {
-    "confirmedCount": 3,
+    "confirmedCount": 5,
     "cityName": "甘孜藏族自治州",
     "color": "#F08E7E"
   },
@@ -1606,9 +1606,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "522600": {
-    "confirmedCount": 1,
+    "confirmedCount": 0,
     "cityName": "黔东南苗族侗族自治州",
-    "color": "#F08E7E"
+    "color": "#FFFFFF"
   },
   "522700": {
     "confirmedCount": 4,
