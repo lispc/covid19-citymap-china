@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.30-12:54:41";
+const LAST_UPDATE = "2020.01.30-12:59:46";
 const DATA = {
   "110000": {
     "confirmedCount": 111,
@@ -926,72 +926,72 @@ const DATA = {
     "color": "#F08E7E"
   },
   "430100": {
-    "confirmedCount": 46,
+    "confirmedCount": 57,
     "cityName": "长沙市",
     "color": "#E04B49"
   },
   "430200": {
-    "confirmedCount": 13,
+    "confirmedCount": 18,
     "cityName": "株洲市",
     "color": "#E04B49"
   },
   "430300": {
-    "confirmedCount": 8,
+    "confirmedCount": 9,
     "cityName": "湘潭市",
     "color": "#F08E7E"
   },
   "430400": {
-    "confirmedCount": 17,
+    "confirmedCount": 20,
     "cityName": "衡阳市",
     "color": "#E04B49"
   },
   "430500": {
-    "confirmedCount": 19,
+    "confirmedCount": 29,
     "cityName": "邵阳市",
     "color": "#E04B49"
   },
   "430600": {
-    "confirmedCount": 26,
+    "confirmedCount": 29,
     "cityName": "岳阳市",
     "color": "#E04B49"
   },
   "430700": {
-    "confirmedCount": 26,
+    "confirmedCount": 30,
     "cityName": "常德市",
     "color": "#E04B49"
   },
   "430800": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "张家界市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "430900": {
-    "confirmedCount": 14,
+    "confirmedCount": 17,
     "cityName": "益阳市",
     "color": "#E04B49"
   },
   "431000": {
-    "confirmedCount": 7,
+    "confirmedCount": 10,
     "cityName": "郴州市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "431100": {
-    "confirmedCount": 11,
+    "confirmedCount": 14,
     "cityName": "永州市",
     "color": "#E04B49"
   },
   "431200": {
-    "confirmedCount": 18,
+    "confirmedCount": 23,
     "cityName": "怀化市",
     "color": "#E04B49"
   },
   "431300": {
-    "confirmedCount": 13,
+    "confirmedCount": 16,
     "cityName": "娄底市",
     "color": "#E04B49"
   },
   "433100": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "湘西土家族苗族自治州",
     "color": "#F08E7E"
   },
