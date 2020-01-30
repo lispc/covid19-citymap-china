@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.30-13:50:45";
+const LAST_UPDATE = "2020.01.30-13:55:51";
 const DATA = {
   "110000": {
     "confirmedCount": 114,
@@ -201,7 +201,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "210500": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "本溪市",
     "color": "#F08E7E"
   },
@@ -231,7 +231,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "211100": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "盘锦市",
     "color": "#F08E7E"
   },
@@ -1916,7 +1916,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "650100": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "乌鲁木齐市",
     "color": "#F08E7E"
   },
