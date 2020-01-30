@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.30-13:04:52";
+const LAST_UPDATE = "2020.01.30-13:09:57";
 const DATA = {
   "110000": {
     "confirmedCount": 111,
@@ -996,7 +996,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "440100": {
-    "confirmedCount": 63,
+    "confirmedCount": 79,
     "cityName": "广州市",
     "color": "#E04B49"
   },
@@ -1006,7 +1006,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "440300": {
-    "confirmedCount": 80,
+    "confirmedCount": 86,
     "cityName": "深圳市",
     "color": "#E04B49"
   },
@@ -1016,12 +1016,12 @@ const DATA = {
     "color": "#E04B49"
   },
   "440500": {
-    "confirmedCount": 8,
+    "confirmedCount": 12,
     "cityName": "汕头市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "440600": {
-    "confirmedCount": 21,
+    "confirmedCount": 25,
     "cityName": "佛山市",
     "color": "#E04B49"
   },
@@ -1046,12 +1046,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "441300": {
-    "confirmedCount": 12,
+    "confirmedCount": 17,
     "cityName": "惠州市",
     "color": "#E04B49"
   },
   "441400": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "梅州市",
     "color": "#F08E7E"
   },
@@ -1081,7 +1081,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "442000": {
-    "confirmedCount": 13,
+    "confirmedCount": 16,
     "cityName": "中山市",
     "color": "#E04B49"
   },
