@@ -1,7 +1,7 @@
-const LAST_UPDATE = "2020.01.30-13:35:27";
+const LAST_UPDATE = "2020.01.30-13:40:33";
 const DATA = {
   "110000": {
-    "confirmedCount": 111,
+    "confirmedCount": 114,
     "cityName": "北京市",
     "color": "#73181B"
   },
@@ -146,7 +146,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "150600": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "鄂尔多斯市",
     "color": "#F08E7E"
   },
@@ -156,7 +156,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "150800": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "巴彦淖尔市",
     "color": "#F08E7E"
   },
@@ -1731,7 +1731,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "610100": {
-    "confirmedCount": 18,
+    "confirmedCount": 22,
     "cityName": "西安市",
     "color": "#E04B49"
   },
@@ -1751,7 +1751,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "610500": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "渭南市",
     "color": "#F08E7E"
   },
@@ -1766,9 +1766,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "610800": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "榆林市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "610900": {
     "confirmedCount": 10,
