@@ -33,8 +33,9 @@ def load_tx_data():
 
 def normalize_city_name(dxy_province_name, dxy_city_name):
     # 忽略部分内容
-    ignore_list = ['外地来京人员', '未知']
+    ignore_list = ['外地来京人员', '未知', '']
     if dxy_city_name in ignore_list:
+        print('ignore', dxy_province_name, dxy_city_name)
         return ''
 
     # 手动映射
