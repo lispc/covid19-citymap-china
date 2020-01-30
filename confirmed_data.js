@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.30-13:15:03";
+const LAST_UPDATE = "2020.01.30-13:20:09";
 const DATA = {
   "110000": {
     "confirmedCount": 111,
@@ -296,7 +296,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "230100": {
-    "confirmedCount": 11,
+    "confirmedCount": 13,
     "cityName": "哈尔滨市",
     "color": "#E04B49"
   },
@@ -311,9 +311,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "230400": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "鹤岗市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "230500": {
     "confirmedCount": 1,
@@ -351,9 +351,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "231200": {
-    "confirmedCount": 8,
+    "confirmedCount": 10,
     "cityName": "绥化市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "232700": {
     "confirmedCount": 1,
@@ -1801,7 +1801,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "620500": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "天水市",
     "color": "#F08E7E"
   },
@@ -1831,7 +1831,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "621100": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "定西市",
     "color": "#F08E7E"
   },
