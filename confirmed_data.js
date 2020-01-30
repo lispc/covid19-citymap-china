@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.30-13:20:09";
+const LAST_UPDATE = "2020.01.30-13:25:15";
 const DATA = {
   "110000": {
     "confirmedCount": 111,
@@ -1201,7 +1201,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "469002": {
-    "confirmedCount": 1,
+    "confirmedCount": 3,
     "cityName": "琼海市",
     "color": "#F08E7E"
   },
@@ -1256,7 +1256,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "469028": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "陵水黎族自治县",
     "color": "#F08E7E"
   },
