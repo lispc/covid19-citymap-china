@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.31-21:33:59";
+const LAST_UPDATE = "2020.01.31-21:39:04";
 const DATA = {
   "110000": {
     "confirmedCount": 139,
@@ -1236,7 +1236,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "469024": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "临高县",
     "color": "#F08E7E"
   },
