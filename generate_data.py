@@ -40,7 +40,7 @@ def normalize_city_name(province_name, city_name):
         return ''
 
     # 手动映射
-    manual_mapping_with_province = {('西藏', ''): '拉萨市'}
+    manual_mapping_with_province = {('西藏', '地区待确认'): '拉萨市'}
     if manual_mapping_with_province.get((province_name, city_name)):
         return manual_mapping_with_province[(province_name, city_name)]
     # 高德地图里没有两江新区，姑且算入渝北
