@@ -48,7 +48,10 @@ function initVirusMap() {
     "620000",
     "630000",
     "640000",
-    "650000"
+    "650000",
+    "710000",
+    "810000",
+    "820000"
   ];
   disProvince = new AMap.DistrictLayer.Province({
     zIndex: 12,
@@ -110,8 +113,8 @@ function clickHander(ev) {
   }
   if (props) {
     const seperator = " ";
-    // 京津沪
-    if (["110000", "120000", "310000"].includes(props.adcode_pro.toString())) {
+    // 京津沪港澳台
+    if (["110000", "120000", "310000", "710000", "810000", "820000"].includes(props.adcode_pro.toString())) {
       const text =
         props.NAME_CHN + seperator + DATA[props.adcode]["confirmedCount"];
       //console.log('text', text);
