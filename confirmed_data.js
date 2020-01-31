@@ -1,7 +1,7 @@
-const LAST_UPDATE = "2020.01.31-16:22:51";
+const LAST_UPDATE = "2020.01.31-16:27:57";
 const DATA = {
   "110000": {
-    "confirmedCount": 132,
+    "confirmedCount": 139,
     "cityName": "北京市",
     "color": "#73181B"
   },
@@ -151,9 +151,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "150700": {
-    "confirmedCount": 2,
+    "confirmedCount": 0,
     "cityName": "呼伦贝尔市",
-    "color": "#F08E7E"
+    "color": "#FFFFFF"
   },
   "150800": {
     "confirmedCount": 2,
@@ -1276,7 +1276,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500101": {
-    "confirmedCount": 28,
+    "confirmedCount": 29,
     "cityName": "万州区",
     "color": "#E04B49"
   },
@@ -1286,7 +1286,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500103": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "渝中区",
     "color": "#F08E7E"
   },
@@ -1306,7 +1306,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500107": {
-    "confirmedCount": 5,
+    "confirmedCount": 8,
     "cityName": "九龙坡区",
     "color": "#F08E7E"
   },
@@ -1331,7 +1331,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500112": {
-    "confirmedCount": 18,
+    "confirmedCount": 19,
     "cityName": "渝北区",
     "color": "#E04B49"
   },
@@ -1346,7 +1346,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500115": {
-    "confirmedCount": 7,
+    "confirmedCount": 9,
     "cityName": "长寿区",
     "color": "#F08E7E"
   },
@@ -1371,7 +1371,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500120": {
-    "confirmedCount": 4,
+    "confirmedCount": 6,
     "cityName": "璧山区",
     "color": "#F08E7E"
   },
@@ -1431,7 +1431,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "500236": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "奉节县",
     "color": "#F08E7E"
   },
@@ -1441,12 +1441,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500238": {
-    "confirmedCount": 7,
+    "confirmedCount": 10,
     "cityName": "巫溪县",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "500240": {
-    "confirmedCount": 7,
+    "confirmedCount": 8,
     "cityName": "石柱土家族自治县",
     "color": "#F08E7E"
   },
