@@ -25,15 +25,16 @@ def load_dxy_data():
 
 
 def load_tx_data():
-    url = 'https://view.inews.qq.com/g2/getOnsInfo?name=wuwei_ww_area_counts'
-    data = json.loads(requests.get(url).json()['data'])
+    url = 'https://view.inews.qq.com/g2/getOnsInfo?name=disease_h5'
+    china = json.loads(requests.get(url).json()['data'])['areaTree'][0]
+    assert china['name'] == '中国'
     # print(data)
-    return data
+    return china['children']
 
 
 def normalize_city_name(province_name, city_name):
     # 忽略部分内容
-    ignore_list = ['外地来京人员', '未知', '未明确地区', '所属地待确认']
+    ignore_list = ['外地来京人员', '未知', '未明确地区', '所属地待确认', '待确认', '地区待确认']
     if city_name in ignore_list:
         #print('ignore', province_name, city_name)
         return ''
@@ -43,9 +44,11 @@ def normalize_city_name(province_name, city_name):
     if manual_mapping_with_province.get((province_name, city_name)):
         return manual_mapping_with_province[(province_name, city_name)]
     # 高德地图里没有两江新区，姑且算入渝北
-    manual_mapping = {'巩义': '郑州市', '固始县': '信阳市', 
+    manual_mapping = {'巩义': '郑州市', '固始县': '信阳市',
                       '滑县': '安阳市', '长垣': '新乡市',
+                      '永城': '商丘市',
                       '韩城': '渭南市',
+                      '宁东管委会': '银川市',
                       '满洲里': '呼伦贝尔市', '阿拉善': '阿拉善盟',
                       '宿松': '安庆市', '公主岭': '四平市', '两江新区': '渝北区',
                       '第七师': '塔城地区', '第八师石河子': '石河子市'}
@@ -97,22 +100,24 @@ def get_confirmed_count_dxy():
 def get_confirmed_count_tx():
     confirmed_count = defaultdict(int)
     suspected_count = defaultdict(int)
-    for item in load_tx_data():
-        if item['country'] != '中国':
+    for province in load_tx_data():
+        # if item['country'] != '中国':
+        #    continue
+        if province['name'] in ['香港', '澳门', '台湾']:
             continue
-        if item['area'] in ['香港', '澳门', '台湾']:
-            continue
-        if item['area'] in ['北京', '上海', '天津']:
-            province_name = item['area'] + '市'
+        if province['name'] in ['北京', '上海', '天津']:
+            province_name = province['name'] + '市'
             code = amap_city_to_code[province_name]
-            confirmed_count[code] += item['confirm']
-            suspected_count[code] += item['suspect']
+            confirmed_count[code] += province['total']['confirm']
+            suspected_count[code] += province['total']['suspect']
             continue
-        normalized_name = normalize_city_name(item['area'], item['city'])
-        if normalized_name != '':
-            code = amap_city_to_code[normalized_name]
-            confirmed_count[code] += item["confirm"]
-            suspected_count[code] += item["suspect"]
+        for city in province['children']:
+            normalized_name = normalize_city_name(
+                province['name'], city['name'])
+            if normalized_name != '':
+                code = amap_city_to_code[normalized_name]
+                confirmed_count[code] += city['total']["confirm"]
+                suspected_count[code] += city['total']["suspect"]
     return confirmed_count, suspected_count
 
 
