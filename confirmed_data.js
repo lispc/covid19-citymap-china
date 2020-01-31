@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.31-17:24:03";
+const LAST_UPDATE = "2020.01.31-17:29:09";
 const DATA = {
   "110000": {
     "confirmedCount": 139,
@@ -151,9 +151,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "150700": {
-    "confirmedCount": 0,
+    "confirmedCount": 2,
     "cityName": "呼伦贝尔市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "150800": {
     "confirmedCount": 2,
