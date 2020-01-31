@@ -33,12 +33,6 @@ def load_tx_data():
 
 
 def normalize_city_name(province_name, city_name):
-    # 忽略部分内容
-    ignore_list = ['外地来京人员', '未知', '未明确地区', '所属地待确认', '待确认', '地区待确认']
-    if city_name in ignore_list:
-        #print('ignore', province_name, city_name)
-        return ''
-
     # 手动映射
     manual_mapping_with_province = {('西藏', '地区待确认'): '拉萨市'}
     if manual_mapping_with_province.get((province_name, city_name)):
@@ -54,6 +48,12 @@ def normalize_city_name(province_name, city_name):
                       '第七师': '塔城地区', '第八师石河子': '石河子市'}
     if manual_mapping.get(city_name):
         return manual_mapping[city_name]
+
+     # 忽略部分内容
+    ignore_list = ['外地来京人员', '未知', '未明确地区', '所属地待确认', '待确认', '地区待确认']
+    if city_name in ignore_list:
+        print('// ignore', province_name, city_name)
+        return ''    
 
     # 名称规则
     # 例如 临高县 其实是市级
@@ -71,7 +71,7 @@ def normalize_city_name(province_name, city_name):
     # cat adcodes|cut -d' ' -f2|cut -c1-2|sort|uniq -c |sort -k2n
     # 所以可以用前两个字
     normalized_name = amap_short_city_to_full_city.get(city_name[0:2], '')
-    print('fuzz map', province_name, city_name, 'to', normalized_name)
+    print(province_name, city_name, '=>', normalized_name)
     return normalized_name
 
 
