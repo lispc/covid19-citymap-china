@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.31-15:57:21";
+const LAST_UPDATE = "2020.01.31-16:02:27";
 const DATA = {
   "110000": {
     "confirmedCount": 132,
@@ -1276,7 +1276,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500101": {
-    "confirmedCount": 29,
+    "confirmedCount": 28,
     "cityName": "万州区",
     "color": "#E04B49"
   },
@@ -1286,7 +1286,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500103": {
-    "confirmedCount": 6,
+    "confirmedCount": 5,
     "cityName": "渝中区",
     "color": "#F08E7E"
   },
@@ -1306,7 +1306,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500107": {
-    "confirmedCount": 8,
+    "confirmedCount": 5,
     "cityName": "九龙坡区",
     "color": "#F08E7E"
   },
@@ -1331,7 +1331,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500112": {
-    "confirmedCount": 19,
+    "confirmedCount": 18,
     "cityName": "渝北区",
     "color": "#E04B49"
   },
@@ -1346,7 +1346,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500115": {
-    "confirmedCount": 9,
+    "confirmedCount": 7,
     "cityName": "长寿区",
     "color": "#F08E7E"
   },
@@ -1371,7 +1371,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500120": {
-    "confirmedCount": 6,
+    "confirmedCount": 4,
     "cityName": "璧山区",
     "color": "#F08E7E"
   },
@@ -1431,7 +1431,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "500236": {
-    "confirmedCount": 5,
+    "confirmedCount": 4,
     "cityName": "奉节县",
     "color": "#F08E7E"
   },
@@ -1441,12 +1441,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500238": {
-    "confirmedCount": 10,
+    "confirmedCount": 7,
     "cityName": "巫溪县",
-    "color": "#E04B49"
+    "color": "#F08E7E"
   },
   "500240": {
-    "confirmedCount": 8,
+    "confirmedCount": 7,
     "cityName": "石柱土家族自治县",
     "color": "#F08E7E"
   },
