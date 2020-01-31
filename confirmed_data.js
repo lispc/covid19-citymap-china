@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.31-15:06:23";
+const LAST_UPDATE = "2020.01.31-15:11:29";
 const DATA = {
   "110000": {
     "confirmedCount": 132,
@@ -726,7 +726,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "371300": {
-    "confirmedCount": 20,
+    "confirmedCount": 23,
     "cityName": "临沂市",
     "color": "#E04B49"
   },
