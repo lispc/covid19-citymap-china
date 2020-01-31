@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.31-15:52:16";
+const LAST_UPDATE = "2020.01.31-15:57:21";
 const DATA = {
   "110000": {
     "confirmedCount": 132,
@@ -1276,7 +1276,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500101": {
-    "confirmedCount": 28,
+    "confirmedCount": 29,
     "cityName": "万州区",
     "color": "#E04B49"
   },
@@ -1286,7 +1286,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500103": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "渝中区",
     "color": "#F08E7E"
   },
@@ -1346,7 +1346,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500115": {
-    "confirmedCount": 8,
+    "confirmedCount": 9,
     "cityName": "长寿区",
     "color": "#F08E7E"
   },
@@ -1441,12 +1441,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500238": {
-    "confirmedCount": 9,
+    "confirmedCount": 10,
     "cityName": "巫溪县",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "500240": {
-    "confirmedCount": 7,
+    "confirmedCount": 8,
     "cityName": "石柱土家族自治县",
     "color": "#F08E7E"
   },
