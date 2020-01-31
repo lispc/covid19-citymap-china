@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.31-10:19:27";
+const LAST_UPDATE = "2020.01.31-10:23:00";
 const DATA = {
   "110000": {
     "confirmedCount": 114,
@@ -771,7 +771,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "410500": {
-    "confirmedCount": 16,
+    "confirmedCount": 17,
     "cityName": "安阳市",
     "color": "#E04B49"
   },
@@ -781,7 +781,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "410700": {
-    "confirmedCount": 11,
+    "confirmedCount": 12,
     "cityName": "新乡市",
     "color": "#E04B49"
   },
@@ -1751,7 +1751,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "610500": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "渭南市",
     "color": "#F08E7E"
   },
