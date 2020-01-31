@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.31-23:46:38";
+const LAST_UPDATE = "2020.01.31-23:51:44";
 const DATA = {
   "110000": {
     "confirmedCount": 139,
@@ -181,19 +181,19 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "210100": {
-    "confirmedCount": 10,
+    "confirmedCount": 13,
     "cityName": "沈阳市",
     "color": "#E04B49"
   },
   "210200": {
-    "confirmedCount": 7,
+    "confirmedCount": 8,
     "cityName": "大连市",
     "color": "#F08E7E"
   },
   "210300": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "鞍山市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "210400": {
     "confirmedCount": 0,
@@ -211,7 +211,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "210700": {
-    "confirmedCount": 5,
+    "confirmedCount": 7,
     "cityName": "锦州市",
     "color": "#F08E7E"
   },
@@ -221,9 +221,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "210900": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "阜新市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "211000": {
     "confirmedCount": 1,
@@ -231,22 +231,22 @@ const DATA = {
     "color": "#F08E7E"
   },
   "211100": {
-    "confirmedCount": 4,
+    "confirmedCount": 7,
     "cityName": "盘锦市",
     "color": "#F08E7E"
   },
   "211200": {
-    "confirmedCount": 3,
+    "confirmedCount": 2,
     "cityName": "铁岭市",
     "color": "#F08E7E"
   },
   "211300": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "朝阳市",
     "color": "#F08E7E"
   },
   "211400": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "葫芦岛市",
     "color": "#F08E7E"
   },
