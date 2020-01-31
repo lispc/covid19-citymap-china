@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.31-15:01:16";
+const LAST_UPDATE = "2020.01.31-15:06:23";
 const DATA = {
   "110000": {
     "confirmedCount": 132,
@@ -676,7 +676,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "370300": {
-    "confirmedCount": 8,
+    "confirmedCount": 9,
     "cityName": "淄博市",
     "color": "#F08E7E"
   },
@@ -706,7 +706,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "370900": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "泰安市",
     "color": "#F08E7E"
   },
@@ -746,7 +746,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "371700": {
-    "confirmedCount": 7,
+    "confirmedCount": 8,
     "cityName": "菏泽市",
     "color": "#F08E7E"
   },
