@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.01.31-16:43:14";
+const LAST_UPDATE = "2020.01.31-16:48:19";
 const DATA = {
   "110000": {
     "confirmedCount": 139,
@@ -1571,17 +1571,17 @@ const DATA = {
     "color": "#F08E7E"
   },
   "520100": {
-    "confirmedCount": 1,
+    "confirmedCount": 4,
     "cityName": "贵阳市",
     "color": "#F08E7E"
   },
   "520200": {
-    "confirmedCount": 4,
+    "confirmedCount": 8,
     "cityName": "六盘水市",
     "color": "#F08E7E"
   },
   "520300": {
-    "confirmedCount": 1,
+    "confirmedCount": 4,
     "cityName": "遵义市",
     "color": "#F08E7E"
   },
@@ -1591,12 +1591,12 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "520500": {
-    "confirmedCount": 1,
+    "confirmedCount": 3,
     "cityName": "毕节市",
     "color": "#F08E7E"
   },
   "520600": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "铜仁市",
     "color": "#F08E7E"
   },
@@ -1606,7 +1606,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "522600": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "黔东南苗族侗族自治州",
     "color": "#F08E7E"
   },
