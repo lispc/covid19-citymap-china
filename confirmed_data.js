@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.01-18:17:45";
+const LAST_UPDATE = "2020.02.01-18:22:51";
 const DATA = {
   "110000": {
     "confirmedCount": 168,
@@ -1201,7 +1201,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "469002": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "琼海市",
     "color": "#F08E7E"
   },
