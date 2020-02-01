@@ -45,7 +45,8 @@ def normalize_city_name(province_name, city_name):
                       '宁东管委会': '银川市',
                       '满洲里': '呼伦贝尔市', '阿拉善': '阿拉善盟',
                       '宿松': '安庆市', '公主岭': '四平市', '两江新区': '渝北区',
-                      '第七师': '塔城地区', '第八师石河子': '石河子市'}
+                      '第七师': '塔城地区', '第八师石河子': '石河子市',
+                      '兵团第九师': '塔城地区'}
     if manual_mapping.get(city_name):
         return manual_mapping[city_name]
 
@@ -53,7 +54,7 @@ def normalize_city_name(province_name, city_name):
     ignore_list = ['外地来京人员', '未知', '未明确地区', '所属地待确认', '待确认', '地区待确认']
     if city_name in ignore_list:
         print('// ignore', province_name, city_name)
-        return ''    
+        return ''
 
     # 名称规则
     # 例如 临高县 其实是市级
