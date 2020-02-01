@@ -45,7 +45,8 @@ def normalize_city_name(province_name, city_name):
                       '宁东管委会': '银川市',
                       '满洲里': '呼伦贝尔市', '阿拉善': '阿拉善盟',
                       '宿松': '安庆市', '公主岭': '四平市', '两江新区': '渝北区',
-                      '第七师': '塔城地区', '第八师石河子': '石河子市'}
+                      '第七师': '塔城地区', '第八师石河子': '石河子市',
+                      '兵团第九师': '塔城地区'}
     if manual_mapping.get(city_name):
         return manual_mapping[city_name]
 
@@ -53,7 +54,7 @@ def normalize_city_name(province_name, city_name):
     ignore_list = ['外地来京人员', '未知', '未明确地区', '所属地待确认', '待确认', '地区待确认']
     if city_name in ignore_list:
         print('// ignore', province_name, city_name)
-        return ''    
+        return ''
 
     # 名称规则
     # 例如 临高县 其实是市级
@@ -104,6 +105,9 @@ def get_confirmed_count_tx():
         # if item['country'] != '中国':
         #    continue
         if province['name'] in ['香港', '澳门', '台湾']:
+            code = amap_city_to_code[province['name']]
+            confirmed_count[code] += province['total']['confirm']
+            suspected_count[code] += province['total']['suspect']
             continue
         if province['name'] in ['北京', '上海', '天津']:
             province_name = province['name'] + '市'
@@ -135,7 +139,7 @@ def count_to_color(confirm, suspect):
 
 
 def write_result(result):
-    writer = open('confirmed_data.js', 'w')
+    writer = open('confirmed_data.js', 'w', encoding='utf8')
     writer.write('const LAST_UPDATE = "')
     writer.write(datetime.datetime.now(datetime.timezone(
         datetime.timedelta(hours=8))).strftime('%Y.%m.%d-%H:%M:%S'))
