@@ -1,7 +1,7 @@
-const LAST_UPDATE = "2020.02.01-18:02:27";
+const LAST_UPDATE = "2020.02.01-18:07:33";
 const DATA = {
   "110000": {
-    "confirmedCount": 156,
+    "confirmedCount": 168,
     "cityName": "北京市",
     "color": "#73181B"
   },
@@ -1181,7 +1181,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "460200": {
-    "confirmedCount": 15,
+    "confirmedCount": 16,
     "cityName": "三亚市",
     "color": "#E04B49"
   },
@@ -1236,7 +1236,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "469024": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "临高县",
     "color": "#F08E7E"
   },
@@ -1256,7 +1256,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "469028": {
-    "confirmedCount": 3,
+    "confirmedCount": 5,
     "cityName": "陵水黎族自治县",
     "color": "#F08E7E"
   },
