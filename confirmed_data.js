@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.01-22:52:18";
+const LAST_UPDATE = "2020.02.01-22:57:24";
 const DATA = {
   "110000": {
     "confirmedCount": 168,
@@ -206,7 +206,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "210600": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "丹东市",
     "color": "#F08E7E"
   },
