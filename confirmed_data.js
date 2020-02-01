@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.01-10:18:40";
+const LAST_UPDATE = "2020.02.01-10:23:46";
 const DATA = {
   "110000": {
     "confirmedCount": 139,
@@ -951,47 +951,47 @@ const DATA = {
     "color": "#E04B49"
   },
   "430600": {
-    "confirmedCount": 37,
+    "confirmedCount": 45,
     "cityName": "岳阳市",
     "color": "#E04B49"
   },
   "430700": {
-    "confirmedCount": 37,
+    "confirmedCount": 39,
     "cityName": "常德市",
     "color": "#E04B49"
   },
   "430800": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "张家界市",
     "color": "#F08E7E"
   },
   "430900": {
-    "confirmedCount": 20,
+    "confirmedCount": 24,
     "cityName": "益阳市",
     "color": "#E04B49"
   },
   "431000": {
-    "confirmedCount": 12,
+    "confirmedCount": 13,
     "cityName": "郴州市",
     "color": "#E04B49"
   },
   "431100": {
-    "confirmedCount": 16,
+    "confirmedCount": 18,
     "cityName": "永州市",
     "color": "#E04B49"
   },
   "431200": {
-    "confirmedCount": 26,
+    "confirmedCount": 28,
     "cityName": "怀化市",
     "color": "#E04B49"
   },
   "431300": {
-    "confirmedCount": 20,
+    "confirmedCount": 26,
     "cityName": "娄底市",
     "color": "#E04B49"
   },
   "433100": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "湘西土家族苗族自治州",
     "color": "#F08E7E"
   },
