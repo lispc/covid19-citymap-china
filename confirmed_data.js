@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.01-08:01:05";
+const LAST_UPDATE = "2020.02.01-08:06:10";
 const DATA = {
   "110000": {
     "confirmedCount": 139,
@@ -1371,7 +1371,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500120": {
-    "confirmedCount": 6,
+    "confirmedCount": 8,
     "cityName": "璧山区",
     "color": "#F08E7E"
   },
@@ -1386,7 +1386,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500153": {
-    "confirmedCount": 1,
+    "confirmedCount": 3,
     "cityName": "荣昌区",
     "color": "#F08E7E"
   },
