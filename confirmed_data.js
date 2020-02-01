@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.01-14:28:24";
+const LAST_UPDATE = "2020.02.01-14:33:31";
 const DATA = {
   "110000": {
     "confirmedCount": 156,
@@ -521,7 +521,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "340800": {
-    "confirmedCount": 37,
+    "confirmedCount": 43,
     "cityName": "安庆市",
     "color": "#E04B49"
   },
