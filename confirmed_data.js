@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.02-03:42:49";
+const LAST_UPDATE = "2020.02.02-03:47:55";
 const DATA = {
   "110000": {
     "confirmedCount": 168,
@@ -66,12 +66,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "140100": {
-    "confirmedCount": 4,
+    "confirmedCount": 6,
     "cityName": "太原市",
     "color": "#F08E7E"
   },
   "140200": {
-    "confirmedCount": 6,
+    "confirmedCount": 8,
     "cityName": "大同市",
     "color": "#F08E7E"
   },
@@ -86,7 +86,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "140500": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "晋城市",
     "color": "#F08E7E"
   },
@@ -96,7 +96,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "140700": {
-    "confirmedCount": 11,
+    "confirmedCount": 13,
     "cityName": "晋中市",
     "color": "#E04B49"
   },
@@ -106,7 +106,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "140900": {
-    "confirmedCount": 1,
+    "confirmedCount": 3,
     "cityName": "忻州市",
     "color": "#F08E7E"
   },
