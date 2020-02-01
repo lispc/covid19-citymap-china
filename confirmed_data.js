@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.01-09:32:48";
+const LAST_UPDATE = "2020.02.01-09:37:54";
 const DATA = {
   "110000": {
     "confirmedCount": 139,
@@ -751,27 +751,27 @@ const DATA = {
     "color": "#F08E7E"
   },
   "410100": {
-    "confirmedCount": 50,
+    "confirmedCount": 56,
     "cityName": "郑州市",
     "color": "#E04B49"
   },
   "410200": {
-    "confirmedCount": 6,
+    "confirmedCount": 8,
     "cityName": "开封市",
     "color": "#F08E7E"
   },
   "410300": {
-    "confirmedCount": 3,
+    "confirmedCount": 5,
     "cityName": "洛阳市",
     "color": "#F08E7E"
   },
   "410400": {
-    "confirmedCount": 10,
+    "confirmedCount": 11,
     "cityName": "平顶山市",
     "color": "#E04B49"
   },
   "410500": {
-    "confirmedCount": 21,
+    "confirmedCount": 25,
     "cityName": "安阳市",
     "color": "#E04B49"
   },
@@ -781,7 +781,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "410700": {
-    "confirmedCount": 17,
+    "confirmedCount": 23,
     "cityName": "新乡市",
     "color": "#E04B49"
   },
@@ -796,42 +796,42 @@ const DATA = {
     "color": "#F08E7E"
   },
   "411000": {
-    "confirmedCount": 8,
+    "confirmedCount": 12,
     "cityName": "许昌市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "411100": {
-    "confirmedCount": 13,
+    "confirmedCount": 14,
     "cityName": "漯河市",
     "color": "#E04B49"
   },
   "411200": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "三门峡市",
     "color": "#F08E7E"
   },
   "411300": {
-    "confirmedCount": 61,
+    "confirmedCount": 66,
     "cityName": "南阳市",
     "color": "#E04B49"
   },
   "411400": {
-    "confirmedCount": 31,
+    "confirmedCount": 36,
     "cityName": "商丘市",
     "color": "#E04B49"
   },
   "411500": {
-    "confirmedCount": 49,
+    "confirmedCount": 70,
     "cityName": "信阳市",
     "color": "#E04B49"
   },
   "411600": {
-    "confirmedCount": 36,
+    "confirmedCount": 38,
     "cityName": "周口市",
     "color": "#E04B49"
   },
   "411700": {
-    "confirmedCount": 30,
+    "confirmedCount": 40,
     "cityName": "驻马店市",
     "color": "#E04B49"
   },
