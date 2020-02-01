@@ -53,7 +53,7 @@ def normalize_city_name(province_name, city_name):
     ignore_list = ['外地来京人员', '未知', '未明确地区', '所属地待确认', '待确认', '地区待确认']
     if city_name in ignore_list:
         print('// ignore', province_name, city_name)
-        return ''    
+        return ''
 
     # 名称规则
     # 例如 临高县 其实是市级
@@ -84,7 +84,7 @@ def get_confirmed_count_dxy():
             continue
         if province_name in ['北京市', '上海市', '天津市']:
             code = amap_city_to_code[province_name]
-            confirmed_count[code] = p['confirmedCount']
+            confirmed_count[code] = p['count']
             continue
         for c in p["cities"]:
             city_name = c["cityName"]
@@ -93,7 +93,7 @@ def get_confirmed_count_dxy():
             if normalized_name != '':
                 # 丁香园有重复计算，县级市和地级市重复，如满洲里。因此用累加。TODO 是不是该累加？
                 code = amap_city_to_code[normalized_name]
-                confirmed_count[code] += c["confirmedCount"]
+                confirmed_count[code] += c["count"]
     return confirmed_count, suspected_count
 
 
@@ -124,19 +124,6 @@ def get_confirmed_count_tx():
     return confirmed_count, suspected_count
 
 
-def count_to_color(confirm, suspect):
-    # 颜色含义同丁香园
-    if confirm > 100:
-        return '#73181B'
-    if confirm >= 10:
-        return '#E04B49'
-    if confirm > 0:
-        return '#F08E7E'
-    if suspect > 0:
-        return '#F2D7A2'
-    return '#FFFFFF'
-
-
 def write_result(result):
     writer = open('confirmed_data.js', 'w', encoding='utf8')
     writer.write('const LAST_UPDATE = "')
@@ -152,10 +139,8 @@ def main():
     confirmed_count, suspected_count = get_confirmed_count_tx()
     result = {}
     for code in amap_code_to_city:
-        # 现在数据源的疑似都是 0 了
-        result[code] = {'confirmedCount': confirmed_count[code],
-                        'cityName': amap_code_to_city[code],
-                        'color': count_to_color(confirmed_count[code], suspected_count[code])}
+        # 现在数据源的疑似都是 0 了，确诊的用正数，疑似的用负数，不需要存颜色和名字了，由app.js决定颜色好了
+        result[code] = confirmed_count[code] if confirmed_count[code] > 0 else 0 - suspected_count[code]
     write_result(result)
 
 

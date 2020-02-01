@@ -53,14 +53,31 @@ function initVirusMap() {
     "810000",
     "820000"
   ];
+
+  function fillColor(properties) {
+    var count = DATA[properties.adcode];
+    if (count < 0)
+      return '#f2d7a2';
+    else if (count == 0)
+      return '#fff';
+    else if (count >= 1 && count <= 9)
+      return '#f08f7f';
+    else if (count >= 10 && count <= 99)
+      return '#e26061';
+    else if (count >= 100 && count <= 499)
+      return '#c34548';
+    else if (count >= 500 && count <= 999)
+      return '#9c2f31';
+    else if (count >= 1000)
+      return '#731919';
+  }
+
   disProvince = new AMap.DistrictLayer.Province({
     zIndex: 12,
     adcode: all_provinces,
     depth: 1,
     styles: {
-      fill: function(properties) {
-        return DATA[properties.adcode]["color"];
-      },
+      fill: fillColor,
       "province-stroke": "black",
       "city-stroke": "white", // 中国地级市边界
       "county-stroke": "rgba(255,255,255,0.5)" // 中国区县边界
@@ -74,9 +91,7 @@ function initVirusMap() {
     adcode: ["500000"],
     depth: 2,
     styles: {
-      fill: function(properties) {
-        return DATA[properties.adcode]["color"];
-      },
+      fill: fillColor,
       "province-stroke": "black",
       "city-stroke": "white", // 中国地级市边界
       "county-stroke": "rgba(255,255,255,0.5)" // 中国区县边界
@@ -86,7 +101,7 @@ function initVirusMap() {
   disChongqing.setMap(map);
 
   //initClickHandler();
-  map.on("complete", function() {
+  map.on("complete", function () {
     layer = new AMap.LabelsLayer({
       fitView: true
       //map: map
@@ -116,7 +131,7 @@ function clickHander(ev) {
     // 京津沪港澳台
     if (["110000", "120000", "310000", "710000", "810000", "820000"].includes(props.adcode_pro.toString())) {
       const text =
-        props.NAME_CHN + seperator + DATA[props.adcode]["confirmedCount"];
+        props.NAME_CHN + seperator + DATA[props.adcode];
       //console.log('text', text);
       var labelMarker = new AMap.LabelMarker({
         position: [props.x, props.y],
@@ -126,7 +141,7 @@ function clickHander(ev) {
       layer.add(labelMarker);
     } else {
       // 展示点击区域所在省份每个市的病例数字
-      AMap.plugin("AMap.DistrictSearch", function() {
+      AMap.plugin("AMap.DistrictSearch", function () {
         const is_chongqing = props.adcode_pro.toString() == "500000";
         const subdistrict = is_chongqing ? 2 : 1;
         //console.log('subdistrict', subdistrict)
@@ -134,7 +149,7 @@ function clickHander(ev) {
           if (!is_chongqing) {
             for (entry of result.districtList[0].districtList) {
               const text =
-                entry.name + seperator + DATA[entry.adcode]["confirmedCount"];
+                entry.name + seperator + DATA[entry.adcode];
               //console.log("text", text);
               const option = {
                 position: entry.center,
@@ -156,7 +171,7 @@ function clickHander(ev) {
                   content:
                     entry.name +
                     seperator +
-                    DATA[entry.adcode]["confirmedCount"]
+                    DATA[entry.adcode]
                 },
                 rank: entry.adcode == props.adcode.toString() ? 2 : 1
               };
@@ -167,15 +182,15 @@ function clickHander(ev) {
               layer.add(labelMarker);
             }
             // 重庆城区
-            var confirmedCount = 0;
+            var count = 0;
             const chongqing_downtown = result.districtList[0].districtList[1];
             for (entry of chongqing_downtown.districtList) {
-              confirmedCount += DATA[entry.adcode]["confirmedCount"];
+              count += DATA[entry.adcode];
             }
             const option = {
               position: chongqing_downtown.center,
               text: {
-                content: chongqing_downtown.name + seperator + confirmedCount
+                content: chongqing_downtown.name + seperator + count
               },
               rank: props.adcode_cit.toString() == "500100" ? 2 : 1
             };
@@ -194,7 +209,7 @@ function clickHander(ev) {
         if (cache.get(k)) {
           districtsHandler(cache.get(k));
         } else {
-          districtSearch.search(k, function(status, result) {
+          districtSearch.search(k, function (status, result) {
             if (verbose) {
               console.log("status", status);
               console.log("result", result);
