@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.02-07:37:11";
+const LAST_UPDATE = "2020.02.02-07:42:16";
 const DATA = {
   "110000": {
     "confirmedCount": 168,
@@ -1286,7 +1286,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500103": {
-    "confirmedCount": 7,
+    "confirmedCount": 9,
     "cityName": "渝中区",
     "color": "#F08E7E"
   },
@@ -1296,7 +1296,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500105": {
-    "confirmedCount": 12,
+    "confirmedCount": 13,
     "cityName": "江北区",
     "color": "#E04B49"
   },
@@ -1311,7 +1311,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "500108": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "南岸区",
     "color": "#F08E7E"
   },
@@ -1376,7 +1376,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500151": {
-    "confirmedCount": 2,
+    "confirmedCount": 4,
     "cityName": "铜梁区",
     "color": "#F08E7E"
   },
@@ -1431,7 +1431,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "500236": {
-    "confirmedCount": 5,
+    "confirmedCount": 8,
     "cityName": "奉节县",
     "color": "#F08E7E"
   },
@@ -1441,7 +1441,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500238": {
-    "confirmedCount": 10,
+    "confirmedCount": 11,
     "cityName": "巫溪县",
     "color": "#E04B49"
   },
