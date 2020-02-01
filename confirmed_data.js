@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.01-23:38:12";
+const LAST_UPDATE = "2020.02.01-23:43:17";
 const DATA = {
   "110000": {
     "confirmedCount": 168,
@@ -1631,7 +1631,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "530500": {
-    "confirmedCount": 7,
+    "confirmedCount": 8,
     "cityName": "保山市",
     "color": "#F08E7E"
   },
@@ -1661,7 +1661,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "532500": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "红河哈尼族彝族自治州",
     "color": "#F08E7E"
   },
