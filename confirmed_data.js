@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.01-10:13:34";
+const LAST_UPDATE = "2020.02.01-10:18:40";
 const DATA = {
   "110000": {
     "confirmedCount": 139,
@@ -926,27 +926,27 @@ const DATA = {
     "color": "#F08E7E"
   },
   "430100": {
-    "confirmedCount": 68,
+    "confirmedCount": 86,
     "cityName": "长沙市",
     "color": "#E04B49"
   },
   "430200": {
-    "confirmedCount": 19,
+    "confirmedCount": 22,
     "cityName": "株洲市",
     "color": "#E04B49"
   },
   "430300": {
-    "confirmedCount": 10,
+    "confirmedCount": 13,
     "cityName": "湘潭市",
     "color": "#E04B49"
   },
   "430400": {
-    "confirmedCount": 25,
+    "confirmedCount": 26,
     "cityName": "衡阳市",
     "color": "#E04B49"
   },
   "430500": {
-    "confirmedCount": 36,
+    "confirmedCount": 41,
     "cityName": "邵阳市",
     "color": "#E04B49"
   },
