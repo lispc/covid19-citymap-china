@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.01-12:51:33";
+const LAST_UPDATE = "2020.02.01-12:56:39";
 const DATA = {
   "110000": {
     "confirmedCount": 156,
@@ -146,7 +146,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "150600": {
-    "confirmedCount": 3,
+    "confirmedCount": 5,
     "cityName": "鄂尔多斯市",
     "color": "#F08E7E"
   },
@@ -156,7 +156,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "150800": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "巴彦淖尔市",
     "color": "#F08E7E"
   },
