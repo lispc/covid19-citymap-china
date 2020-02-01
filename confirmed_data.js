@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.01-10:44:10";
+const LAST_UPDATE = "2020.02.01-10:49:16";
 const DATA = {
   "110000": {
     "confirmedCount": 139,
@@ -666,7 +666,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "370100": {
-    "confirmedCount": 16,
+    "confirmedCount": 18,
     "cityName": "济南市",
     "color": "#E04B49"
   },
@@ -676,14 +676,14 @@ const DATA = {
     "color": "#E04B49"
   },
   "370300": {
-    "confirmedCount": 9,
+    "confirmedCount": 10,
     "cityName": "淄博市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "370400": {
-    "confirmedCount": 9,
+    "confirmedCount": 11,
     "cityName": "枣庄市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "370500": {
     "confirmedCount": 0,
@@ -691,34 +691,34 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "370600": {
-    "confirmedCount": 18,
+    "confirmedCount": 20,
     "cityName": "烟台市",
     "color": "#E04B49"
   },
   "370700": {
-    "confirmedCount": 8,
+    "confirmedCount": 9,
     "cityName": "潍坊市",
     "color": "#F08E7E"
   },
   "370800": {
-    "confirmedCount": 8,
+    "confirmedCount": 10,
     "cityName": "济宁市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "370900": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "泰安市",
     "color": "#F08E7E"
   },
   "371000": {
-    "confirmedCount": 19,
+    "confirmedCount": 24,
     "cityName": "威海市",
     "color": "#E04B49"
   },
   "371100": {
-    "confirmedCount": 9,
+    "confirmedCount": 10,
     "cityName": "日照市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "371200": {
     "confirmedCount": 0,
@@ -731,7 +731,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "371400": {
-    "confirmedCount": 16,
+    "confirmedCount": 17,
     "cityName": "德州市",
     "color": "#E04B49"
   },
