@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.02-07:21:54";
+const LAST_UPDATE = "2020.02.02-07:27:00";
 const DATA = {
   "110000": {
     "confirmedCount": 168,
@@ -1306,9 +1306,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500107": {
-    "confirmedCount": 9,
+    "confirmedCount": 11,
     "cityName": "九龙坡区",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "500108": {
     "confirmedCount": 3,
@@ -1331,7 +1331,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500112": {
-    "confirmedCount": 21,
+    "confirmedCount": 24,
     "cityName": "渝北区",
     "color": "#E04B49"
   },
