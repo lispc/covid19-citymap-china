@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.01-13:06:50";
+const LAST_UPDATE = "2020.02.01-13:11:57";
 const DATA = {
   "110000": {
     "confirmedCount": 156,
@@ -251,7 +251,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "220100": {
-    "confirmedCount": 4,
+    "confirmedCount": 7,
     "cityName": "长春市",
     "color": "#F08E7E"
   },
