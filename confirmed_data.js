@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.01-07:55:59";
+const LAST_UPDATE = "2020.02.01-08:01:05";
 const DATA = {
   "110000": {
     "confirmedCount": 139,
@@ -1301,9 +1301,9 @@ const DATA = {
     "color": "#E04B49"
   },
   "500106": {
-    "confirmedCount": 0,
+    "confirmedCount": 2,
     "cityName": "沙坪坝区",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "500107": {
     "confirmedCount": 8,
@@ -1311,7 +1311,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500108": {
-    "confirmedCount": 3,
+    "confirmedCount": 6,
     "cityName": "南岸区",
     "color": "#F08E7E"
   },
@@ -1356,7 +1356,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500117": {
-    "confirmedCount": 6,
+    "confirmedCount": 8,
     "cityName": "合川区",
     "color": "#F08E7E"
   },
