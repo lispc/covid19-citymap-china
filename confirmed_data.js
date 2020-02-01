@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.01-10:59:28";
+const LAST_UPDATE = "2020.02.01-11:04:33";
 const DATA = {
   "110000": {
     "confirmedCount": 139,
@@ -486,17 +486,17 @@ const DATA = {
     "color": "#F08E7E"
   },
   "340100": {
-    "confirmedCount": 50,
+    "confirmedCount": 59,
     "cityName": "合肥市",
     "color": "#E04B49"
   },
   "340200": {
-    "confirmedCount": 14,
+    "confirmedCount": 15,
     "cityName": "芜湖市",
     "color": "#E04B49"
   },
   "340300": {
-    "confirmedCount": 15,
+    "confirmedCount": 16,
     "cityName": "蚌埠市",
     "color": "#E04B49"
   },
@@ -506,22 +506,22 @@ const DATA = {
     "color": "#F08E7E"
   },
   "340500": {
-    "confirmedCount": 14,
+    "confirmedCount": 22,
     "cityName": "马鞍山市",
     "color": "#E04B49"
   },
   "340600": {
-    "confirmedCount": 2,
+    "confirmedCount": 6,
     "cityName": "淮北市",
     "color": "#F08E7E"
   },
   "340700": {
-    "confirmedCount": 14,
+    "confirmedCount": 16,
     "cityName": "铜陵市",
     "color": "#E04B49"
   },
   "340800": {
-    "confirmedCount": 24,
+    "confirmedCount": 37,
     "cityName": "安庆市",
     "color": "#E04B49"
   },
@@ -531,27 +531,27 @@ const DATA = {
     "color": "#F08E7E"
   },
   "341100": {
-    "confirmedCount": 4,
+    "confirmedCount": 6,
     "cityName": "滁州市",
     "color": "#F08E7E"
   },
   "341200": {
-    "confirmedCount": 38,
+    "confirmedCount": 47,
     "cityName": "阜阳市",
     "color": "#E04B49"
   },
   "341300": {
-    "confirmedCount": 10,
+    "confirmedCount": 12,
     "cityName": "宿州市",
     "color": "#E04B49"
   },
   "341500": {
-    "confirmedCount": 9,
+    "confirmedCount": 13,
     "cityName": "六安市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "341600": {
-    "confirmedCount": 20,
+    "confirmedCount": 25,
     "cityName": "亳州市",
     "color": "#E04B49"
   },
