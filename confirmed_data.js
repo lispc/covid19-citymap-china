@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.01-11:55:29";
+const LAST_UPDATE = "2020.02.01-12:00:35";
 const DATA = {
   "110000": {
     "confirmedCount": 139,
@@ -1276,7 +1276,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500101": {
-    "confirmedCount": 29,
+    "confirmedCount": 33,
     "cityName": "万州区",
     "color": "#E04B49"
   },
@@ -1286,7 +1286,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500103": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "渝中区",
     "color": "#F08E7E"
   },
@@ -1296,17 +1296,17 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500105": {
-    "confirmedCount": 8,
+    "confirmedCount": 12,
     "cityName": "江北区",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "500106": {
-    "confirmedCount": 0,
+    "confirmedCount": 2,
     "cityName": "沙坪坝区",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "500107": {
-    "confirmedCount": 8,
+    "confirmedCount": 9,
     "cityName": "九龙坡区",
     "color": "#F08E7E"
   },
@@ -1331,7 +1331,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500112": {
-    "confirmedCount": 19,
+    "confirmedCount": 21,
     "cityName": "渝北区",
     "color": "#E04B49"
   },
@@ -1346,9 +1346,9 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500115": {
-    "confirmedCount": 9,
+    "confirmedCount": 10,
     "cityName": "长寿区",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "500116": {
     "confirmedCount": 3,
@@ -1356,7 +1356,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500117": {
-    "confirmedCount": 6,
+    "confirmedCount": 8,
     "cityName": "合川区",
     "color": "#F08E7E"
   },
@@ -1371,7 +1371,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500120": {
-    "confirmedCount": 6,
+    "confirmedCount": 8,
     "cityName": "璧山区",
     "color": "#F08E7E"
   },
@@ -1386,7 +1386,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500153": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "荣昌区",
     "color": "#F08E7E"
   },
@@ -1411,14 +1411,14 @@ const DATA = {
     "color": "#F08E7E"
   },
   "500230": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "丰都县",
     "color": "#F08E7E"
   },
   "500231": {
-    "confirmedCount": 8,
+    "confirmedCount": 10,
     "cityName": "垫江县",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "500233": {
     "confirmedCount": 12,
@@ -1426,7 +1426,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "500235": {
-    "confirmedCount": 15,
+    "confirmedCount": 17,
     "cityName": "云阳县",
     "color": "#E04B49"
   },
@@ -1446,9 +1446,9 @@ const DATA = {
     "color": "#E04B49"
   },
   "500240": {
-    "confirmedCount": 8,
+    "confirmedCount": 10,
     "cityName": "石柱土家族自治县",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "500241": {
     "confirmedCount": 1,
