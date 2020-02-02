@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.02-09:44:33";
+const LAST_UPDATE = "2020.02.02-09:49:38";
 const DATA = {
   "110000": {
     "confirmedCount": 168,
@@ -431,22 +431,22 @@ const DATA = {
     "color": "#F08E7E"
   },
   "330100": {
-    "confirmedCount": 98,
+    "confirmedCount": 111,
     "cityName": "杭州市",
-    "color": "#E04B49"
+    "color": "#73181B"
   },
   "330200": {
-    "confirmedCount": 55,
+    "confirmedCount": 64,
     "cityName": "宁波市",
     "color": "#E04B49"
   },
   "330300": {
-    "confirmedCount": 241,
+    "confirmedCount": 255,
     "cityName": "温州市",
     "color": "#73181B"
   },
   "330400": {
-    "confirmedCount": 18,
+    "confirmedCount": 20,
     "cityName": "嘉兴市",
     "color": "#E04B49"
   },
@@ -456,17 +456,17 @@ const DATA = {
     "color": "#F08E7E"
   },
   "330600": {
-    "confirmedCount": 24,
+    "confirmedCount": 25,
     "cityName": "绍兴市",
     "color": "#E04B49"
   },
   "330700": {
-    "confirmedCount": 34,
+    "confirmedCount": 41,
     "cityName": "金华市",
     "color": "#E04B49"
   },
   "330800": {
-    "confirmedCount": 13,
+    "confirmedCount": 14,
     "cityName": "衢州市",
     "color": "#E04B49"
   },
@@ -476,12 +476,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "331000": {
-    "confirmedCount": 95,
+    "confirmedCount": 109,
     "cityName": "台州市",
-    "color": "#E04B49"
+    "color": "#73181B"
   },
   "331100": {
-    "confirmedCount": 8,
+    "confirmedCount": 9,
     "cityName": "丽水市",
     "color": "#F08E7E"
   },
