@@ -61,7 +61,7 @@ function initVirusMap() {
         return DATA[properties.adcode]["color"];
       },
       "province-stroke": "black",
-      "city-stroke": "white", // 中国地级市边界
+      "city-stroke": "cornflowerblue", // 中国地级市边界
       "county-stroke": "rgba(255,255,255,0.5)" // 中国区县边界
     }
   });
@@ -77,7 +77,7 @@ function initVirusMap() {
         return DATA[properties.adcode]["color"];
       },
       "province-stroke": "black",
-      "city-stroke": "white", // 中国地级市边界
+      "city-stroke": "cornflowerblue", // 中国地级市边界
       "county-stroke": "rgba(255,255,255,0.5)" // 中国区县边界
     }
   });
