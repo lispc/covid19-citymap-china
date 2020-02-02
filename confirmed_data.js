@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.02-15:30:06";
+const LAST_UPDATE = "2020.02.02-15:35:12";
 const DATA = {
   "110000": {
     "confirmedCount": 183,
@@ -671,7 +671,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "370200": {
-    "confirmedCount": 22,
+    "confirmedCount": 24,
     "cityName": "青岛市",
     "color": "#FF9F9F"
   },
@@ -681,7 +681,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "370400": {
-    "confirmedCount": 14,
+    "confirmedCount": 15,
     "cityName": "枣庄市",
     "color": "#FFBFBF"
   },
@@ -696,7 +696,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "370700": {
-    "confirmedCount": 10,
+    "confirmedCount": 11,
     "cityName": "潍坊市",
     "color": "#FFBFBF"
   },
@@ -746,7 +746,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "371700": {
-    "confirmedCount": 8,
+    "confirmedCount": 9,
     "cityName": "菏泽市",
     "color": "#FFDFDF"
   },
