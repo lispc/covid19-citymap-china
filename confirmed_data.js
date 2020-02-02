@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.02-09:13:58";
+const LAST_UPDATE = "2020.02.02-09:19:04";
 const DATA = {
   "110000": {
     "confirmedCount": 168,
@@ -751,22 +751,22 @@ const DATA = {
     "color": "#F08E7E"
   },
   "410100": {
-    "confirmedCount": 56,
+    "confirmedCount": 65,
     "cityName": "郑州市",
     "color": "#E04B49"
   },
   "410200": {
-    "confirmedCount": 8,
+    "confirmedCount": 11,
     "cityName": "开封市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "410300": {
-    "confirmedCount": 5,
+    "confirmedCount": 7,
     "cityName": "洛阳市",
     "color": "#F08E7E"
   },
   "410400": {
-    "confirmedCount": 11,
+    "confirmedCount": 14,
     "cityName": "平顶山市",
     "color": "#E04B49"
   },
@@ -776,7 +776,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "410600": {
-    "confirmedCount": 6,
+    "confirmedCount": 8,
     "cityName": "鹤壁市",
     "color": "#F08E7E"
   },
@@ -786,7 +786,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "410800": {
-    "confirmedCount": 2,
+    "confirmedCount": 7,
     "cityName": "焦作市",
     "color": "#F08E7E"
   },
@@ -796,12 +796,12 @@ const DATA = {
     "color": "#F08E7E"
   },
   "411000": {
-    "confirmedCount": 12,
+    "confirmedCount": 13,
     "cityName": "许昌市",
     "color": "#E04B49"
   },
   "411100": {
-    "confirmedCount": 14,
+    "confirmedCount": 16,
     "cityName": "漯河市",
     "color": "#E04B49"
   },
@@ -811,27 +811,27 @@ const DATA = {
     "color": "#F08E7E"
   },
   "411300": {
-    "confirmedCount": 66,
+    "confirmedCount": 75,
     "cityName": "南阳市",
     "color": "#E04B49"
   },
   "411400": {
-    "confirmedCount": 36,
+    "confirmedCount": 44,
     "cityName": "商丘市",
     "color": "#E04B49"
   },
   "411500": {
-    "confirmedCount": 70,
+    "confirmedCount": 88,
     "cityName": "信阳市",
     "color": "#E04B49"
   },
   "411600": {
-    "confirmedCount": 38,
+    "confirmedCount": 40,
     "cityName": "周口市",
     "color": "#E04B49"
   },
   "411700": {
-    "confirmedCount": 40,
+    "confirmedCount": 46,
     "cityName": "驻马店市",
     "color": "#E04B49"
   },
@@ -2036,7 +2036,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "810000": {
-    "confirmedCount": 13,
+    "confirmedCount": 14,
     "cityName": "香港",
     "color": "#E04B49"
   },
