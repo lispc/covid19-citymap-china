@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.02-13:07:21";
+const LAST_UPDATE = "2020.02.02-13:12:28";
 const DATA = {
   "110000": {
     "confirmedCount": 183,
@@ -6,7 +6,7 @@ const DATA = {
     "color": "#B80000"
   },
   "120000": {
-    "confirmedCount": 45,
+    "confirmedCount": 48,
     "cityName": "天津市",
     "color": "#FF5F5F"
   },
@@ -1891,7 +1891,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "640100": {
-    "confirmedCount": 16,
+    "confirmedCount": 17,
     "cityName": "银川市",
     "color": "#FFBFBF"
   },
@@ -1901,7 +1901,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "640300": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "吴忠市",
     "color": "#FFDFDF"
   },
