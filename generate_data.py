@@ -124,6 +124,23 @@ def get_confirmed_count_tx():
     return confirmed_count, suspected_count
 
 
+def count_to_color(confirm, suspect):
+    # 颜色含义同丁香园
+    if confirm >= 1000:
+        return '#731919'
+    if confirm >= 500:
+        return '#9C2F31'
+    if confirm >= 100:
+        return '#C34548'
+    if confirm >= 10:
+        return '#E26061'
+    if confirm >= 1:
+        return '#F08F7F'
+    if suspect > 0:
+        return '#F2D7A2'
+    return '#FFFFFF'
+
+
 def write_result(result):
     writer = open('confirmed_data.js', 'w', encoding='utf8')
     writer.write('const LAST_UPDATE = "')
@@ -139,8 +156,8 @@ def main():
     confirmed_count, suspected_count = get_confirmed_count_tx()
     result = {}
     for code in amap_code_to_city:
-        # 现在数据源的疑似都是 0 了，确诊的用正数，疑似的用负数，不需要存颜色和名字了，由app.js决定颜色好了
-        result[code] = confirmed_count[code] if confirmed_count[code] > 0 else 0 - suspected_count[code]
+        # 现在数据源的疑似都是 0 了，直接存颜色
+        result[code] = count_to_color(confirmed_count[code], suspected_count[code])
     write_result(result)
 
 

@@ -55,21 +55,7 @@ function initVirusMap() {
   ];
 
   function fillColor(properties) {
-    var count = DATA[properties.adcode];
-    if (count < 0)
-      return '#f2d7a2';
-    else if (count == 0)
-      return '#fff';
-    else if (count >= 1 && count <= 9)
-      return '#f08f7f';
-    else if (count >= 10 && count <= 99)
-      return '#e26061';
-    else if (count >= 100 && count <= 499)
-      return '#c34548';
-    else if (count >= 500 && count <= 999)
-      return '#9c2f31';
-    else if (count >= 1000)
-      return '#731919';
+    return DATA[properties.adcode];
   }
 
   disProvince = new AMap.DistrictLayer.Province({
@@ -127,101 +113,7 @@ function clickHander(ev) {
     console.log("props1", props);
   }
   if (props) {
-    const seperator = " ";
-    // 京津沪港澳台
-    if (["110000", "120000", "310000", "710000", "810000", "820000"].includes(props.adcode_pro.toString())) {
-      const text =
-        props.NAME_CHN + seperator + DATA[props.adcode];
-      //console.log('text', text);
-      var labelMarker = new AMap.LabelMarker({
-        position: [props.x, props.y],
-        text: { content: text },
-        rank: 2
-      });
-      layer.add(labelMarker);
-    } else {
-      // 展示点击区域所在省份每个市的病例数字
-      AMap.plugin("AMap.DistrictSearch", function () {
-        const is_chongqing = props.adcode_pro.toString() == "500000";
-        const subdistrict = is_chongqing ? 2 : 1;
-        //console.log('subdistrict', subdistrict)
-        function districtsHandler(result) {
-          if (!is_chongqing) {
-            for (entry of result.districtList[0].districtList) {
-              const text =
-                entry.name + seperator + DATA[entry.adcode];
-              //console.log("text", text);
-              const option = {
-                position: entry.center,
-                text: { content: text },
-                rank: entry.adcode == props.adcode.toString() ? 2 : 1
-              };
-              if (verbose) {
-                console.log("option", option);
-              }
-              var labelMarker = new AMap.LabelMarker(option);
-              layer.add(labelMarker);
-            }
-          } else {
-            // 重庆郊县
-            for (entry of result.districtList[0].districtList[0].districtList) {
-              const option = {
-                position: entry.center,
-                text: {
-                  content:
-                    entry.name +
-                    seperator +
-                    DATA[entry.adcode]
-                },
-                rank: entry.adcode == props.adcode.toString() ? 2 : 1
-              };
-              if (verbose) {
-                console.log("option, 重庆郊县", option);
-              }
-              var labelMarker = new AMap.LabelMarker(option);
-              layer.add(labelMarker);
-            }
-            // 重庆城区
-            var count = 0;
-            const chongqing_downtown = result.districtList[0].districtList[1];
-            for (entry of chongqing_downtown.districtList) {
-              count += DATA[entry.adcode];
-            }
-            const option = {
-              position: chongqing_downtown.center,
-              text: {
-                content: chongqing_downtown.name + seperator + count
-              },
-              rank: props.adcode_cit.toString() == "500100" ? 2 : 1
-            };
-            if (verbose) {
-              console.log("option, 重庆城区", option);
-            }
-            var labelMarker = new AMap.LabelMarker(option);
-            layer.add(labelMarker);
-          }
-        }
-        var districtSearch = new AMap.DistrictSearch({
-          level: "district",
-          subdistrict: subdistrict
-        });
-        const k = props.adcode_pro.toString();
-        if (cache.get(k)) {
-          districtsHandler(cache.get(k));
-        } else {
-          districtSearch.search(k, function (status, result) {
-            if (verbose) {
-              console.log("status", status);
-              console.log("result", result);
-            }
-            if (status == "complete") {
-              cache.set(k, result);
-              districtsHandler(result);
-            }
-          });
-        }
-      });
-    }
+    //nothing to do
   }
 }
 
