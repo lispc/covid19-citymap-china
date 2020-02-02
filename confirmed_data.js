@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.03-07:33:47";
+const LAST_UPDATE = "2020.02.03-07:38:52";
 const DATA = {
   "110000": {
     "confirmedCount": 191,
@@ -1276,12 +1276,12 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500101": {
-    "confirmedCount": 44,
+    "confirmedCount": 49,
     "cityName": "万州区",
     "color": "#FF5F5F"
   },
   "500102": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "涪陵区",
     "color": "#FFDFDF"
   },
@@ -1296,7 +1296,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500105": {
-    "confirmedCount": 13,
+    "confirmedCount": 16,
     "cityName": "江北区",
     "color": "#FFBFBF"
   },
@@ -1306,12 +1306,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500107": {
-    "confirmedCount": 11,
+    "confirmedCount": 13,
     "cityName": "九龙坡区",
     "color": "#FFBFBF"
   },
   "500108": {
-    "confirmedCount": 4,
+    "confirmedCount": 6,
     "cityName": "南岸区",
     "color": "#FFDFDF"
   },
@@ -1321,12 +1321,12 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500110": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "綦江区",
     "color": "#FFDFDF"
   },
   "500111": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "大足区",
     "color": "#FFDFDF"
   },
@@ -1336,7 +1336,7 @@ const DATA = {
     "color": "#FF9F9F"
   },
   "500113": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "巴南区",
     "color": "#FFDFDF"
   },
@@ -1376,22 +1376,22 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500151": {
-    "confirmedCount": 4,
+    "confirmedCount": 7,
     "cityName": "铜梁区",
     "color": "#FFDFDF"
   },
   "500152": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "潼南区",
     "color": "#FFDFDF"
   },
   "500153": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "荣昌区",
     "color": "#FFDFDF"
   },
   "500154": {
-    "confirmedCount": 16,
+    "confirmedCount": 17,
     "cityName": "开州区",
     "color": "#FFBFBF"
   },
@@ -1431,12 +1431,12 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "500236": {
-    "confirmedCount": 8,
+    "confirmedCount": 9,
     "cityName": "奉节县",
     "color": "#FFDFDF"
   },
   "500237": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "巫山县",
     "color": "#FFDFDF"
   },
