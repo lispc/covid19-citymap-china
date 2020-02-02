@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.02-08:17:56";
+const LAST_UPDATE = "2020.02.02-08:23:02";
 const DATA = {
   "110000": {
     "confirmedCount": 168,
@@ -11,14 +11,14 @@ const DATA = {
     "color": "#E04B49"
   },
   "130100": {
-    "confirmedCount": 12,
+    "confirmedCount": 13,
     "cityName": "石家庄市",
     "color": "#E04B49"
   },
   "130200": {
-    "confirmedCount": 8,
+    "confirmedCount": 11,
     "cityName": "唐山市",
-    "color": "#F08E7E"
+    "color": "#E04B49"
   },
   "130300": {
     "confirmedCount": 1,
@@ -26,7 +26,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "130400": {
-    "confirmedCount": 10,
+    "confirmedCount": 11,
     "cityName": "邯郸市",
     "color": "#E04B49"
   },
@@ -36,12 +36,12 @@ const DATA = {
     "color": "#E04B49"
   },
   "130600": {
-    "confirmedCount": 11,
+    "confirmedCount": 13,
     "cityName": "保定市",
     "color": "#E04B49"
   },
   "130700": {
-    "confirmedCount": 8,
+    "confirmedCount": 9,
     "cityName": "张家口市",
     "color": "#F08E7E"
   },
