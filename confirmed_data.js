@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.03-01:01:23";
+const LAST_UPDATE = "2020.02.03-01:06:29";
 const DATA = {
   "110000": {
     "confirmedCount": 191,
@@ -1781,7 +1781,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "620100": {
-    "confirmedCount": 23,
+    "confirmedCount": 26,
     "cityName": "兰州市",
     "color": "#FF9F9F"
   },
@@ -1801,7 +1801,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "620500": {
-    "confirmedCount": 3,
+    "confirmedCount": 8,
     "cityName": "天水市",
     "color": "#FFDFDF"
   },
@@ -1826,9 +1826,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "621000": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "庆阳市",
-    "color": "#FFFFFF"
+    "color": "#FFDFDF"
   },
   "621100": {
     "confirmedCount": 3,
@@ -1836,12 +1836,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "621200": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "陇南市",
     "color": "#FFDFDF"
   },
   "622900": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "临夏回族自治州",
     "color": "#FFDFDF"
   },
