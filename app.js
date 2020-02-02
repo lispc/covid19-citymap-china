@@ -6,8 +6,7 @@ var verbose = false;
 var cache = new Map();
 
 function initVirusMap() {
-  document.getElementById("title").innerHTML +=
-    "（最后更新于 " + LAST_UPDATE + "）";
+  document.getElementById("title").innerHTML += LAST_UPDATE;
 
   map = new AMap.Map("container", {
     zoom: window.screen.width <= 600 ? 3 : 4,
@@ -114,7 +113,11 @@ function clickHander(ev) {
   if (props) {
     const seperator = " ";
     // 京津沪港澳台
-    if (["110000", "120000", "310000", "710000", "810000", "820000"].includes(props.adcode_pro.toString())) {
+    if (
+      ["110000", "120000", "310000", "710000", "810000", "820000"].includes(
+        props.adcode_pro.toString()
+      )
+    ) {
       const text =
         props.NAME_CHN + seperator + DATA[props.adcode]["confirmedCount"];
       //console.log('text', text);
