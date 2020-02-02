@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.02-08:28:08";
+const LAST_UPDATE = "2020.02.02-08:33:13";
 const DATA = {
   "110000": {
     "confirmedCount": 168,
@@ -1116,7 +1116,7 @@ const DATA = {
     "color": "#E04B49"
   },
   "450300": {
-    "confirmedCount": 21,
+    "confirmedCount": 23,
     "cityName": "桂林市",
     "color": "#E04B49"
   },
@@ -1136,17 +1136,17 @@ const DATA = {
     "color": "#F08E7E"
   },
   "450700": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "钦州市",
     "color": "#F08E7E"
   },
   "450800": {
-    "confirmedCount": 0,
+    "confirmedCount": 4,
     "cityName": "贵港市",
-    "color": "#FFFFFF"
+    "color": "#F08E7E"
   },
   "450900": {
-    "confirmedCount": 5,
+    "confirmedCount": 7,
     "cityName": "玉林市",
     "color": "#F08E7E"
   },
@@ -1156,7 +1156,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "451100": {
-    "confirmedCount": 1,
+    "confirmedCount": 3,
     "cityName": "贺州市",
     "color": "#F08E7E"
   },
