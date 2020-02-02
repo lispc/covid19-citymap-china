@@ -17,18 +17,24 @@
                 height: 300px; 
                 margin: 0;
             }
+            .legend {
+                width:375px; 
+            }
 
         }
         @media (min-width: 1201px) {
             #main_div {
                 margin: 0 auto;
-                width:720px;
+                width:700px;
             }
             #container {
                 text-align:center;
-                width:720px; 
-                height: 576px; 
+                width:700px; 
+                height: 560px; 
                 margin: 0;
+            }
+            .legend {
+                width:700px; 
             }
         }
     </style>
@@ -37,10 +43,16 @@
 </head>
 <body>
     <p style="text-align:center; width: 100%">
-        <h1 id='title' style="text-align:center; width: 100%">
+        <h1 style="text-align:center; width: 100%">
             新冠肺炎地级市疫情图
         </h1>
+        <h2 id='title' style="text-align:center; width: 100%">
+        </h2>
+
     </p>
+    <div style="text-align:center;width: 100%">
+        <img src="legend.jpg" alt="" class="legend">
+    </div>
     <div style="text-align:center;width: 100%">
         <div id="main_div">
             <div id="container">
