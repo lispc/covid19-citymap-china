@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.02-12:52:04";
+const LAST_UPDATE = "2020.02.02-12:57:10";
 const DATA = {
   "110000": {
     "confirmedCount": 183,
@@ -566,32 +566,32 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "350100": {
-    "confirmedCount": 39,
+    "confirmedCount": 44,
     "cityName": "福州市",
-    "color": "#FF7F7F"
+    "color": "#FF5F5F"
   },
   "350200": {
-    "confirmedCount": 17,
+    "confirmedCount": 18,
     "cityName": "厦门市",
     "color": "#FFBFBF"
   },
   "350300": {
-    "confirmedCount": 25,
+    "confirmedCount": 27,
     "cityName": "莆田市",
     "color": "#FF9F9F"
   },
   "350400": {
-    "confirmedCount": 10,
+    "confirmedCount": 11,
     "cityName": "三明市",
     "color": "#FFBFBF"
   },
   "350500": {
-    "confirmedCount": 24,
+    "confirmedCount": 29,
     "cityName": "泉州市",
     "color": "#FF9F9F"
   },
   "350600": {
-    "confirmedCount": 11,
+    "confirmedCount": 12,
     "cityName": "漳州市",
     "color": "#FFBFBF"
   },
@@ -1616,9 +1616,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "530100": {
-    "confirmedCount": 30,
+    "confirmedCount": 31,
     "cityName": "昆明市",
-    "color": "#FF9F9F"
+    "color": "#FF7F7F"
   },
   "530300": {
     "confirmedCount": 5,
@@ -1626,9 +1626,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "530400": {
-    "confirmedCount": 7,
+    "confirmedCount": 11,
     "cityName": "玉溪市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "530500": {
     "confirmedCount": 8,
@@ -1676,7 +1676,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "532900": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "大理白族自治州",
     "color": "#FFDFDF"
   },
