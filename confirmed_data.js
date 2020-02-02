@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.02-09:19:04";
+const LAST_UPDATE = "2020.02.02-09:24:10";
 const DATA = {
   "110000": {
     "confirmedCount": 168,
@@ -1976,7 +1976,7 @@ const DATA = {
     "color": "#F08E7E"
   },
   "654200": {
-    "confirmedCount": 2,
+    "confirmedCount": 5,
     "cityName": "塔城地区",
     "color": "#F08E7E"
   },
