@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.03-06:58:06";
+const LAST_UPDATE = "2020.02.03-07:03:12";
 const DATA = {
   "110000": {
     "confirmedCount": 191,
@@ -841,72 +841,72 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "420100": {
-    "confirmedCount": 4109,
+    "confirmedCount": 5142,
     "cityName": "武汉市",
-    "color": "#590000"
+    "color": "#420001"
   },
   "420200": {
-    "confirmedCount": 252,
+    "confirmedCount": 334,
     "cityName": "黄石市",
     "color": "#A00000"
   },
   "420300": {
-    "confirmedCount": 212,
+    "confirmedCount": 256,
     "cityName": "十堰市",
     "color": "#A00000"
   },
   "420500": {
-    "confirmedCount": 353,
+    "confirmedCount": 392,
     "cityName": "宜昌市",
     "color": "#A00000"
   },
   "420600": {
-    "confirmedCount": 441,
+    "confirmedCount": 548,
     "cityName": "襄阳市",
-    "color": "#A00000"
+    "color": "#880000"
   },
   "420700": {
-    "confirmedCount": 278,
+    "confirmedCount": 306,
     "cityName": "鄂州市",
     "color": "#A00000"
   },
   "420800": {
-    "confirmedCount": 329,
+    "confirmedCount": 345,
     "cityName": "荆门市",
     "color": "#A00000"
   },
   "420900": {
-    "confirmedCount": 749,
+    "confirmedCount": 918,
     "cityName": "孝感市",
     "color": "#880000"
   },
   "421000": {
-    "confirmedCount": 333,
+    "confirmedCount": 499,
     "cityName": "荆州市",
     "color": "#A00000"
   },
   "421100": {
-    "confirmedCount": 1002,
+    "confirmedCount": 1246,
     "cityName": "黄冈市",
     "color": "#710000"
   },
   "421200": {
-    "confirmedCount": 246,
+    "confirmedCount": 296,
     "cityName": "咸宁市",
     "color": "#A00000"
   },
   "421300": {
-    "confirmedCount": 384,
+    "confirmedCount": 458,
     "cityName": "随州市",
     "color": "#A00000"
   },
   "422800": {
-    "confirmedCount": 105,
+    "confirmedCount": 111,
     "cityName": "恩施土家族苗族自治州",
     "color": "#B80000"
   },
   "429004": {
-    "confirmedCount": 140,
+    "confirmedCount": 169,
     "cityName": "仙桃市",
     "color": "#B80000"
   },
@@ -916,9 +916,9 @@ const DATA = {
     "color": "#FF7F7F"
   },
   "429006": {
-    "confirmedCount": 99,
+    "confirmedCount": 115,
     "cityName": "天门市",
-    "color": "#CF0000"
+    "color": "#B80000"
   },
   "429021": {
     "confirmedCount": 7,
