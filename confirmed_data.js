@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.02-11:45:51";
+const LAST_UPDATE = "2020.02.02-11:50:57";
 const DATA = {
   "110000": {
     "confirmedCount": 168,
@@ -611,7 +611,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "360100": {
-    "confirmedCount": 83,
+    "confirmedCount": 89,
     "cityName": "南昌市",
     "color": "#E70000"
   },
@@ -621,47 +621,47 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "360300": {
-    "confirmedCount": 9,
+    "confirmedCount": 15,
     "cityName": "萍乡市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "360400": {
-    "confirmedCount": 43,
+    "confirmedCount": 55,
     "cityName": "九江市",
-    "color": "#FF5F5F"
+    "color": "#FF3F3F"
   },
   "360500": {
-    "confirmedCount": 40,
+    "confirmedCount": 43,
     "cityName": "新余市",
-    "color": "#FF7F7F"
+    "color": "#FF5F5F"
   },
   "360600": {
-    "confirmedCount": 4,
+    "confirmedCount": 8,
     "cityName": "鹰潭市",
     "color": "#FFDFDF"
   },
   "360700": {
-    "confirmedCount": 30,
+    "confirmedCount": 34,
     "cityName": "赣州市",
-    "color": "#FF9F9F"
+    "color": "#FF7F7F"
   },
   "360800": {
-    "confirmedCount": 11,
+    "confirmedCount": 12,
     "cityName": "吉安市",
     "color": "#FFBFBF"
   },
   "360900": {
-    "confirmedCount": 29,
+    "confirmedCount": 31,
     "cityName": "宜春市",
-    "color": "#FF9F9F"
+    "color": "#FF7F7F"
   },
   "361000": {
-    "confirmedCount": 18,
+    "confirmedCount": 24,
     "cityName": "抚州市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "361100": {
-    "confirmedCount": 16,
+    "confirmedCount": 19,
     "cityName": "上饶市",
     "color": "#FFBFBF"
   },
