@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.02-12:46:59";
+const LAST_UPDATE = "2020.02.02-12:52:04";
 const DATA = {
   "110000": {
     "confirmedCount": 183,
@@ -126,14 +126,14 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "150200": {
-    "confirmedCount": 3,
+    "confirmedCount": 5,
     "cityName": "包头市",
     "color": "#FFDFDF"
   },
   "150300": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "乌海市",
-    "color": "#FFFFFF"
+    "color": "#FFDFDF"
   },
   "150400": {
     "confirmedCount": 2,
@@ -146,7 +146,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "150600": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "鄂尔多斯市",
     "color": "#FFDFDF"
   },
