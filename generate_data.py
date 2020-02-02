@@ -40,7 +40,7 @@ def normalize_city_name(province_name, city_name):
     # 高德地图里没有两江新区，姑且算入渝北
     manual_mapping = {'巩义': '郑州市', '固始县': '信阳市',
                       '滑县': '安阳市', '长垣': '新乡市',
-                      '永城': '商丘市',
+                      '永城': '商丘市', '邓州': '南阳市',
                       '韩城': '渭南市',
                       '宁东管委会': '银川市',
                       '满洲里': '呼伦贝尔市', '阿拉善': '阿拉善盟',
@@ -53,7 +53,7 @@ def normalize_city_name(province_name, city_name):
      # 忽略部分内容
     ignore_list = ['外地来京人员', '未知', '未明确地区', '所属地待确认', '待确认', '地区待确认']
     if city_name in ignore_list:
-        print('// ignore', province_name, city_name)
+        #print('// ignore', province_name, city_name)
         return ''
 
     # 名称规则
@@ -126,15 +126,41 @@ def get_confirmed_count_tx():
 
 
 def count_to_color(confirm, suspect):
-    # 颜色含义同丁香园
+    # 颜色含义重新定义了请注意
+    if confirm > 5000:
+        return '#420001'
+    if confirm > 2000:
+        return '#590000'
+    if confirm > 1000:
+        return '#710000'
+    if confirm > 500:
+        return '#880000'
+    if confirm > 200:
+        return '#A00000'
     if confirm > 100:
-        return '#73181B'
+        return '#B80000'
+    if confirm > 90:
+        return '#CF0000'
+    if confirm > 80:
+        return '#E70000'
+    if confirm > 70:
+        return '#FF0000'
+    if confirm > 60:
+        return '#FF1F1F'
+    if confirm > 50:
+        return '#FF3F3F'
+    if confirm > 40:
+        return '#FF5F5F'
+    if confirm > 30:
+        return '#FF7F7F'
+    if confirm > 20:
+        return '#FF9F9F'
     if confirm >= 10:
-        return '#E04B49'
+        return '#FFBFBF'
     if confirm > 0:
-        return '#F08E7E'
+        return '#FFDFDF'
     if suspect > 0:
-        return '#F2D7A2'
+        return '#FDFFD6'
     return '#FFFFFF'
 
 
