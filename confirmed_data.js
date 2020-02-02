@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.02-11:35:40";
+const LAST_UPDATE = "2020.02.02-11:40:45";
 const DATA = {
   "110000": {
     "confirmedCount": 168,
@@ -491,14 +491,14 @@ const DATA = {
     "color": "#FF3F3F"
   },
   "340200": {
-    "confirmedCount": 15,
+    "confirmedCount": 16,
     "cityName": "芜湖市",
     "color": "#FFBFBF"
   },
   "340300": {
-    "confirmedCount": 16,
+    "confirmedCount": 26,
     "cityName": "蚌埠市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "340400": {
     "confirmedCount": 6,
@@ -506,7 +506,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "340500": {
-    "confirmedCount": 22,
+    "confirmedCount": 27,
     "cityName": "马鞍山市",
     "color": "#FF9F9F"
   },
@@ -521,9 +521,9 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "340800": {
-    "confirmedCount": 37,
+    "confirmedCount": 43,
     "cityName": "安庆市",
-    "color": "#FF7F7F"
+    "color": "#FF5F5F"
   },
   "341000": {
     "confirmedCount": 9,
@@ -536,12 +536,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "341200": {
-    "confirmedCount": 47,
+    "confirmedCount": 59,
     "cityName": "阜阳市",
-    "color": "#FF5F5F"
+    "color": "#FF3F3F"
   },
   "341300": {
-    "confirmedCount": 12,
+    "confirmedCount": 14,
     "cityName": "宿州市",
     "color": "#FFBFBF"
   },
@@ -551,12 +551,12 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "341600": {
-    "confirmedCount": 25,
+    "confirmedCount": 30,
     "cityName": "亳州市",
     "color": "#FF9F9F"
   },
   "341700": {
-    "confirmedCount": 4,
+    "confirmedCount": 6,
     "cityName": "池州市",
     "color": "#FFDFDF"
   },
