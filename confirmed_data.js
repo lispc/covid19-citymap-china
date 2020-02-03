@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.03-10:06:46";
+const LAST_UPDATE = "2020.02.03-10:11:54";
 const DATA = {
   "110000": {
     "confirmedCount": 191,
@@ -1206,9 +1206,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "469005": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "文昌市",
-    "color": "#FFFFFF"
+    "color": "#FFDFDF"
   },
   "469006": {
     "confirmedCount": 8,
@@ -1916,9 +1916,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "650100": {
-    "confirmedCount": 8,
+    "confirmedCount": 10,
     "cityName": "乌鲁木齐市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "650200": {
     "confirmedCount": 0,
@@ -1971,7 +1971,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "654000": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "伊犁哈萨克自治州",
     "color": "#FFDFDF"
   },
