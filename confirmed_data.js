@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.03-18:30:18";
+const LAST_UPDATE = "2020.02.03-18:35:22";
 const DATA = {
   "110000": {
     "confirmedCount": 212,
@@ -1276,7 +1276,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500101": {
-    "confirmedCount": 49,
+    "confirmedCount": 50,
     "cityName": "万州区",
     "color": "#FF5F5F"
   },
@@ -1311,7 +1311,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "500108": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "南岸区",
     "color": "#FFDFDF"
   },
@@ -1321,9 +1321,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500110": {
-    "confirmedCount": 5,
+    "confirmedCount": 10,
     "cityName": "綦江区",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "500111": {
     "confirmedCount": 5,
@@ -1331,7 +1331,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500112": {
-    "confirmedCount": 24,
+    "confirmedCount": 25,
     "cityName": "渝北区",
     "color": "#FF9F9F"
   },
@@ -1381,12 +1381,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500152": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "潼南区",
     "color": "#FFDFDF"
   },
   "500153": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "荣昌区",
     "color": "#FFDFDF"
   },
@@ -1406,7 +1406,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500229": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "城口县",
     "color": "#FFDFDF"
   },
@@ -1416,7 +1416,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500231": {
-    "confirmedCount": 12,
+    "confirmedCount": 13,
     "cityName": "垫江县",
     "color": "#FFBFBF"
   },
