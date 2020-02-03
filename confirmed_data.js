@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.03-11:48:45";
+const LAST_UPDATE = "2020.02.03-11:53:51";
 const DATA = {
   "110000": {
     "confirmedCount": 191,
@@ -251,17 +251,17 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "220100": {
-    "confirmedCount": 13,
+    "confirmedCount": 17,
     "cityName": "长春市",
     "color": "#FFBFBF"
   },
   "220200": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "吉林市",
     "color": "#FFDFDF"
   },
   "220300": {
-    "confirmedCount": 2,
+    "confirmedCount": 5,
     "cityName": "四平市",
     "color": "#FFDFDF"
   },
@@ -1571,17 +1571,17 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "520100": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "贵阳市",
     "color": "#FFDFDF"
   },
   "520200": {
-    "confirmedCount": 8,
+    "confirmedCount": 9,
     "cityName": "六盘水市",
     "color": "#FFDFDF"
   },
   "520300": {
-    "confirmedCount": 5,
+    "confirmedCount": 8,
     "cityName": "遵义市",
     "color": "#FFDFDF"
   },
@@ -1596,7 +1596,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "520600": {
-    "confirmedCount": 3,
+    "confirmedCount": 6,
     "cityName": "铜仁市",
     "color": "#FFDFDF"
   },
