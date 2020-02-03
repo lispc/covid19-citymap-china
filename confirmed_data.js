@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.04-03:08:38";
+const LAST_UPDATE = "2020.02.04-03:13:43";
 const DATA = {
   "110000": {
     "confirmedCount": 212,
@@ -1616,12 +1616,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "530100": {
-    "confirmedCount": 32,
+    "confirmedCount": 34,
     "cityName": "昆明市",
     "color": "#FF7F7F"
   },
   "530300": {
-    "confirmedCount": 6,
+    "confirmedCount": 8,
     "cityName": "曲靖市",
     "color": "#FFDFDF"
   },
