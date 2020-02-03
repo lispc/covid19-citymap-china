@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.03-11:13:05";
+const LAST_UPDATE = "2020.02.03-11:18:11";
 const DATA = {
   "110000": {
     "confirmedCount": 191,
@@ -366,19 +366,19 @@ const DATA = {
     "color": "#B80000"
   },
   "320100": {
-    "confirmedCount": 35,
+    "confirmedCount": 40,
     "cityName": "南京市",
     "color": "#FF7F7F"
   },
   "320200": {
-    "confirmedCount": 19,
+    "confirmedCount": 23,
     "cityName": "无锡市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "320300": {
-    "confirmedCount": 30,
+    "confirmedCount": 36,
     "cityName": "徐州市",
-    "color": "#FF9F9F"
+    "color": "#FF7F7F"
   },
   "320400": {
     "confirmedCount": 15,
@@ -386,22 +386,22 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "320500": {
-    "confirmedCount": 38,
+    "confirmedCount": 44,
     "cityName": "苏州市",
-    "color": "#FF7F7F"
+    "color": "#FF5F5F"
   },
   "320600": {
-    "confirmedCount": 17,
+    "confirmedCount": 19,
     "cityName": "南通市",
     "color": "#FFBFBF"
   },
   "320700": {
-    "confirmedCount": 13,
+    "confirmedCount": 14,
     "cityName": "连云港市",
     "color": "#FFBFBF"
   },
   "320800": {
-    "confirmedCount": 13,
+    "confirmedCount": 18,
     "cityName": "淮安市",
     "color": "#FFBFBF"
   },
@@ -411,7 +411,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "321000": {
-    "confirmedCount": 13,
+    "confirmedCount": 14,
     "cityName": "扬州市",
     "color": "#FFBFBF"
   },
@@ -421,12 +421,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "321200": {
-    "confirmedCount": 17,
+    "confirmedCount": 21,
     "cityName": "泰州市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "321300": {
-    "confirmedCount": 8,
+    "confirmedCount": 9,
     "cityName": "宿迁市",
     "color": "#FFDFDF"
   },
@@ -566,19 +566,19 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "350100": {
-    "confirmedCount": 44,
+    "confirmedCount": 47,
     "cityName": "福州市",
     "color": "#FF5F5F"
   },
   "350200": {
-    "confirmedCount": 18,
+    "confirmedCount": 19,
     "cityName": "厦门市",
     "color": "#FFBFBF"
   },
   "350300": {
-    "confirmedCount": 27,
+    "confirmedCount": 34,
     "cityName": "莆田市",
-    "color": "#FF9F9F"
+    "color": "#FF7F7F"
   },
   "350400": {
     "confirmedCount": 11,
@@ -586,19 +586,19 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "350500": {
-    "confirmedCount": 29,
+    "confirmedCount": 31,
     "cityName": "泉州市",
-    "color": "#FF9F9F"
+    "color": "#FF7F7F"
   },
   "350600": {
-    "confirmedCount": 12,
+    "confirmedCount": 13,
     "cityName": "漳州市",
     "color": "#FFBFBF"
   },
   "350700": {
-    "confirmedCount": 8,
+    "confirmedCount": 11,
     "cityName": "南平市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "350800": {
     "confirmedCount": 1,
@@ -606,9 +606,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "350900": {
-    "confirmedCount": 9,
+    "confirmedCount": 12,
     "cityName": "宁德市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "360100": {
     "confirmedCount": 103,
