@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.03-23:25:06";
+const LAST_UPDATE = "2020.02.03-23:30:11";
 const DATA = {
   "110000": {
     "confirmedCount": 212,
@@ -1781,7 +1781,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "620100": {
-    "confirmedCount": 26,
+    "confirmedCount": 28,
     "cityName": "兰州市",
     "color": "#FF9F9F"
   },
@@ -1801,9 +1801,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "620500": {
-    "confirmedCount": 8,
+    "confirmedCount": 10,
     "cityName": "天水市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "620600": {
     "confirmedCount": 0,
