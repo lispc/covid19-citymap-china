@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.03-12:39:40";
+const LAST_UPDATE = "2020.02.03-12:44:45";
 const DATA = {
   "110000": {
     "confirmedCount": 191,
@@ -1851,9 +1851,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "630100": {
-    "confirmedCount": 9,
+    "confirmedCount": 12,
     "cityName": "西宁市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "630200": {
     "confirmedCount": 0,
@@ -1861,9 +1861,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "632200": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "海北藏族自治州",
-    "color": "#FFFFFF"
+    "color": "#FFDFDF"
   },
   "632300": {
     "confirmedCount": 0,
