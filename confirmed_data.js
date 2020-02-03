@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.03-08:24:47";
+const LAST_UPDATE = "2020.02.03-08:29:52";
 const DATA = {
   "110000": {
     "confirmedCount": 191,
@@ -11,7 +11,7 @@ const DATA = {
     "color": "#FF5F5F"
   },
   "130100": {
-    "confirmedCount": 13,
+    "confirmedCount": 16,
     "cityName": "石家庄市",
     "color": "#FFBFBF"
   },
@@ -21,7 +21,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "130300": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "秦皇岛市",
     "color": "#FFDFDF"
   },
@@ -31,7 +31,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "130500": {
-    "confirmedCount": 10,
+    "confirmedCount": 14,
     "cityName": "邢台市",
     "color": "#FFBFBF"
   },
@@ -56,7 +56,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "131000": {
-    "confirmedCount": 11,
+    "confirmedCount": 12,
     "cityName": "廊坊市",
     "color": "#FFBFBF"
   },
@@ -361,7 +361,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "310000": {
-    "confirmedCount": 182,
+    "confirmedCount": 193,
     "cityName": "上海市",
     "color": "#B80000"
   },
