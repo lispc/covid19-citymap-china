@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.03-11:18:11";
+const LAST_UPDATE = "2020.02.03-11:23:16";
 const DATA = {
   "110000": {
     "confirmedCount": 191,
@@ -121,12 +121,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "150100": {
-    "confirmedCount": 2,
+    "confirmedCount": 4,
     "cityName": "呼和浩特市",
     "color": "#FFDFDF"
   },
   "150200": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "包头市",
     "color": "#FFDFDF"
   },
@@ -146,7 +146,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "150600": {
-    "confirmedCount": 6,
+    "confirmedCount": 9,
     "cityName": "鄂尔多斯市",
     "color": "#FFDFDF"
   },
@@ -161,7 +161,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "150900": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "乌兰察布市",
     "color": "#FFDFDF"
   },
@@ -1731,17 +1731,17 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "610100": {
-    "confirmedCount": 47,
+    "confirmedCount": 55,
     "cityName": "西安市",
-    "color": "#FF5F5F"
+    "color": "#FF3F3F"
   },
   "610200": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "铜川市",
     "color": "#FFDFDF"
   },
   "610300": {
-    "confirmedCount": 7,
+    "confirmedCount": 8,
     "cityName": "宝鸡市",
     "color": "#FFDFDF"
   },
@@ -1751,7 +1751,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "610500": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "渭南市",
     "color": "#FFDFDF"
   },
@@ -1771,7 +1771,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "610900": {
-    "confirmedCount": 16,
+    "confirmedCount": 17,
     "cityName": "安康市",
     "color": "#FFBFBF"
   },
