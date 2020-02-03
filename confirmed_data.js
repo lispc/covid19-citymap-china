@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.03-13:55:46";
+const LAST_UPDATE = "2020.02.03-14:00:50";
 const DATA = {
   "110000": {
     "confirmedCount": 191,
@@ -361,9 +361,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "310000": {
-    "confirmedCount": 193,
+    "confirmedCount": 203,
     "cityName": "上海市",
-    "color": "#B80000"
+    "color": "#A00000"
   },
   "320100": {
     "confirmedCount": 40,
@@ -1416,7 +1416,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500231": {
-    "confirmedCount": 11,
+    "confirmedCount": 12,
     "cityName": "垫江县",
     "color": "#FFBFBF"
   },
@@ -1616,17 +1616,17 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "530100": {
-    "confirmedCount": 31,
+    "confirmedCount": 32,
     "cityName": "昆明市",
     "color": "#FF7F7F"
   },
   "530300": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "曲靖市",
     "color": "#FFDFDF"
   },
   "530400": {
-    "confirmedCount": 11,
+    "confirmedCount": 12,
     "cityName": "玉溪市",
     "color": "#FFBFBF"
   },
@@ -1671,7 +1671,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "532800": {
-    "confirmedCount": 12,
+    "confirmedCount": 13,
     "cityName": "西双版纳傣族自治州",
     "color": "#FFBFBF"
   },
