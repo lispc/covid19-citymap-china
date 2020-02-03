@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.03-10:57:48";
+const LAST_UPDATE = "2020.02.03-11:02:54";
 const DATA = {
   "110000": {
     "confirmedCount": 191,
@@ -486,9 +486,9 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "340100": {
-    "confirmedCount": 59,
+    "confirmedCount": 75,
     "cityName": "合肥市",
-    "color": "#FF3F3F"
+    "color": "#FF0000"
   },
   "340200": {
     "confirmedCount": 16,
@@ -496,32 +496,32 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "340300": {
-    "confirmedCount": 26,
+    "confirmedCount": 37,
     "cityName": "蚌埠市",
-    "color": "#FF9F9F"
+    "color": "#FF7F7F"
   },
   "340400": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "淮南市",
     "color": "#FFDFDF"
   },
   "340500": {
-    "confirmedCount": 27,
+    "confirmedCount": 28,
     "cityName": "马鞍山市",
     "color": "#FF9F9F"
   },
   "340600": {
-    "confirmedCount": 6,
+    "confirmedCount": 8,
     "cityName": "淮北市",
     "color": "#FFDFDF"
   },
   "340700": {
-    "confirmedCount": 16,
+    "confirmedCount": 18,
     "cityName": "铜陵市",
     "color": "#FFBFBF"
   },
   "340800": {
-    "confirmedCount": 43,
+    "confirmedCount": 47,
     "cityName": "安庆市",
     "color": "#FF5F5F"
   },
@@ -531,29 +531,29 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "341100": {
-    "confirmedCount": 6,
+    "confirmedCount": 8,
     "cityName": "滁州市",
     "color": "#FFDFDF"
   },
   "341200": {
-    "confirmedCount": 59,
+    "confirmedCount": 65,
     "cityName": "阜阳市",
-    "color": "#FF3F3F"
+    "color": "#FF1F1F"
   },
   "341300": {
-    "confirmedCount": 14,
+    "confirmedCount": 21,
     "cityName": "宿州市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "341500": {
-    "confirmedCount": 13,
+    "confirmedCount": 20,
     "cityName": "六安市",
     "color": "#FFBFBF"
   },
   "341600": {
-    "confirmedCount": 30,
+    "confirmedCount": 39,
     "cityName": "亳州市",
-    "color": "#FF9F9F"
+    "color": "#FF7F7F"
   },
   "341700": {
     "confirmedCount": 6,
@@ -666,12 +666,12 @@ const DATA = {
     "color": "#FF7F7F"
   },
   "370100": {
-    "confirmedCount": 19,
+    "confirmedCount": 22,
     "cityName": "济南市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "370200": {
-    "confirmedCount": 24,
+    "confirmedCount": 25,
     "cityName": "青岛市",
     "color": "#FF9F9F"
   },
@@ -691,32 +691,32 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "370600": {
-    "confirmedCount": 20,
+    "confirmedCount": 22,
     "cityName": "烟台市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "370700": {
-    "confirmedCount": 11,
+    "confirmedCount": 13,
     "cityName": "潍坊市",
     "color": "#FFBFBF"
   },
   "370800": {
-    "confirmedCount": 14,
+    "confirmedCount": 18,
     "cityName": "济宁市",
     "color": "#FFBFBF"
   },
   "370900": {
-    "confirmedCount": 9,
+    "confirmedCount": 11,
     "cityName": "泰安市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "371000": {
-    "confirmedCount": 24,
+    "confirmedCount": 25,
     "cityName": "威海市",
     "color": "#FF9F9F"
   },
   "371100": {
-    "confirmedCount": 11,
+    "confirmedCount": 12,
     "cityName": "日照市",
     "color": "#FFBFBF"
   },
