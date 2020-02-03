@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.03-20:16:58";
+const LAST_UPDATE = "2020.02.03-20:22:03";
 const DATA = {
   "110000": {
     "confirmedCount": 212,
@@ -181,7 +181,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "210100": {
-    "confirmedCount": 18,
+    "confirmedCount": 15,
     "cityName": "沈阳市",
     "color": "#FFBFBF"
   },
@@ -191,9 +191,9 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "210300": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "鞍山市",
-    "color": "#FFFFFF"
+    "color": "#FFDFDF"
   },
   "210400": {
     "confirmedCount": 0,
@@ -231,12 +231,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "211100": {
-    "confirmedCount": 6,
+    "confirmedCount": 8,
     "cityName": "盘锦市",
     "color": "#FFDFDF"
   },
   "211200": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "铁岭市",
     "color": "#FFDFDF"
   },
