@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.04-06:46:59";
+const LAST_UPDATE = "2020.02.04-06:52:06";
 const DATA = {
   "110000": {
     "confirmedCount": 212,
@@ -841,89 +841,89 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "420100": {
-    "confirmedCount": 5142,
+    "confirmedCount": 6384,
     "cityName": "武汉市",
     "color": "#420001"
   },
   "420200": {
-    "confirmedCount": 334,
+    "confirmedCount": 405,
     "cityName": "黄石市",
     "color": "#A00000"
   },
   "420300": {
-    "confirmedCount": 256,
+    "confirmedCount": 291,
     "cityName": "十堰市",
     "color": "#A00000"
   },
   "420500": {
-    "confirmedCount": 392,
+    "confirmedCount": 452,
     "cityName": "宜昌市",
     "color": "#A00000"
   },
   "420600": {
-    "confirmedCount": 548,
+    "confirmedCount": 632,
     "cityName": "襄阳市",
     "color": "#880000"
   },
   "420700": {
-    "confirmedCount": 306,
+    "confirmedCount": 332,
     "cityName": "鄂州市",
     "color": "#A00000"
   },
   "420800": {
-    "confirmedCount": 345,
+    "confirmedCount": 400,
     "cityName": "荆门市",
     "color": "#A00000"
   },
   "420900": {
-    "confirmedCount": 918,
+    "confirmedCount": 1120,
     "cityName": "孝感市",
-    "color": "#880000"
+    "color": "#710000"
   },
   "421000": {
-    "confirmedCount": 499,
+    "confirmedCount": 613,
     "cityName": "荆州市",
-    "color": "#A00000"
+    "color": "#880000"
   },
   "421100": {
-    "confirmedCount": 1246,
+    "confirmedCount": 1422,
     "cityName": "黄冈市",
     "color": "#710000"
   },
   "421200": {
-    "confirmedCount": 296,
+    "confirmedCount": 348,
     "cityName": "咸宁市",
     "color": "#A00000"
   },
   "421300": {
-    "confirmedCount": 458,
+    "confirmedCount": 641,
     "cityName": "随州市",
-    "color": "#A00000"
+    "color": "#880000"
   },
   "422800": {
-    "confirmedCount": 111,
+    "confirmedCount": 123,
     "cityName": "恩施土家族苗族自治州",
     "color": "#B80000"
   },
   "429004": {
-    "confirmedCount": 169,
+    "confirmedCount": 188,
     "cityName": "仙桃市",
     "color": "#B80000"
   },
   "429005": {
-    "confirmedCount": 35,
+    "confirmedCount": 44,
     "cityName": "潜江市",
-    "color": "#FF7F7F"
+    "color": "#FF5F5F"
   },
   "429006": {
-    "confirmedCount": 115,
+    "confirmedCount": 117,
     "cityName": "天门市",
     "color": "#B80000"
   },
   "429021": {
-    "confirmedCount": 7,
+    "confirmedCount": 10,
     "cityName": "神农架林区",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "430100": {
     "confirmedCount": 125,
