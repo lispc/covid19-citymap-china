@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.03-12:24:26";
+const LAST_UPDATE = "2020.02.03-12:29:31";
 const DATA = {
   "110000": {
     "confirmedCount": 191,
@@ -1416,7 +1416,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500231": {
-    "confirmedCount": 12,
+    "confirmedCount": 11,
     "cityName": "垫江县",
     "color": "#FFBFBF"
   },
