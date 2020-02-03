@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.04-03:44:11";
+const LAST_UPDATE = "2020.02.04-03:49:15";
 const DATA = {
   "110000": {
     "confirmedCount": 212,
@@ -1636,7 +1636,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "530600": {
-    "confirmedCount": 8,
+    "confirmedCount": 9,
     "cityName": "昭通市",
     "color": "#FFDFDF"
   },
@@ -1656,7 +1656,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "532300": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "楚雄彝族自治州",
     "color": "#FFDFDF"
   },
@@ -1666,9 +1666,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "532600": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "文山壮族苗族自治州",
-    "color": "#FFFFFF"
+    "color": "#FFDFDF"
   },
   "532800": {
     "confirmedCount": 13,
@@ -1681,7 +1681,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "533100": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "德宏傣族景颇族自治州",
     "color": "#FFDFDF"
   },
