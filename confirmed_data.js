@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.03-08:55:21";
+const LAST_UPDATE = "2020.02.03-09:00:27";
 const DATA = {
   "110000": {
     "confirmedCount": 191,
@@ -766,12 +766,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "410400": {
-    "confirmedCount": 14,
+    "confirmedCount": 19,
     "cityName": "平顶山市",
     "color": "#FFBFBF"
   },
   "410500": {
-    "confirmedCount": 25,
+    "confirmedCount": 29,
     "cityName": "安阳市",
     "color": "#FF9F9F"
   },
@@ -781,12 +781,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "410700": {
-    "confirmedCount": 23,
+    "confirmedCount": 27,
     "cityName": "新乡市",
     "color": "#FF9F9F"
   },
   "410800": {
-    "confirmedCount": 7,
+    "confirmedCount": 8,
     "cityName": "焦作市",
     "color": "#FFDFDF"
   },
@@ -796,12 +796,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "411000": {
-    "confirmedCount": 13,
+    "confirmedCount": 15,
     "cityName": "许昌市",
     "color": "#FFBFBF"
   },
   "411100": {
-    "confirmedCount": 16,
+    "confirmedCount": 20,
     "cityName": "漯河市",
     "color": "#FFBFBF"
   },
@@ -811,34 +811,34 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "411300": {
-    "confirmedCount": 76,
+    "confirmedCount": 84,
     "cityName": "南阳市",
-    "color": "#FF0000"
+    "color": "#E70000"
   },
   "411400": {
-    "confirmedCount": 44,
+    "confirmedCount": 50,
     "cityName": "商丘市",
     "color": "#FF5F5F"
   },
   "411500": {
-    "confirmedCount": 88,
+    "confirmedCount": 99,
     "cityName": "信阳市",
-    "color": "#E70000"
+    "color": "#CF0000"
   },
   "411600": {
-    "confirmedCount": 40,
+    "confirmedCount": 47,
     "cityName": "周口市",
-    "color": "#FF7F7F"
-  },
-  "411700": {
-    "confirmedCount": 46,
-    "cityName": "驻马店市",
     "color": "#FF5F5F"
   },
+  "411700": {
+    "confirmedCount": 58,
+    "cityName": "驻马店市",
+    "color": "#FF3F3F"
+  },
   "419001": {
-    "confirmedCount": 0,
+    "confirmedCount": 2,
     "cityName": "济源市",
-    "color": "#FFFFFF"
+    "color": "#FFDFDF"
   },
   "420100": {
     "confirmedCount": 5142,
@@ -1466,7 +1466,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "510100": {
-    "confirmedCount": 73,
+    "confirmedCount": 77,
     "cityName": "成都市",
     "color": "#FF0000"
   },
@@ -1476,12 +1476,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "510400": {
-    "confirmedCount": 9,
+    "confirmedCount": 10,
     "cityName": "攀枝花市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "510500": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "泸州市",
     "color": "#FFDFDF"
   },
@@ -1491,7 +1491,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "510700": {
-    "confirmedCount": 14,
+    "confirmedCount": 17,
     "cityName": "绵阳市",
     "color": "#FFBFBF"
   },
@@ -1506,7 +1506,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "511000": {
-    "confirmedCount": 11,
+    "confirmedCount": 12,
     "cityName": "内江市",
     "color": "#FFBFBF"
   },
@@ -1516,12 +1516,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "511300": {
-    "confirmedCount": 23,
+    "confirmedCount": 26,
     "cityName": "南充市",
     "color": "#FF9F9F"
   },
   "511400": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "眉山市",
     "color": "#FFDFDF"
   },
@@ -1531,14 +1531,14 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "511600": {
-    "confirmedCount": 20,
+    "confirmedCount": 21,
     "cityName": "广安市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "511700": {
-    "confirmedCount": 9,
+    "confirmedCount": 11,
     "cityName": "达州市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "511800": {
     "confirmedCount": 5,
@@ -1546,9 +1546,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "511900": {
-    "confirmedCount": 8,
+    "confirmedCount": 12,
     "cityName": "巴中市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "512000": {
     "confirmedCount": 2,
@@ -1561,12 +1561,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "513300": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "甘孜藏族自治州",
     "color": "#FFDFDF"
   },
   "513400": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "凉山彝族自治州",
     "color": "#FFDFDF"
   },
