@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.04-10:30:23";
+const LAST_UPDATE = "2020.02.04-10:35:28";
 const DATA = {
   "110000": {
     "confirmedCount": 212,
@@ -151,7 +151,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "150700": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "呼伦贝尔市",
     "color": "#FFDFDF"
   },
@@ -1746,9 +1746,9 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "610400": {
-    "confirmedCount": 9,
+    "confirmedCount": 11,
     "cityName": "咸阳市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "610500": {
     "confirmedCount": 7,
