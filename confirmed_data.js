@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.04-08:33:38";
+const LAST_UPDATE = "2020.02.04-08:38:42";
 const DATA = {
   "110000": {
     "confirmedCount": 212,
@@ -296,9 +296,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "230100": {
-    "confirmedCount": 45,
+    "confirmedCount": 63,
     "cityName": "哈尔滨市",
-    "color": "#FF5F5F"
+    "color": "#FF1F1F"
   },
   "230200": {
     "confirmedCount": 6,
@@ -306,19 +306,19 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "230300": {
-    "confirmedCount": 6,
+    "confirmedCount": 9,
     "cityName": "鸡西市",
     "color": "#FFDFDF"
   },
   "230400": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "鹤岗市",
     "color": "#FFDFDF"
   },
   "230500": {
-    "confirmedCount": 7,
+    "confirmedCount": 12,
     "cityName": "双鸭山市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "230600": {
     "confirmedCount": 11,
@@ -336,7 +336,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "230900": {
-    "confirmedCount": 7,
+    "confirmedCount": 8,
     "cityName": "七台河市",
     "color": "#FFDFDF"
   },
@@ -351,9 +351,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "231200": {
-    "confirmedCount": 16,
+    "confirmedCount": 22,
     "cityName": "绥化市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "232700": {
     "confirmedCount": 2,
