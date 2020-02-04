@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.04-07:58:06";
+const LAST_UPDATE = "2020.02.04-08:03:11";
 const DATA = {
   "110000": {
     "confirmedCount": 212,
@@ -11,9 +11,9 @@ const DATA = {
     "color": "#FF3F3F"
   },
   "130100": {
-    "confirmedCount": 16,
+    "confirmedCount": 21,
     "cityName": "石家庄市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "130200": {
     "confirmedCount": 11,
@@ -26,7 +26,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "130400": {
-    "confirmedCount": 11,
+    "confirmedCount": 14,
     "cityName": "邯郸市",
     "color": "#FFBFBF"
   },
