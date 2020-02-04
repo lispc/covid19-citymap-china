@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.04-09:09:10";
+const LAST_UPDATE = "2020.02.04-09:14:16";
 const DATA = {
   "110000": {
     "confirmedCount": 212,
@@ -371,7 +371,7 @@ const DATA = {
     "color": "#FF5F5F"
   },
   "320200": {
-    "confirmedCount": 23,
+    "confirmedCount": 25,
     "cityName": "无锡市",
     "color": "#FF9F9F"
   },
@@ -391,19 +391,19 @@ const DATA = {
     "color": "#FF3F3F"
   },
   "320600": {
-    "confirmedCount": 19,
+    "confirmedCount": 22,
     "cityName": "南通市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "320700": {
-    "confirmedCount": 14,
+    "confirmedCount": 17,
     "cityName": "连云港市",
     "color": "#FFBFBF"
   },
   "320800": {
-    "confirmedCount": 18,
+    "confirmedCount": 22,
     "cityName": "淮安市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "320900": {
     "confirmedCount": 15,
@@ -411,24 +411,24 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "321000": {
-    "confirmedCount": 14,
+    "confirmedCount": 15,
     "cityName": "扬州市",
     "color": "#FFBFBF"
   },
   "321100": {
-    "confirmedCount": 3,
+    "confirmedCount": 5,
     "cityName": "镇江市",
     "color": "#FFDFDF"
   },
   "321200": {
-    "confirmedCount": 21,
+    "confirmedCount": 23,
     "cityName": "泰州市",
     "color": "#FF9F9F"
   },
   "321300": {
-    "confirmedCount": 9,
+    "confirmedCount": 10,
     "cityName": "宿迁市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "330100": {
     "confirmedCount": 118,
