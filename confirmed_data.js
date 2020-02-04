@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.04-08:08:15";
+const LAST_UPDATE = "2020.02.04-08:13:20";
 const DATA = {
   "110000": {
     "confirmedCount": 212,
@@ -31,7 +31,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "130500": {
-    "confirmedCount": 14,
+    "confirmedCount": 16,
     "cityName": "邢台市",
     "color": "#FFBFBF"
   },
@@ -46,12 +46,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "130800": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "承德市",
     "color": "#FFDFDF"
   },
   "130900": {
-    "confirmedCount": 19,
+    "confirmedCount": 20,
     "cityName": "沧州市",
     "color": "#FFBFBF"
   },
@@ -61,7 +61,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "131100": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "衡水市",
     "color": "#FFDFDF"
   },
