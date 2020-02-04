@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.04-17:29:50";
+const LAST_UPDATE = "2020.02.04-17:34:55";
 const DATA = {
   "110000": {
     "confirmedCount": 228,
@@ -1276,7 +1276,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500101": {
-    "confirmedCount": 56,
+    "confirmedCount": 60,
     "cityName": "万州区",
     "color": "#FF3F3F"
   },
@@ -1306,7 +1306,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500107": {
-    "confirmedCount": 16,
+    "confirmedCount": 17,
     "cityName": "九龙坡区",
     "color": "#FFBFBF"
   },
@@ -1381,12 +1381,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500152": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "潼南区",
     "color": "#FFDFDF"
   },
   "500153": {
-    "confirmedCount": 7,
+    "confirmedCount": 8,
     "cityName": "荣昌区",
     "color": "#FFDFDF"
   },
