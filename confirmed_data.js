@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.04-08:48:52";
+const LAST_UPDATE = "2020.02.04-08:53:56";
 const DATA = {
   "110000": {
     "confirmedCount": 212,
@@ -501,7 +501,7 @@ const DATA = {
     "color": "#FF5F5F"
   },
   "340400": {
-    "confirmedCount": 7,
+    "confirmedCount": 8,
     "cityName": "淮南市",
     "color": "#FFDFDF"
   },
@@ -511,9 +511,9 @@ const DATA = {
     "color": "#FF9F9F"
   },
   "340600": {
-    "confirmedCount": 8,
+    "confirmedCount": 11,
     "cityName": "淮北市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "340700": {
     "confirmedCount": 19,
@@ -1571,9 +1571,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "520100": {
-    "confirmedCount": 7,
+    "confirmedCount": 10,
     "cityName": "贵阳市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "520200": {
     "confirmedCount": 9,
@@ -1581,7 +1581,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "520300": {
-    "confirmedCount": 8,
+    "confirmedCount": 9,
     "cityName": "遵义市",
     "color": "#FFDFDF"
   },
@@ -1591,7 +1591,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "520500": {
-    "confirmedCount": 4,
+    "confirmedCount": 8,
     "cityName": "毕节市",
     "color": "#FFDFDF"
   },
@@ -1601,7 +1601,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "522300": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "黔西南布依族苗族自治州",
     "color": "#FFDFDF"
   },
@@ -1611,7 +1611,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "522700": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "黔南布依族苗族自治州",
     "color": "#FFDFDF"
   },
