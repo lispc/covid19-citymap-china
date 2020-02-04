@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.04-09:34:34";
+const LAST_UPDATE = "2020.02.04-09:39:38";
 const DATA = {
   "110000": {
     "confirmedCount": 212,
@@ -926,37 +926,37 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "430100": {
-    "confirmedCount": 125,
+    "confirmedCount": 148,
     "cityName": "长沙市",
     "color": "#B80000"
   },
   "430200": {
-    "confirmedCount": 26,
+    "confirmedCount": 34,
     "cityName": "株洲市",
-    "color": "#FF9F9F"
+    "color": "#FF7F7F"
   },
   "430300": {
-    "confirmedCount": 19,
+    "confirmedCount": 21,
     "cityName": "湘潭市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "430400": {
-    "confirmedCount": 32,
+    "confirmedCount": 35,
     "cityName": "衡阳市",
     "color": "#FF7F7F"
   },
   "430500": {
-    "confirmedCount": 51,
+    "confirmedCount": 55,
     "cityName": "邵阳市",
     "color": "#FF3F3F"
   },
   "430600": {
-    "confirmedCount": 70,
+    "confirmedCount": 83,
     "cityName": "岳阳市",
-    "color": "#FF1F1F"
+    "color": "#E70000"
   },
   "430700": {
-    "confirmedCount": 45,
+    "confirmedCount": 50,
     "cityName": "常德市",
     "color": "#FF5F5F"
   },
@@ -966,12 +966,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "430900": {
-    "confirmedCount": 30,
+    "confirmedCount": 35,
     "cityName": "益阳市",
-    "color": "#FF9F9F"
+    "color": "#FF7F7F"
   },
   "431000": {
-    "confirmedCount": 21,
+    "confirmedCount": 22,
     "cityName": "郴州市",
     "color": "#FF9F9F"
   },
@@ -981,12 +981,12 @@ const DATA = {
     "color": "#FF9F9F"
   },
   "431200": {
-    "confirmedCount": 32,
+    "confirmedCount": 35,
     "cityName": "怀化市",
     "color": "#FF7F7F"
   },
   "431300": {
-    "confirmedCount": 35,
+    "confirmedCount": 40,
     "cityName": "娄底市",
     "color": "#FF7F7F"
   },
@@ -1496,7 +1496,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "510800": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "广元市",
     "color": "#FFDFDF"
   },
@@ -1521,7 +1521,7 @@ const DATA = {
     "color": "#FF9F9F"
   },
   "511400": {
-    "confirmedCount": 3,
+    "confirmedCount": 5,
     "cityName": "眉山市",
     "color": "#FFDFDF"
   },
@@ -1916,7 +1916,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "650100": {
-    "confirmedCount": 10,
+    "confirmedCount": 12,
     "cityName": "乌鲁木齐市",
     "color": "#FFBFBF"
   },
@@ -1936,9 +1936,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "652300": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "昌吉回族自治州",
-    "color": "#FFFFFF"
+    "color": "#FFDFDF"
   },
   "652700": {
     "confirmedCount": 0,
@@ -1971,7 +1971,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "654000": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "伊犁哈萨克自治州",
     "color": "#FFDFDF"
   },
