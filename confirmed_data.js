@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.04-09:24:25";
+const LAST_UPDATE = "2020.02.04-09:29:30";
 const DATA = {
   "110000": {
     "confirmedCount": 212,
@@ -616,7 +616,7 @@ const DATA = {
     "color": "#B80000"
   },
   "360200": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "景德镇市",
     "color": "#FFDFDF"
   },
@@ -646,14 +646,14 @@ const DATA = {
     "color": "#FF5F5F"
   },
   "360800": {
-    "confirmedCount": 13,
+    "confirmedCount": 15,
     "cityName": "吉安市",
     "color": "#FFBFBF"
   },
   "360900": {
-    "confirmedCount": 36,
+    "confirmedCount": 45,
     "cityName": "宜春市",
-    "color": "#FF7F7F"
+    "color": "#FF5F5F"
   },
   "361000": {
     "confirmedCount": 34,
@@ -1466,9 +1466,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "510100": {
-    "confirmedCount": 77,
+    "confirmedCount": 87,
     "cityName": "成都市",
-    "color": "#FF0000"
+    "color": "#E70000"
   },
   "510300": {
     "confirmedCount": 9,
@@ -1481,12 +1481,12 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "510500": {
-    "confirmedCount": 7,
+    "confirmedCount": 9,
     "cityName": "泸州市",
     "color": "#FFDFDF"
   },
   "510600": {
-    "confirmedCount": 10,
+    "confirmedCount": 12,
     "cityName": "德阳市",
     "color": "#FFBFBF"
   },
@@ -1506,7 +1506,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "511000": {
-    "confirmedCount": 12,
+    "confirmedCount": 15,
     "cityName": "内江市",
     "color": "#FFBFBF"
   },
@@ -1516,7 +1516,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "511300": {
-    "confirmedCount": 26,
+    "confirmedCount": 27,
     "cityName": "南充市",
     "color": "#FF9F9F"
   },
@@ -1531,12 +1531,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "511600": {
-    "confirmedCount": 21,
+    "confirmedCount": 24,
     "cityName": "广安市",
     "color": "#FF9F9F"
   },
   "511700": {
-    "confirmedCount": 11,
+    "confirmedCount": 13,
     "cityName": "达州市",
     "color": "#FFBFBF"
   },
@@ -1561,7 +1561,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "513300": {
-    "confirmedCount": 6,
+    "confirmedCount": 8,
     "cityName": "甘孜藏族自治州",
     "color": "#FFDFDF"
   },
@@ -2041,7 +2041,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "820000": {
-    "confirmedCount": 8,
+    "confirmedCount": 9,
     "cityName": "澳门",
     "color": "#FFDFDF"
   }
