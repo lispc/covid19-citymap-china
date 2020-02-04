@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.04-17:34:55";
+const LAST_UPDATE = "2020.02.04-17:40:00";
 const DATA = {
   "110000": {
     "confirmedCount": 228,
@@ -996,7 +996,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "440100": {
-    "confirmedCount": 216,
+    "confirmedCount": 224,
     "cityName": "广州市",
     "color": "#A00000"
   },
@@ -1006,7 +1006,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "440300": {
-    "confirmedCount": 269,
+    "confirmedCount": 271,
     "cityName": "深圳市",
     "color": "#A00000"
   },
@@ -1021,7 +1021,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "440600": {
-    "confirmedCount": 46,
+    "confirmedCount": 49,
     "cityName": "佛山市",
     "color": "#FF5F5F"
   },
@@ -1031,7 +1031,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "440800": {
-    "confirmedCount": 15,
+    "confirmedCount": 18,
     "cityName": "湛江市",
     "color": "#FFBFBF"
   },
