@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.04-08:18:24";
+const LAST_UPDATE = "2020.02.04-08:23:29";
 const DATA = {
   "110000": {
     "confirmedCount": 212,
@@ -251,24 +251,24 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "220100": {
-    "confirmedCount": 17,
+    "confirmedCount": 18,
     "cityName": "长春市",
     "color": "#FFBFBF"
   },
   "220200": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "吉林市",
     "color": "#FFDFDF"
   },
   "220300": {
-    "confirmedCount": 5,
+    "confirmedCount": 10,
     "cityName": "四平市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "220400": {
-    "confirmedCount": 0,
+    "confirmedCount": 3,
     "cityName": "辽源市",
-    "color": "#FFFFFF"
+    "color": "#FFDFDF"
   },
   "220500": {
     "confirmedCount": 1,
@@ -291,7 +291,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "222400": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "延边朝鲜族自治州",
     "color": "#FFDFDF"
   },
