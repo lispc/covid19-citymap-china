@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.05-03:29:15";
+const LAST_UPDATE = "2020.02.05-03:34:19";
 const DATA = {
   "110000": {
     "confirmedCount": 228,
@@ -1621,9 +1621,9 @@ const DATA = {
     "color": "#FF7F7F"
   },
   "530300": {
-    "confirmedCount": 9,
+    "confirmedCount": 10,
     "cityName": "曲靖市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "530400": {
     "confirmedCount": 12,
@@ -1636,9 +1636,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "530600": {
-    "confirmedCount": 9,
+    "confirmedCount": 10,
     "cityName": "昭通市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "530700": {
     "confirmedCount": 7,
@@ -1671,7 +1671,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "532800": {
-    "confirmedCount": 13,
+    "confirmedCount": 14,
     "cityName": "西双版纳傣族自治州",
     "color": "#FFBFBF"
   },
