@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.04-08:59:01";
+const LAST_UPDATE = "2020.02.04-09:04:06";
 const DATA = {
   "110000": {
     "confirmedCount": 212,
@@ -666,12 +666,12 @@ const DATA = {
     "color": "#FF7F7F"
   },
   "370100": {
-    "confirmedCount": 22,
+    "confirmedCount": 25,
     "cityName": "济南市",
     "color": "#FF9F9F"
   },
   "370200": {
-    "confirmedCount": 26,
+    "confirmedCount": 29,
     "cityName": "青岛市",
     "color": "#FF9F9F"
   },
@@ -701,9 +701,9 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "370800": {
-    "confirmedCount": 18,
+    "confirmedCount": 21,
     "cityName": "济宁市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "370900": {
     "confirmedCount": 12,
@@ -726,7 +726,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "371300": {
-    "confirmedCount": 25,
+    "confirmedCount": 27,
     "cityName": "临沂市",
     "color": "#FF9F9F"
   },
@@ -751,9 +751,9 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "410100": {
-    "confirmedCount": 72,
+    "confirmedCount": 85,
     "cityName": "郑州市",
-    "color": "#FF0000"
+    "color": "#E70000"
   },
   "410200": {
     "confirmedCount": 11,
@@ -761,9 +761,9 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "410300": {
-    "confirmedCount": 7,
+    "confirmedCount": 12,
     "cityName": "洛阳市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "410400": {
     "confirmedCount": 19,
@@ -771,9 +771,9 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "410500": {
-    "confirmedCount": 29,
+    "confirmedCount": 33,
     "cityName": "安阳市",
-    "color": "#FF9F9F"
+    "color": "#FF7F7F"
   },
   "410600": {
     "confirmedCount": 8,
@@ -781,9 +781,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "410700": {
-    "confirmedCount": 27,
+    "confirmedCount": 33,
     "cityName": "新乡市",
-    "color": "#FF9F9F"
+    "color": "#FF7F7F"
   },
   "410800": {
     "confirmedCount": 8,
@@ -801,9 +801,9 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "411100": {
-    "confirmedCount": 20,
+    "confirmedCount": 23,
     "cityName": "漯河市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "411200": {
     "confirmedCount": 7,
@@ -811,9 +811,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "411300": {
-    "confirmedCount": 84,
+    "confirmedCount": 99,
     "cityName": "南阳市",
-    "color": "#E70000"
+    "color": "#CF0000"
   },
   "411400": {
     "confirmedCount": 50,
@@ -821,19 +821,19 @@ const DATA = {
     "color": "#FF5F5F"
   },
   "411500": {
-    "confirmedCount": 99,
+    "confirmedCount": 112,
     "cityName": "信阳市",
-    "color": "#CF0000"
+    "color": "#B80000"
   },
   "411600": {
-    "confirmedCount": 47,
+    "confirmedCount": 52,
     "cityName": "周口市",
-    "color": "#FF5F5F"
+    "color": "#FF3F3F"
   },
   "411700": {
-    "confirmedCount": 58,
+    "confirmedCount": 72,
     "cityName": "驻马店市",
-    "color": "#FF3F3F"
+    "color": "#FF0000"
   },
   "419001": {
     "confirmedCount": 2,
