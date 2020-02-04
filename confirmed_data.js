@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.04-21:43:43";
+const LAST_UPDATE = "2020.02.04-21:48:48";
 const DATA = {
   "110000": {
     "confirmedCount": 228,
@@ -181,7 +181,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "210100": {
-    "confirmedCount": 15,
+    "confirmedCount": 18,
     "cityName": "沈阳市",
     "color": "#FFBFBF"
   },
@@ -246,7 +246,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "211400": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "葫芦岛市",
     "color": "#FFDFDF"
   },
