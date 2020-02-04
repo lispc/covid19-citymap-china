@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.04-08:43:47";
+const LAST_UPDATE = "2020.02.04-08:48:52";
 const DATA = {
   "110000": {
     "confirmedCount": 212,
@@ -486,19 +486,19 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "340100": {
-    "confirmedCount": 75,
+    "confirmedCount": 81,
     "cityName": "合肥市",
-    "color": "#FF0000"
+    "color": "#E70000"
   },
   "340200": {
-    "confirmedCount": 16,
+    "confirmedCount": 21,
     "cityName": "芜湖市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "340300": {
-    "confirmedCount": 37,
+    "confirmedCount": 43,
     "cityName": "蚌埠市",
-    "color": "#FF7F7F"
+    "color": "#FF5F5F"
   },
   "340400": {
     "confirmedCount": 7,
@@ -516,14 +516,14 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "340700": {
-    "confirmedCount": 18,
+    "confirmedCount": 19,
     "cityName": "铜陵市",
     "color": "#FFBFBF"
   },
   "340800": {
-    "confirmedCount": 47,
+    "confirmedCount": 55,
     "cityName": "安庆市",
-    "color": "#FF5F5F"
+    "color": "#FF3F3F"
   },
   "341000": {
     "confirmedCount": 9,
@@ -531,34 +531,34 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "341100": {
-    "confirmedCount": 8,
+    "confirmedCount": 11,
     "cityName": "滁州市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "341200": {
-    "confirmedCount": 65,
+    "confirmedCount": 79,
     "cityName": "阜阳市",
-    "color": "#FF1F1F"
+    "color": "#FF0000"
   },
   "341300": {
-    "confirmedCount": 21,
+    "confirmedCount": 23,
     "cityName": "宿州市",
     "color": "#FF9F9F"
   },
   "341500": {
-    "confirmedCount": 20,
+    "confirmedCount": 30,
     "cityName": "六安市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "341600": {
-    "confirmedCount": 39,
+    "confirmedCount": 48,
     "cityName": "亳州市",
-    "color": "#FF7F7F"
+    "color": "#FF5F5F"
   },
   "341700": {
-    "confirmedCount": 6,
+    "confirmedCount": 10,
     "cityName": "池州市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "341800": {
     "confirmedCount": 4,
