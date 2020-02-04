@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.04-14:47:18";
+const LAST_UPDATE = "2020.02.04-14:52:24";
 const DATA = {
   "110000": {
     "confirmedCount": 212,
@@ -1621,7 +1621,7 @@ const DATA = {
     "color": "#FF7F7F"
   },
   "530300": {
-    "confirmedCount": 8,
+    "confirmedCount": 9,
     "cityName": "曲靖市",
     "color": "#FFDFDF"
   },
@@ -1656,7 +1656,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "532300": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "楚雄彝族自治州",
     "color": "#FFDFDF"
   },
