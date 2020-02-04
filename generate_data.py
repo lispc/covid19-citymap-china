@@ -34,17 +34,19 @@ def load_tx_data():
 
 def normalize_city_name(province_name, city_name):
     # 手动映射
-    manual_mapping_with_province = {('西藏', '地区待确认'): '拉萨市'}
+    manual_mapping_with_province = {
+        ('西藏', '地区待确认'): '拉萨市', ('重庆', '高新区'): '九龙坡区'}
     if manual_mapping_with_province.get((province_name, city_name)):
         return manual_mapping_with_province[(province_name, city_name)]
     # 高德地图里没有两江新区，姑且算入渝北
     manual_mapping = {'巩义': '郑州市', '固始县': '信阳市',
                       '滑县': '安阳市', '长垣': '新乡市',
                       '永城': '商丘市', '邓州': '南阳市',
-                      '韩城': '渭南市',
+                      '韩城': '渭南市', '杨凌示范区': '咸阳市',
                       '宁东管委会': '银川市',
                       '满洲里': '呼伦贝尔市', '阿拉善': '阿拉善盟',
                       '宿松': '安庆市', '公主岭': '四平市', '两江新区': '渝北区',
+                      '兵团第六师五家渠市': '五家渠市',
                       '第七师': '塔城地区', '第八师石河子': '石河子市',
                       '兵团第九师': '塔城地区'}
     if manual_mapping.get(city_name):
