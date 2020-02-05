@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.06-07:09:52";
+const LAST_UPDATE = "2020.02.06-07:14:57";
 const DATA = {
   "110000": {
     "confirmedCount": 253,
@@ -1276,7 +1276,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500101": {
-    "confirmedCount": 67,
+    "confirmedCount": 68,
     "cityName": "万州区",
     "color": "#FF1F1F"
   },
@@ -1286,7 +1286,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500103": {
-    "confirmedCount": 16,
+    "confirmedCount": 17,
     "cityName": "渝中区",
     "color": "#FFBFBF"
   },
@@ -1296,7 +1296,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500105": {
-    "confirmedCount": 16,
+    "confirmedCount": 18,
     "cityName": "江北区",
     "color": "#FFBFBF"
   },
@@ -1321,7 +1321,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500110": {
-    "confirmedCount": 12,
+    "confirmedCount": 13,
     "cityName": "綦江区",
     "color": "#FFBFBF"
   },
@@ -1381,9 +1381,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500152": {
-    "confirmedCount": 7,
+    "confirmedCount": 10,
     "cityName": "潼南区",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "500153": {
     "confirmedCount": 8,
@@ -1411,12 +1411,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500230": {
-    "confirmedCount": 6,
+    "confirmedCount": 9,
     "cityName": "丰都县",
     "color": "#FFDFDF"
   },
   "500231": {
-    "confirmedCount": 15,
+    "confirmedCount": 16,
     "cityName": "垫江县",
     "color": "#FFBFBF"
   },
@@ -1426,7 +1426,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "500235": {
-    "confirmedCount": 18,
+    "confirmedCount": 19,
     "cityName": "云阳县",
     "color": "#FFBFBF"
   },
