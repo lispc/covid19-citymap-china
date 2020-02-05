@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.05-10:30:36";
+const LAST_UPDATE = "2020.02.05-10:35:41";
 const DATA = {
   "110000": {
     "confirmedCount": 228,
@@ -1731,9 +1731,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "610100": {
-    "confirmedCount": 60,
+    "confirmedCount": 70,
     "cityName": "西安市",
-    "color": "#FF3F3F"
+    "color": "#FF1F1F"
   },
   "610200": {
     "confirmedCount": 7,
@@ -1746,14 +1746,14 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "610400": {
-    "confirmedCount": 12,
+    "confirmedCount": 16,
     "cityName": "咸阳市",
     "color": "#FFBFBF"
   },
   "610500": {
-    "confirmedCount": 7,
+    "confirmedCount": 10,
     "cityName": "渭南市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "610600": {
     "confirmedCount": 7,
@@ -1761,7 +1761,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "610700": {
-    "confirmedCount": 16,
+    "confirmedCount": 19,
     "cityName": "汉中市",
     "color": "#FFBFBF"
   },
@@ -1771,12 +1771,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "610900": {
-    "confirmedCount": 17,
+    "confirmedCount": 19,
     "cityName": "安康市",
     "color": "#FFBFBF"
   },
   "611000": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "商洛市",
     "color": "#FFDFDF"
   },
