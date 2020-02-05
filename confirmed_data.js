@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.05-08:59:12";
+const LAST_UPDATE = "2020.02.05-09:04:17";
 const DATA = {
   "110000": {
     "confirmedCount": 228,
@@ -666,22 +666,22 @@ const DATA = {
     "color": "#FF5F5F"
   },
   "370100": {
-    "confirmedCount": 25,
+    "confirmedCount": 29,
     "cityName": "济南市",
     "color": "#FF9F9F"
   },
   "370200": {
-    "confirmedCount": 32,
+    "confirmedCount": 34,
     "cityName": "青岛市",
     "color": "#FF7F7F"
   },
   "370300": {
-    "confirmedCount": 12,
+    "confirmedCount": 14,
     "cityName": "淄博市",
     "color": "#FFBFBF"
   },
   "370400": {
-    "confirmedCount": 16,
+    "confirmedCount": 17,
     "cityName": "枣庄市",
     "color": "#FFBFBF"
   },
@@ -696,22 +696,22 @@ const DATA = {
     "color": "#FF9F9F"
   },
   "370700": {
-    "confirmedCount": 14,
+    "confirmedCount": 16,
     "cityName": "潍坊市",
     "color": "#FFBFBF"
   },
   "370800": {
-    "confirmedCount": 21,
+    "confirmedCount": 23,
     "cityName": "济宁市",
     "color": "#FF9F9F"
   },
   "370900": {
-    "confirmedCount": 12,
+    "confirmedCount": 14,
     "cityName": "泰安市",
     "color": "#FFBFBF"
   },
   "371000": {
-    "confirmedCount": 25,
+    "confirmedCount": 27,
     "cityName": "威海市",
     "color": "#FF9F9F"
   },
@@ -726,7 +726,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "371300": {
-    "confirmedCount": 28,
+    "confirmedCount": 30,
     "cityName": "临沂市",
     "color": "#FF9F9F"
   },
@@ -736,7 +736,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "371500": {
-    "confirmedCount": 10,
+    "confirmedCount": 12,
     "cityName": "聊城市",
     "color": "#FFBFBF"
   },
@@ -746,7 +746,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "371700": {
-    "confirmedCount": 10,
+    "confirmedCount": 12,
     "cityName": "菏泽市",
     "color": "#FFBFBF"
   },
