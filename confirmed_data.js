@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.05-10:25:31";
+const LAST_UPDATE = "2020.02.05-10:30:36";
 const DATA = {
   "110000": {
     "confirmedCount": 228,
@@ -2001,9 +2001,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "659004": {
-    "confirmedCount": 1,
+    "confirmedCount": 0,
     "cityName": "五家渠市",
-    "color": "#FFDFDF"
+    "color": "#FFFFFF"
   },
   "659005": {
     "confirmedCount": 0,
