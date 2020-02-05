@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.05-15:55:28";
+const LAST_UPDATE = "2020.02.05-16:00:33";
 const DATA = {
   "110000": {
     "confirmedCount": 253,
@@ -1616,7 +1616,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "530100": {
-    "confirmedCount": 34,
+    "confirmedCount": 35,
     "cityName": "昆明市",
     "color": "#FF7F7F"
   },
@@ -1671,7 +1671,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "532800": {
-    "confirmedCount": 14,
+    "confirmedCount": 15,
     "cityName": "西双版纳傣族自治州",
     "color": "#FFBFBF"
   },
