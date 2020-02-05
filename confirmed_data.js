@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.05-09:55:03";
+const LAST_UPDATE = "2020.02.05-10:00:08";
 const DATA = {
   "110000": {
     "confirmedCount": 228,
@@ -996,7 +996,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "440100": {
-    "confirmedCount": 224,
+    "confirmedCount": 237,
     "cityName": "广州市",
     "color": "#A00000"
   },
@@ -1006,17 +1006,17 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "440300": {
-    "confirmedCount": 271,
+    "confirmedCount": 289,
     "cityName": "深圳市",
     "color": "#A00000"
   },
   "440400": {
-    "confirmedCount": 64,
+    "confirmedCount": 69,
     "cityName": "珠海市",
     "color": "#FF1F1F"
   },
   "440500": {
-    "confirmedCount": 18,
+    "confirmedCount": 20,
     "cityName": "汕头市",
     "color": "#FFBFBF"
   },
@@ -1026,7 +1026,7 @@ const DATA = {
     "color": "#FF5F5F"
   },
   "440700": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "江门市",
     "color": "#FFDFDF"
   },
@@ -1036,24 +1036,24 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "440900": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "茂名市",
     "color": "#FFDFDF"
   },
   "441200": {
-    "confirmedCount": 10,
+    "confirmedCount": 11,
     "cityName": "肇庆市",
     "color": "#FFBFBF"
   },
   "441300": {
-    "confirmedCount": 29,
+    "confirmedCount": 31,
     "cityName": "惠州市",
-    "color": "#FF9F9F"
+    "color": "#FF7F7F"
   },
   "441400": {
-    "confirmedCount": 9,
+    "confirmedCount": 10,
     "cityName": "梅州市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "441500": {
     "confirmedCount": 5,
@@ -1071,17 +1071,17 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "441800": {
-    "confirmedCount": 8,
+    "confirmedCount": 10,
     "cityName": "清远市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "441900": {
-    "confirmedCount": 37,
+    "confirmedCount": 44,
     "cityName": "东莞市",
-    "color": "#FF7F7F"
+    "color": "#FF5F5F"
   },
   "442000": {
-    "confirmedCount": 31,
+    "confirmedCount": 35,
     "cityName": "中山市",
     "color": "#FF7F7F"
   },
