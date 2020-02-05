@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.05-08:18:36";
+const LAST_UPDATE = "2020.02.05-08:23:41";
 const DATA = {
   "110000": {
     "confirmedCount": 228,
@@ -251,9 +251,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "220100": {
-    "confirmedCount": 18,
+    "confirmedCount": 28,
     "cityName": "长春市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "220200": {
     "confirmedCount": 5,
@@ -261,7 +261,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "220300": {
-    "confirmedCount": 10,
+    "confirmedCount": 12,
     "cityName": "四平市",
     "color": "#FFBFBF"
   },
