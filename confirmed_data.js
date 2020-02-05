@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.05-16:00:33";
+const LAST_UPDATE = "2020.02.05-16:05:38";
 const DATA = {
   "110000": {
     "confirmedCount": 253,
@@ -1276,7 +1276,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500101": {
-    "confirmedCount": 65,
+    "confirmedCount": 67,
     "cityName": "万州区",
     "color": "#FF1F1F"
   },
@@ -1306,7 +1306,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500107": {
-    "confirmedCount": 21,
+    "confirmedCount": 23,
     "cityName": "九龙坡区",
     "color": "#FF9F9F"
   },
@@ -1351,14 +1351,14 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "500116": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "江津区",
     "color": "#FFDFDF"
   },
   "500117": {
-    "confirmedCount": 9,
+    "confirmedCount": 11,
     "cityName": "合川区",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "500118": {
     "confirmedCount": 3,
@@ -1431,9 +1431,9 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "500236": {
-    "confirmedCount": 9,
+    "confirmedCount": 11,
     "cityName": "奉节县",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "500237": {
     "confirmedCount": 8,
@@ -1456,9 +1456,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500242": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "酉阳土家族苗族自治县",
-    "color": "#FFFFFF"
+    "color": "#FFDFDF"
   },
   "500243": {
     "confirmedCount": 2,
