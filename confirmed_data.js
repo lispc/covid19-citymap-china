@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.06-04:07:04";
+const LAST_UPDATE = "2020.02.06-04:12:08";
 const DATA = {
   "110000": {
     "confirmedCount": 253,
@@ -76,12 +76,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "140300": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "阳泉市",
     "color": "#FFDFDF"
   },
   "140400": {
-    "confirmedCount": 3,
+    "confirmedCount": 5,
     "cityName": "长治市",
     "color": "#FFDFDF"
   },
@@ -96,7 +96,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "140700": {
-    "confirmedCount": 21,
+    "confirmedCount": 26,
     "cityName": "晋中市",
     "color": "#FF9F9F"
   },
@@ -116,7 +116,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "141100": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "吕梁市",
     "color": "#FFDFDF"
   },
