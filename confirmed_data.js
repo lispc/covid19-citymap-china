@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.05-10:00:08";
+const LAST_UPDATE = "2020.02.05-10:05:12";
 const DATA = {
   "110000": {
     "confirmedCount": 228,
@@ -121,22 +121,22 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "150100": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "呼和浩特市",
     "color": "#FFDFDF"
   },
   "150200": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "包头市",
     "color": "#FFDFDF"
   },
   "150300": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "乌海市",
     "color": "#FFDFDF"
   },
   "150400": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "赤峰市",
     "color": "#FFDFDF"
   },
@@ -146,9 +146,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "150600": {
-    "confirmedCount": 9,
+    "confirmedCount": 11,
     "cityName": "鄂尔多斯市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "150700": {
     "confirmedCount": 3,
@@ -156,7 +156,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "150800": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "巴彦淖尔市",
     "color": "#FFDFDF"
   },
@@ -1936,7 +1936,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "652300": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "昌吉回族自治州",
     "color": "#FFDFDF"
   },
@@ -1971,7 +1971,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "654000": {
-    "confirmedCount": 7,
+    "confirmedCount": 9,
     "cityName": "伊犁哈萨克自治州",
     "color": "#FFDFDF"
   },
