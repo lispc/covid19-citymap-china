@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.05-10:20:26";
+const LAST_UPDATE = "2020.02.05-10:25:31";
 const DATA = {
   "110000": {
     "confirmedCount": 228,
@@ -1176,14 +1176,14 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "460100": {
-    "confirmedCount": 14,
+    "confirmedCount": 16,
     "cityName": "海口市",
     "color": "#FFBFBF"
   },
   "460200": {
-    "confirmedCount": 18,
+    "confirmedCount": 22,
     "cityName": "三亚市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "460300": {
     "confirmedCount": 0,
@@ -1191,9 +1191,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "460400": {
-    "confirmedCount": 8,
+    "confirmedCount": 10,
     "cityName": "儋州市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "469001": {
     "confirmedCount": 0,
@@ -1231,12 +1231,12 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "469023": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "澄迈县",
     "color": "#FFDFDF"
   },
   "469024": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "临高县",
     "color": "#FFDFDF"
   },
@@ -1256,14 +1256,14 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "469028": {
-    "confirmedCount": 5,
+    "confirmedCount": 4,
     "cityName": "陵水黎族自治县",
     "color": "#FFDFDF"
   },
   "469029": {
-    "confirmedCount": 0,
+    "confirmedCount": 2,
     "cityName": "保亭黎族苗族自治县",
-    "color": "#FFFFFF"
+    "color": "#FFDFDF"
   },
   "469030": {
     "confirmedCount": 1,
