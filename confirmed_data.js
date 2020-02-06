@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.06-16:35:14";
+const LAST_UPDATE = "2020.02.06-16:40:19";
 const DATA = {
   "110000": {
     "confirmedCount": 274,
@@ -1276,7 +1276,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500101": {
-    "confirmedCount": 68,
+    "confirmedCount": 70,
     "cityName": "万州区",
     "color": "#FF1F1F"
   },
@@ -1286,7 +1286,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500103": {
-    "confirmedCount": 17,
+    "confirmedCount": 18,
     "cityName": "渝中区",
     "color": "#FFBFBF"
   },
@@ -1356,7 +1356,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500117": {
-    "confirmedCount": 11,
+    "confirmedCount": 15,
     "cityName": "合川区",
     "color": "#FFBFBF"
   },
@@ -1416,7 +1416,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500231": {
-    "confirmedCount": 16,
+    "confirmedCount": 17,
     "cityName": "垫江县",
     "color": "#FFBFBF"
   },
@@ -1431,7 +1431,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "500236": {
-    "confirmedCount": 11,
+    "confirmedCount": 12,
     "cityName": "奉节县",
     "color": "#FFBFBF"
   },
