@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.06-10:02:31";
+const LAST_UPDATE = "2020.02.06-10:07:37";
 const DATA = {
   "110000": {
     "confirmedCount": 253,
@@ -1176,7 +1176,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "460100": {
-    "confirmedCount": 16,
+    "confirmedCount": 17,
     "cityName": "海口市",
     "color": "#FFBFBF"
   },
@@ -1206,7 +1206,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "469005": {
-    "confirmedCount": 1,
+    "confirmedCount": 3,
     "cityName": "文昌市",
     "color": "#FFDFDF"
   },
@@ -1216,7 +1216,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "469007": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "东方市",
     "color": "#FFDFDF"
   },
@@ -1231,7 +1231,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "469023": {
-    "confirmedCount": 4,
+    "confirmedCount": 6,
     "cityName": "澄迈县",
     "color": "#FFDFDF"
   },
