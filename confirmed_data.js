@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.06-08:31:09";
+const LAST_UPDATE = "2020.02.06-08:36:13";
 const DATA = {
   "110000": {
     "confirmedCount": 253,
@@ -666,14 +666,14 @@ const DATA = {
     "color": "#FF1F1F"
   },
   "370100": {
-    "confirmedCount": 29,
+    "confirmedCount": 33,
     "cityName": "济南市",
-    "color": "#FF9F9F"
+    "color": "#FF7F7F"
   },
   "370200": {
-    "confirmedCount": 35,
+    "confirmedCount": 41,
     "cityName": "青岛市",
-    "color": "#FF7F7F"
+    "color": "#FF5F5F"
   },
   "370300": {
     "confirmedCount": 14,
@@ -691,27 +691,27 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "370600": {
-    "confirmedCount": 27,
+    "confirmedCount": 29,
     "cityName": "烟台市",
     "color": "#FF9F9F"
   },
   "370700": {
-    "confirmedCount": 16,
+    "confirmedCount": 21,
     "cityName": "潍坊市",
-    "color": "#FFBFBF"
-  },
-  "370800": {
-    "confirmedCount": 25,
-    "cityName": "济宁市",
     "color": "#FF9F9F"
   },
+  "370800": {
+    "confirmedCount": 32,
+    "cityName": "济宁市",
+    "color": "#FF7F7F"
+  },
   "370900": {
-    "confirmedCount": 14,
+    "confirmedCount": 18,
     "cityName": "泰安市",
     "color": "#FFBFBF"
   },
   "371000": {
-    "confirmedCount": 27,
+    "confirmedCount": 28,
     "cityName": "威海市",
     "color": "#FF9F9F"
   },
@@ -726,17 +726,17 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "371300": {
-    "confirmedCount": 30,
+    "confirmedCount": 32,
     "cityName": "临沂市",
-    "color": "#FF9F9F"
+    "color": "#FF7F7F"
   },
   "371400": {
-    "confirmedCount": 24,
+    "confirmedCount": 26,
     "cityName": "德州市",
     "color": "#FF9F9F"
   },
   "371500": {
-    "confirmedCount": 12,
+    "confirmedCount": 15,
     "cityName": "聊城市",
     "color": "#FFBFBF"
   },
@@ -1106,17 +1106,17 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "450100": {
-    "confirmedCount": 28,
+    "confirmedCount": 30,
     "cityName": "南宁市",
     "color": "#FF9F9F"
   },
   "450200": {
-    "confirmedCount": 17,
+    "confirmedCount": 20,
     "cityName": "柳州市",
     "color": "#FFBFBF"
   },
   "450300": {
-    "confirmedCount": 26,
+    "confirmedCount": 27,
     "cityName": "桂林市",
     "color": "#FF9F9F"
   },
@@ -1126,22 +1126,22 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "450500": {
-    "confirmedCount": 29,
+    "confirmedCount": 31,
     "cityName": "北海市",
-    "color": "#FF9F9F"
+    "color": "#FF7F7F"
   },
   "450600": {
-    "confirmedCount": 13,
+    "confirmedCount": 15,
     "cityName": "防城港市",
     "color": "#FFBFBF"
   },
   "450700": {
-    "confirmedCount": 4,
+    "confirmedCount": 7,
     "cityName": "钦州市",
     "color": "#FFDFDF"
   },
   "450800": {
-    "confirmedCount": 5,
+    "confirmedCount": 7,
     "cityName": "贵港市",
     "color": "#FFDFDF"
   },
@@ -1161,14 +1161,14 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "451200": {
-    "confirmedCount": 9,
+    "confirmedCount": 11,
     "cityName": "河池市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "451300": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "来宾市",
-    "color": "#FFFFFF"
+    "color": "#FFDFDF"
   },
   "451400": {
     "confirmedCount": 0,
