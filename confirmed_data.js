@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.06-13:45:54";
+const LAST_UPDATE = "2020.02.06-13:47:40";
 const DATA = {
   "110000": {
     "confirmedCount": 274,
@@ -1946,9 +1946,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "652800": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "巴音郭楞蒙古自治州",
-    "color": "#FFFFFF"
+    "color": "#FFDFDF"
   },
   "652900": {
     "confirmedCount": 1,
@@ -2001,9 +2001,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "659004": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "五家渠市",
-    "color": "#FFFFFF"
+    "color": "#FFDFDF"
   },
   "659005": {
     "confirmedCount": 0,
