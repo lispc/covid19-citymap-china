@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.06-08:10:50";
+const LAST_UPDATE = "2020.02.06-08:15:54";
 const DATA = {
   "110000": {
     "confirmedCount": 253,
@@ -11,12 +11,12 @@ const DATA = {
     "color": "#FF1F1F"
   },
   "130100": {
-    "confirmedCount": 21,
+    "confirmedCount": 24,
     "cityName": "石家庄市",
     "color": "#FF9F9F"
   },
   "130200": {
-    "confirmedCount": 12,
+    "confirmedCount": 17,
     "cityName": "唐山市",
     "color": "#FFBFBF"
   },
@@ -26,12 +26,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "130400": {
-    "confirmedCount": 14,
+    "confirmedCount": 18,
     "cityName": "邯郸市",
     "color": "#FFBFBF"
   },
   "130500": {
-    "confirmedCount": 16,
+    "confirmedCount": 19,
     "cityName": "邢台市",
     "color": "#FFBFBF"
   },
@@ -41,27 +41,27 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "130700": {
-    "confirmedCount": 10,
+    "confirmedCount": 12,
     "cityName": "张家口市",
     "color": "#FFBFBF"
   },
   "130800": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "承德市",
     "color": "#FFDFDF"
   },
   "130900": {
-    "confirmedCount": 20,
+    "confirmedCount": 21,
     "cityName": "沧州市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "131000": {
-    "confirmedCount": 13,
+    "confirmedCount": 14,
     "cityName": "廊坊市",
     "color": "#FFBFBF"
   },
   "131100": {
-    "confirmedCount": 5,
+    "confirmedCount": 7,
     "cityName": "衡水市",
     "color": "#FFDFDF"
   },
@@ -251,7 +251,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "220100": {
-    "confirmedCount": 28,
+    "confirmedCount": 29,
     "cityName": "长春市",
     "color": "#FF9F9F"
   },
@@ -261,12 +261,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "220300": {
-    "confirmedCount": 12,
+    "confirmedCount": 13,
     "cityName": "四平市",
     "color": "#FFBFBF"
   },
   "220400": {
-    "confirmedCount": 3,
+    "confirmedCount": 5,
     "cityName": "辽源市",
     "color": "#FFDFDF"
   },
@@ -291,7 +291,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "222400": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "延边朝鲜族自治州",
     "color": "#FFDFDF"
   },
