@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.06-10:17:46";
+const LAST_UPDATE = "2020.02.06-10:22:50";
 const DATA = {
   "110000": {
     "confirmedCount": 253,
@@ -751,19 +751,19 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "410100": {
-    "confirmedCount": 92,
+    "confirmedCount": 102,
     "cityName": "郑州市",
-    "color": "#CF0000"
+    "color": "#B80000"
   },
   "410200": {
-    "confirmedCount": 17,
+    "confirmedCount": 18,
     "cityName": "开封市",
     "color": "#FFBFBF"
   },
   "410300": {
-    "confirmedCount": 17,
+    "confirmedCount": 21,
     "cityName": "洛阳市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "410400": {
     "confirmedCount": 34,
@@ -771,7 +771,7 @@ const DATA = {
     "color": "#FF7F7F"
   },
   "410500": {
-    "confirmedCount": 35,
+    "confirmedCount": 37,
     "cityName": "安阳市",
     "color": "#FF7F7F"
   },
@@ -781,29 +781,29 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "410700": {
-    "confirmedCount": 39,
+    "confirmedCount": 41,
     "cityName": "新乡市",
-    "color": "#FF7F7F"
+    "color": "#FF5F5F"
   },
   "410800": {
-    "confirmedCount": 15,
+    "confirmedCount": 17,
     "cityName": "焦作市",
     "color": "#FFBFBF"
   },
   "410900": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "濮阳市",
     "color": "#FFDFDF"
   },
   "411000": {
-    "confirmedCount": 24,
+    "confirmedCount": 18,
     "cityName": "许昌市",
-    "color": "#FF9F9F"
+    "color": "#FFBFBF"
   },
   "411100": {
-    "confirmedCount": 24,
+    "confirmedCount": 41,
     "cityName": "漯河市",
-    "color": "#FF9F9F"
+    "color": "#FF5F5F"
   },
   "411200": {
     "confirmedCount": 7,
@@ -811,32 +811,32 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "411300": {
-    "confirmedCount": 107,
+    "confirmedCount": 111,
     "cityName": "南阳市",
     "color": "#B80000"
   },
   "411400": {
-    "confirmedCount": 61,
+    "confirmedCount": 65,
     "cityName": "商丘市",
     "color": "#FF1F1F"
   },
   "411500": {
-    "confirmedCount": 138,
+    "confirmedCount": 164,
     "cityName": "信阳市",
     "color": "#B80000"
   },
   "411600": {
-    "confirmedCount": 56,
+    "confirmedCount": 59,
     "cityName": "周口市",
     "color": "#FF3F3F"
   },
   "411700": {
-    "confirmedCount": 82,
+    "confirmedCount": 98,
     "cityName": "驻马店市",
-    "color": "#E70000"
+    "color": "#CF0000"
   },
   "419001": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "济源市",
     "color": "#FFDFDF"
   },
