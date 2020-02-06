@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.06-17:21:04";
+const LAST_UPDATE = "2020.02.06-17:26:09";
 const DATA = {
   "110000": {
     "confirmedCount": 274,
@@ -1581,9 +1581,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "520300": {
-    "confirmedCount": 9,
+    "confirmedCount": 11,
     "cityName": "遵义市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "520400": {
     "confirmedCount": 3,
