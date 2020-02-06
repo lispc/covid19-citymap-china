@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.06-21:40:12";
+const LAST_UPDATE = "2020.02.06-21:45:17";
 const DATA = {
   "110000": {
     "confirmedCount": 274,
@@ -271,7 +271,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "220500": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "通化市",
     "color": "#FFDFDF"
   },
