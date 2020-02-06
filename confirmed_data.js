@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.06-10:22:50";
+const LAST_UPDATE = "2020.02.06-10:27:54";
 const DATA = {
   "110000": {
     "confirmedCount": 253,
@@ -1571,7 +1571,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "520100": {
-    "confirmedCount": 12,
+    "confirmedCount": 15,
     "cityName": "贵阳市",
     "color": "#FFBFBF"
   },
@@ -1591,7 +1591,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "520500": {
-    "confirmedCount": 11,
+    "confirmedCount": 13,
     "cityName": "毕节市",
     "color": "#FFBFBF"
   },
