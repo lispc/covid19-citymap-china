@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.06-10:43:08";
+const LAST_UPDATE = "2020.02.06-10:48:13";
 const DATA = {
   "110000": {
     "confirmedCount": 274,
@@ -766,9 +766,9 @@ const DATA = {
     "color": "#FF9F9F"
   },
   "410400": {
-    "confirmedCount": 34,
+    "confirmedCount": 41,
     "cityName": "平顶山市",
-    "color": "#FF7F7F"
+    "color": "#FF5F5F"
   },
   "410500": {
     "confirmedCount": 37,
@@ -796,14 +796,14 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "411000": {
-    "confirmedCount": 18,
+    "confirmedCount": 26,
     "cityName": "许昌市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "411100": {
-    "confirmedCount": 41,
+    "confirmedCount": 26,
     "cityName": "漯河市",
-    "color": "#FF5F5F"
+    "color": "#FF9F9F"
   },
   "411200": {
     "confirmedCount": 7,
