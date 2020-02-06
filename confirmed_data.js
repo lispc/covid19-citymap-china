@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.06-17:15:54";
+const LAST_UPDATE = "2020.02.06-17:21:04";
 const DATA = {
   "110000": {
     "confirmedCount": 274,
@@ -1396,7 +1396,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "500155": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "梁平区",
     "color": "#FFDFDF"
   },
