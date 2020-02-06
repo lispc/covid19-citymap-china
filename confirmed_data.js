@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.07-07:34:45";
+const LAST_UPDATE = "2020.02.07-07:39:49";
 const DATA = {
   "110000": {
     "confirmedCount": 274,
@@ -1631,9 +1631,9 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "530500": {
-    "confirmedCount": 8,
+    "confirmedCount": 17,
     "cityName": "保山市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "530600": {
     "confirmedCount": 10,
@@ -1676,7 +1676,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "532900": {
-    "confirmedCount": 10,
+    "confirmedCount": 11,
     "cityName": "大理白族自治州",
     "color": "#FFBFBF"
   },
