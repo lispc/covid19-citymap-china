@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.07-02:24:52";
+const LAST_UPDATE = "2020.02.07-02:29:57";
 const DATA = {
   "110000": {
     "confirmedCount": 274,
@@ -1781,9 +1781,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "620100": {
-    "confirmedCount": 30,
+    "confirmedCount": 32,
     "cityName": "兰州市",
-    "color": "#FF9F9F"
+    "color": "#FF7F7F"
   },
   "620200": {
     "confirmedCount": 0,
@@ -1796,7 +1796,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "620400": {
-    "confirmedCount": 2,
+    "confirmedCount": 4,
     "cityName": "白银市",
     "color": "#FFDFDF"
   },
@@ -1846,7 +1846,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "623000": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "甘南藏族自治州",
     "color": "#FFDFDF"
   },
