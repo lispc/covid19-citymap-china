@@ -1,6 +1,7 @@
 var map;
 var disProvince;
 var disChongqing;
+var disJinan;
 var layer;
 var verbose = false;
 var cache = new Map();
@@ -83,6 +84,19 @@ function initVirusMap() {
   });
 
   disChongqing.setMap(map);
+
+  //莱芜(371200)已并入济南(370100)，两者一起用济南的数据绘制
+  disJinan = new AMap.DistrictLayer.Province({
+    zIndex:12,
+    adcode:["370100","371200"],
+    depth:1,
+    styles:{
+      fill:DATA["370100"]["color"],
+      "province-stroke": "black",
+      "city-stroke": "none", // 中国地级市边界
+    }
+  });
+  disJinan.setMap(map);
 
   //initClickHandler();
   map.on("complete", function() {
