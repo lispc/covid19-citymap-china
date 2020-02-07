@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.07-16:22:52";
+const LAST_UPDATE = "2020.02.07-16:27:56";
 const DATA = {
   "110000": {
     "confirmedCount": 297,
@@ -1276,7 +1276,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500101": {
-    "confirmedCount": 73,
+    "confirmedCount": 74,
     "cityName": "万州区",
     "color": "#FF0000"
   },
@@ -1326,7 +1326,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "500111": {
-    "confirmedCount": 8,
+    "confirmedCount": 9,
     "cityName": "大足区",
     "color": "#FFDFDF"
   },
@@ -1356,7 +1356,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500117": {
-    "confirmedCount": 15,
+    "confirmedCount": 16,
     "cityName": "合川区",
     "color": "#FFBFBF"
   },
@@ -1426,9 +1426,9 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "500235": {
-    "confirmedCount": 19,
+    "confirmedCount": 39,
     "cityName": "云阳县",
-    "color": "#FFBFBF"
+    "color": "#FF7F7F"
   },
   "500236": {
     "confirmedCount": 12,
