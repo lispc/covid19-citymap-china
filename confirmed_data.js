@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.08-03:18:20";
+const LAST_UPDATE = "2020.02.08-03:23:25";
 const DATA = {
   "110000": {
     "confirmedCount": 297,
@@ -1621,12 +1621,12 @@ const DATA = {
     "color": "#FF5F5F"
   },
   "530300": {
-    "confirmedCount": 10,
+    "confirmedCount": 11,
     "cityName": "曲靖市",
     "color": "#FFBFBF"
   },
   "530400": {
-    "confirmedCount": 13,
+    "confirmedCount": 14,
     "cityName": "玉溪市",
     "color": "#FFBFBF"
   },
