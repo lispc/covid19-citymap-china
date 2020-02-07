@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.07-22:18:35";
+const LAST_UPDATE = "2020.02.07-22:23:40";
 const DATA = {
   "110000": {
     "confirmedCount": 297,
@@ -31,7 +31,7 @@ const DATA = {
     "color": "#FF9F9F"
   },
   "130500": {
-    "confirmedCount": 19,
+    "confirmedCount": 20,
     "cityName": "邢台市",
     "color": "#FFBFBF"
   },
