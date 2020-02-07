@@ -1,7 +1,7 @@
-const LAST_UPDATE = "2020.02.07-11:02:57";
+const LAST_UPDATE = "2020.02.07-11:08:02";
 const DATA = {
   "110000": {
-    "confirmedCount": 274,
+    "confirmedCount": 297,
     "cityName": "北京市",
     "color": "#A00000"
   },
@@ -121,7 +121,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "150100": {
-    "confirmedCount": 5,
+    "confirmedCount": 7,
     "cityName": "呼和浩特市",
     "color": "#FFDFDF"
   },
@@ -136,12 +136,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "150400": {
-    "confirmedCount": 3,
+    "confirmedCount": 4,
     "cityName": "赤峰市",
     "color": "#FFDFDF"
   },
   "150500": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "通辽市",
     "color": "#FFDFDF"
   },
@@ -1231,7 +1231,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "469023": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "澄迈县",
     "color": "#FFDFDF"
   },
@@ -1891,7 +1891,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "640100": {
-    "confirmedCount": 26,
+    "confirmedCount": 28,
     "cityName": "银川市",
     "color": "#FF9F9F"
   },
@@ -1901,7 +1901,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "640300": {
-    "confirmedCount": 8,
+    "confirmedCount": 9,
     "cityName": "吴忠市",
     "color": "#FFDFDF"
   },
@@ -1916,7 +1916,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "650100": {
-    "confirmedCount": 15,
+    "confirmedCount": 18,
     "cityName": "乌鲁木齐市",
     "color": "#FFBFBF"
   },
