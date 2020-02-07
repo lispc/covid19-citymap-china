@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.07-12:19:06";
+const LAST_UPDATE = "2020.02.07-12:24:11";
 const DATA = {
   "110000": {
     "confirmedCount": 297,
@@ -56,7 +56,7 @@ const DATA = {
     "color": "#FF9F9F"
   },
   "131000": {
-    "confirmedCount": 14,
+    "confirmedCount": 15,
     "cityName": "廊坊市",
     "color": "#FFBFBF"
   },
@@ -1631,9 +1631,9 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "530500": {
-    "confirmedCount": 17,
+    "confirmedCount": 9,
     "cityName": "保山市",
-    "color": "#FFBFBF"
+    "color": "#FFDFDF"
   },
   "530600": {
     "confirmedCount": 10,
