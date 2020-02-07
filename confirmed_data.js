@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.08-02:07:10";
+const LAST_UPDATE = "2020.02.08-02:12:15";
 const DATA = {
   "110000": {
     "confirmedCount": 297,
@@ -1816,7 +1816,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "620800": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "平凉市",
     "color": "#FFDFDF"
   },
@@ -1831,7 +1831,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "621100": {
-    "confirmedCount": 5,
+    "confirmedCount": 7,
     "cityName": "定西市",
     "color": "#FFDFDF"
   },
