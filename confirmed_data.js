@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.07-11:48:39";
+const LAST_UPDATE = "2020.02.07-11:53:43";
 const DATA = {
   "110000": {
     "confirmedCount": 297,
@@ -41,7 +41,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "130700": {
-    "confirmedCount": 12,
+    "confirmedCount": 13,
     "cityName": "张家口市",
     "color": "#FFBFBF"
   },
@@ -56,7 +56,7 @@ const DATA = {
     "color": "#FF9F9F"
   },
   "131000": {
-    "confirmedCount": 15,
+    "confirmedCount": 14,
     "cityName": "廊坊市",
     "color": "#FFBFBF"
   },
@@ -1746,7 +1746,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "610400": {
-    "confirmedCount": 16,
+    "confirmedCount": 15,
     "cityName": "咸阳市",
     "color": "#FFBFBF"
   },
