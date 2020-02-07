@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.07-17:33:58";
+const LAST_UPDATE = "2020.02.07-17:39:02";
 const DATA = {
   "110000": {
     "confirmedCount": 297,
@@ -1556,7 +1556,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "513200": {
-    "confirmedCount": 2,
+    "confirmedCount": 1,
     "cityName": "阿坝藏族羌族自治州",
     "color": "#FFDFDF"
   },
