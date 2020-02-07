@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.07-12:24:11";
+const LAST_UPDATE = "2020.02.07-12:29:15";
 const DATA = {
   "110000": {
     "confirmedCount": 297,
@@ -41,7 +41,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "130700": {
-    "confirmedCount": 13,
+    "confirmedCount": 12,
     "cityName": "张家口市",
     "color": "#FFBFBF"
   },
@@ -991,9 +991,9 @@ const DATA = {
     "color": "#FF3F3F"
   },
   "433100": {
-    "confirmedCount": 15,
+    "confirmedCount": 8,
     "cityName": "湘西土家族苗族自治州",
-    "color": "#FFBFBF"
+    "color": "#FFDFDF"
   },
   "440100": {
     "confirmedCount": 284,
