@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.07-08:20:25";
+const LAST_UPDATE = "2020.02.07-08:25:30";
 const DATA = {
   "110000": {
     "confirmedCount": 274,
@@ -251,9 +251,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "220100": {
-    "confirmedCount": 29,
+    "confirmedCount": 31,
     "cityName": "长春市",
-    "color": "#FF9F9F"
+    "color": "#FF7F7F"
   },
   "220200": {
     "confirmedCount": 5,
@@ -291,7 +291,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "222400": {
-    "confirmedCount": 4,
+    "confirmedCount": 5,
     "cityName": "延边朝鲜族自治州",
     "color": "#FFDFDF"
   },
@@ -666,22 +666,22 @@ const DATA = {
     "color": "#FF0000"
   },
   "370100": {
-    "confirmedCount": 34,
+    "confirmedCount": 39,
     "cityName": "济南市",
     "color": "#FF7F7F"
   },
   "370200": {
-    "confirmedCount": 41,
+    "confirmedCount": 43,
     "cityName": "青岛市",
     "color": "#FF5F5F"
   },
   "370300": {
-    "confirmedCount": 14,
+    "confirmedCount": 15,
     "cityName": "淄博市",
     "color": "#FFBFBF"
   },
   "370400": {
-    "confirmedCount": 17,
+    "confirmedCount": 19,
     "cityName": "枣庄市",
     "color": "#FFBFBF"
   },
@@ -691,27 +691,27 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "370600": {
-    "confirmedCount": 30,
+    "confirmedCount": 31,
     "cityName": "烟台市",
-    "color": "#FF9F9F"
+    "color": "#FF7F7F"
   },
   "370700": {
-    "confirmedCount": 21,
+    "confirmedCount": 27,
     "cityName": "潍坊市",
     "color": "#FF9F9F"
   },
   "370800": {
-    "confirmedCount": 32,
+    "confirmedCount": 35,
     "cityName": "济宁市",
     "color": "#FF7F7F"
   },
   "370900": {
-    "confirmedCount": 18,
+    "confirmedCount": 20,
     "cityName": "泰安市",
     "color": "#FFBFBF"
   },
   "371000": {
-    "confirmedCount": 29,
+    "confirmedCount": 30,
     "cityName": "威海市",
     "color": "#FF9F9F"
   },
@@ -726,17 +726,17 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "371300": {
-    "confirmedCount": 32,
+    "confirmedCount": 35,
     "cityName": "临沂市",
     "color": "#FF7F7F"
   },
   "371400": {
-    "confirmedCount": 26,
+    "confirmedCount": 27,
     "cityName": "德州市",
     "color": "#FF9F9F"
   },
   "371500": {
-    "confirmedCount": 15,
+    "confirmedCount": 20,
     "cityName": "聊城市",
     "color": "#FFBFBF"
   },
