@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.07-10:47:43";
+const LAST_UPDATE = "2020.02.07-10:52:48";
 const DATA = {
   "110000": {
     "confirmedCount": 274,
@@ -486,22 +486,22 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "340100": {
-    "confirmedCount": 104,
+    "confirmedCount": 115,
     "cityName": "合肥市",
     "color": "#B80000"
   },
   "340200": {
-    "confirmedCount": 26,
+    "confirmedCount": 27,
     "cityName": "芜湖市",
     "color": "#FF9F9F"
   },
   "340300": {
-    "confirmedCount": 64,
+    "confirmedCount": 88,
     "cityName": "蚌埠市",
-    "color": "#FF1F1F"
+    "color": "#E70000"
   },
   "340400": {
-    "confirmedCount": 12,
+    "confirmedCount": 14,
     "cityName": "淮南市",
     "color": "#FFBFBF"
   },
@@ -511,19 +511,19 @@ const DATA = {
     "color": "#FF9F9F"
   },
   "340600": {
-    "confirmedCount": 17,
+    "confirmedCount": 22,
     "cityName": "淮北市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "340700": {
-    "confirmedCount": 20,
+    "confirmedCount": 22,
     "cityName": "铜陵市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "340800": {
-    "confirmedCount": 60,
+    "confirmedCount": 66,
     "cityName": "安庆市",
-    "color": "#FF3F3F"
+    "color": "#FF1F1F"
   },
   "341000": {
     "confirmedCount": 9,
@@ -536,24 +536,24 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "341200": {
-    "confirmedCount": 95,
+    "confirmedCount": 105,
     "cityName": "阜阳市",
-    "color": "#CF0000"
+    "color": "#B80000"
   },
   "341300": {
-    "confirmedCount": 25,
+    "confirmedCount": 27,
     "cityName": "宿州市",
     "color": "#FF9F9F"
   },
   "341500": {
-    "confirmedCount": 36,
+    "confirmedCount": 41,
     "cityName": "六安市",
-    "color": "#FF7F7F"
+    "color": "#FF5F5F"
   },
   "341600": {
-    "confirmedCount": 66,
+    "confirmedCount": 72,
     "cityName": "亳州市",
-    "color": "#FF1F1F"
+    "color": "#FF0000"
   },
   "341700": {
     "confirmedCount": 11,
@@ -1246,7 +1246,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "469026": {
-    "confirmedCount": 7,
+    "confirmedCount": 4,
     "cityName": "昌江黎族自治县",
     "color": "#FFDFDF"
   },
@@ -1731,17 +1731,17 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "610100": {
-    "confirmedCount": 74,
+    "confirmedCount": 80,
     "cityName": "西安市",
     "color": "#FF0000"
   },
   "610200": {
-    "confirmedCount": 7,
+    "confirmedCount": 8,
     "cityName": "铜川市",
     "color": "#FFDFDF"
   },
   "610300": {
-    "confirmedCount": 10,
+    "confirmedCount": 12,
     "cityName": "宝鸡市",
     "color": "#FFBFBF"
   },
@@ -1761,9 +1761,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "610700": {
-    "confirmedCount": 20,
+    "confirmedCount": 21,
     "cityName": "汉中市",
-    "color": "#FFBFBF"
+    "color": "#FF9F9F"
   },
   "610800": {
     "confirmedCount": 2,
@@ -1776,7 +1776,7 @@ const DATA = {
     "color": "#FF9F9F"
   },
   "611000": {
-    "confirmedCount": 6,
+    "confirmedCount": 7,
     "cityName": "商洛市",
     "color": "#FFDFDF"
   },
