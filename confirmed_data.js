@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.07-08:45:51";
+const LAST_UPDATE = "2020.02.07-08:50:55";
 const DATA = {
   "110000": {
     "confirmedCount": 274,
@@ -251,7 +251,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "220100": {
-    "confirmedCount": 31,
+    "confirmedCount": 32,
     "cityName": "长春市",
     "color": "#FF7F7F"
   },
@@ -261,7 +261,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "220300": {
-    "confirmedCount": 13,
+    "confirmedCount": 14,
     "cityName": "四平市",
     "color": "#FFBFBF"
   },
@@ -1106,9 +1106,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "450100": {
-    "confirmedCount": 30,
+    "confirmedCount": 31,
     "cityName": "南宁市",
-    "color": "#FF9F9F"
+    "color": "#FF7F7F"
   },
   "450200": {
     "confirmedCount": 20,
@@ -1116,7 +1116,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "450300": {
-    "confirmedCount": 27,
+    "confirmedCount": 28,
     "cityName": "桂林市",
     "color": "#FF9F9F"
   },
@@ -1151,7 +1151,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "451000": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "百色市",
     "color": "#FFDFDF"
   },
@@ -1166,7 +1166,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "451300": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "来宾市",
     "color": "#FFDFDF"
   },
@@ -1466,9 +1466,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "510100": {
-    "confirmedCount": 97,
+    "confirmedCount": 102,
     "cityName": "成都市",
-    "color": "#CF0000"
+    "color": "#B80000"
   },
   "510300": {
     "confirmedCount": 9,
