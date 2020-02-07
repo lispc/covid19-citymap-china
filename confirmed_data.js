@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.08-04:09:06";
+const LAST_UPDATE = "2020.02.08-04:14:11";
 const DATA = {
   "110000": {
     "confirmedCount": 297,
@@ -1831,7 +1831,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "621100": {
-    "confirmedCount": 7,
+    "confirmedCount": 8,
     "cityName": "定西市",
     "color": "#FFDFDF"
   },
