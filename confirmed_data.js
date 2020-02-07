@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.08-07:21:59";
+const LAST_UPDATE = "2020.02.08-07:27:04";
 const DATA = {
   "110000": {
     "confirmedCount": 297,
@@ -1276,7 +1276,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500101": {
-    "confirmedCount": 74,
+    "confirmedCount": 78,
     "cityName": "万州区",
     "color": "#FF0000"
   },
@@ -1296,7 +1296,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500105": {
-    "confirmedCount": 19,
+    "confirmedCount": 20,
     "cityName": "江北区",
     "color": "#FFBFBF"
   },
@@ -1321,17 +1321,17 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "500110": {
-    "confirmedCount": 14,
+    "confirmedCount": 15,
     "cityName": "綦江区",
     "color": "#FFBFBF"
   },
   "500111": {
-    "confirmedCount": 9,
+    "confirmedCount": 10,
     "cityName": "大足区",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "500112": {
-    "confirmedCount": 26,
+    "confirmedCount": 28,
     "cityName": "渝北区",
     "color": "#FF9F9F"
   },
@@ -1416,7 +1416,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500231": {
-    "confirmedCount": 17,
+    "confirmedCount": 18,
     "cityName": "垫江县",
     "color": "#FFBFBF"
   },
@@ -1431,7 +1431,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "500236": {
-    "confirmedCount": 12,
+    "confirmedCount": 13,
     "cityName": "奉节县",
     "color": "#FFBFBF"
   },
