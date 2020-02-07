@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.07-18:09:29";
+const LAST_UPDATE = "2020.02.07-18:14:34";
 const DATA = {
   "110000": {
     "confirmedCount": 297,
@@ -1426,9 +1426,9 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "500235": {
-    "confirmedCount": 39,
+    "confirmedCount": 20,
     "cityName": "云阳县",
-    "color": "#FF7F7F"
+    "color": "#FFBFBF"
   },
   "500236": {
     "confirmedCount": 12,
