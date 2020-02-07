@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.07-15:42:13";
+const LAST_UPDATE = "2020.02.07-15:47:18";
 const DATA = {
   "110000": {
     "confirmedCount": 297,
@@ -181,7 +181,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "210100": {
-    "confirmedCount": 23,
+    "confirmedCount": 24,
     "cityName": "沈阳市",
     "color": "#FF9F9F"
   },
@@ -666,12 +666,12 @@ const DATA = {
     "color": "#E70000"
   },
   "370100": {
-    "confirmedCount": 39,
+    "confirmedCount": 41,
     "cityName": "济南市",
-    "color": "#FF7F7F"
+    "color": "#FF5F5F"
   },
   "370200": {
-    "confirmedCount": 43,
+    "confirmedCount": 44,
     "cityName": "青岛市",
     "color": "#FF5F5F"
   },
@@ -691,7 +691,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "370600": {
-    "confirmedCount": 31,
+    "confirmedCount": 34,
     "cityName": "烟台市",
     "color": "#FF7F7F"
   },
@@ -711,9 +711,9 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "371000": {
-    "confirmedCount": 30,
+    "confirmedCount": 31,
     "cityName": "威海市",
-    "color": "#FF9F9F"
+    "color": "#FF7F7F"
   },
   "371100": {
     "confirmedCount": 14,
