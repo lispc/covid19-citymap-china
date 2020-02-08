@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.08-14:53:44";
+const LAST_UPDATE = "2020.02.08-14:58:49";
 const DATA = {
   "110000": {
     "confirmedCount": 315,
@@ -186,7 +186,7 @@ const DATA = {
     "color": "#FF9F9F"
   },
   "210200": {
-    "confirmedCount": 14,
+    "confirmedCount": 16,
     "cityName": "大连市",
     "color": "#FFBFBF"
   },
@@ -211,7 +211,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "210700": {
-    "confirmedCount": 8,
+    "confirmedCount": 9,
     "cityName": "锦州市",
     "color": "#FFDFDF"
   },
@@ -226,7 +226,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "211000": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "辽阳市",
     "color": "#FFDFDF"
   },
