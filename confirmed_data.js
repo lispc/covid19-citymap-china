@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.08-11:15:25";
+const LAST_UPDATE = "2020.02.08-11:20:29";
 const DATA = {
   "110000": {
     "confirmedCount": 315,
@@ -126,9 +126,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "150200": {
-    "confirmedCount": 9,
+    "confirmedCount": 10,
     "cityName": "包头市",
-    "color": "#FFDFDF"
+    "color": "#FFBFBF"
   },
   "150300": {
     "confirmedCount": 2,
