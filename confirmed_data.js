@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.08-08:07:43";
+const LAST_UPDATE = "2020.02.08-08:12:49";
 const DATA = {
   "110000": {
     "confirmedCount": 297,
@@ -261,12 +261,12 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "220300": {
-    "confirmedCount": 14,
+    "confirmedCount": 16,
     "cityName": "四平市",
     "color": "#FFBFBF"
   },
   "220400": {
-    "confirmedCount": 5,
+    "confirmedCount": 6,
     "cityName": "辽源市",
     "color": "#FFDFDF"
   },
@@ -286,9 +286,9 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "220800": {
-    "confirmedCount": 0,
+    "confirmedCount": 1,
     "cityName": "白城市",
-    "color": "#FFFFFF"
+    "color": "#FFDFDF"
   },
   "222400": {
     "confirmedCount": 5,
