@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "lib": ["ES2018", "DOM"],
+    "resolveJsonModule": true,
+    "downlevelIteration": true
+  },
+  "files": ["src/load_data.ts", "src/index.js"]
+}
