@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.08-11:05:16";
+const LAST_UPDATE = "2020.02.08-11:10:20";
 const DATA = {
   "110000": {
     "confirmedCount": 315,
@@ -1731,9 +1731,9 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "610100": {
-    "confirmedCount": 80,
+    "confirmedCount": 88,
     "cityName": "西安市",
-    "color": "#FF0000"
+    "color": "#E70000"
   },
   "610200": {
     "confirmedCount": 8,
@@ -1746,7 +1746,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "610400": {
-    "confirmedCount": 15,
+    "confirmedCount": 16,
     "cityName": "咸阳市",
     "color": "#FFBFBF"
   },
@@ -1756,7 +1756,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "610600": {
-    "confirmedCount": 7,
+    "confirmedCount": 8,
     "cityName": "延安市",
     "color": "#FFDFDF"
   },
@@ -1766,7 +1766,7 @@ const DATA = {
     "color": "#FF9F9F"
   },
   "610800": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "榆林市",
     "color": "#FFDFDF"
   },
@@ -2031,7 +2031,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "710000": {
-    "confirmedCount": 16,
+    "confirmedCount": 17,
     "cityName": "台湾",
     "color": "#FFBFBF"
   },
