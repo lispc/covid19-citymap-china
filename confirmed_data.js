@@ -1,7 +1,7 @@
-const LAST_UPDATE = "2020.02.08-10:55:07";
+const LAST_UPDATE = "2020.02.08-11:00:11";
 const DATA = {
   "110000": {
-    "confirmedCount": 297,
+    "confirmedCount": 315,
     "cityName": "北京市",
     "color": "#A00000"
   },
@@ -1916,7 +1916,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "650100": {
-    "confirmedCount": 18,
+    "confirmedCount": 19,
     "cityName": "乌鲁木齐市",
     "color": "#FFBFBF"
   },
@@ -1946,7 +1946,7 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "652800": {
-    "confirmedCount": 1,
+    "confirmedCount": 2,
     "cityName": "巴音郭楞蒙古自治州",
     "color": "#FFDFDF"
   },
