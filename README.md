@@ -29,8 +29,8 @@ $ yarn webpack
 $ ts-node src/load_data.ts
 
 # 之前使用 Python 离线做数据处理，也可以参考
-# 数据写入 confirmed_data.js 中
-# python3 legacy_fetch_data.py 
+$ 数据写入 confirmed_data.js 中
+$ python3 legacy_fetch_data.py 
 ```
 
 ## 效果
