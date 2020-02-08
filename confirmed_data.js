@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.08-11:30:38";
+const LAST_UPDATE = "2020.02.08-11:35:44";
 const DATA = {
   "110000": {
     "confirmedCount": 315,
@@ -141,7 +141,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "150500": {
-    "confirmedCount": 2,
+    "confirmedCount": 3,
     "cityName": "通辽市",
     "color": "#FFDFDF"
   },
@@ -2031,18 +2031,18 @@ const DATA = {
     "color": "#FFFFFF"
   },
   "710000": {
-    "confirmedCount": 0,
+    "confirmedCount": 17,
     "cityName": "台湾",
-    "color": "#FFFFFF"
+    "color": "#FFBFBF"
   },
   "810000": {
-    "confirmedCount": 0,
+    "confirmedCount": 26,
     "cityName": "香港",
-    "color": "#FFFFFF"
+    "color": "#FF9F9F"
   },
   "820000": {
-    "confirmedCount": 0,
+    "confirmedCount": 10,
     "cityName": "澳门",
-    "color": "#FFFFFF"
+    "color": "#FFBFBF"
   }
 }
