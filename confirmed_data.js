@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.08-10:24:38";
+const LAST_UPDATE = "2020.02.08-10:29:43";
 const DATA = {
   "110000": {
     "confirmedCount": 297,
@@ -341,7 +341,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "231000": {
-    "confirmedCount": 11,
+    "confirmedCount": 13,
     "cityName": "牡丹江市",
     "color": "#FFBFBF"
   },
