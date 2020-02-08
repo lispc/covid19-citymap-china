@@ -1,4 +1,4 @@
-const LAST_UPDATE = "2020.02.08-16:04:53";
+const LAST_UPDATE = "2020.02.08-16:09:58";
 const DATA = {
   "110000": {
     "confirmedCount": 315,
@@ -1286,7 +1286,7 @@ const DATA = {
     "color": "#FFDFDF"
   },
   "500103": {
-    "confirmedCount": 19,
+    "confirmedCount": 20,
     "cityName": "渝中区",
     "color": "#FFBFBF"
   },
@@ -1431,7 +1431,7 @@ const DATA = {
     "color": "#FFBFBF"
   },
   "500236": {
-    "confirmedCount": 13,
+    "confirmedCount": 14,
     "cityName": "奉节县",
     "color": "#FFBFBF"
   },
