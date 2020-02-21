@@ -44,10 +44,13 @@ const manualMapping = new Map([
   ['满洲里', '呼伦贝尔市'],
   ['阿拉善', '阿拉善盟'],
   ['宿松', '安庆市'],
+  ['赣江新区', '南昌市'],
   ['公主岭', '四平市'],
+  ['梅河口市', '通化市'],
   ['两江新区', '渝北区'],
   ['万盛经开区', '綦江区'],
   ['巴州', '巴音郭楞蒙古自治州'],
+  ['兵团第四师', '可克达拉市'],
   ['六师五家渠', '五家渠市'],
   ['第七师', '塔城地区'],
   ['第八师石河子', '石河子市'],
@@ -108,26 +111,36 @@ function normalizeCityName(provinceName: string, cityName: string): string {
   return '';
 }
 
+function getRemain(data): number {
+  const result = data.confirm - data.dead - data.heal;
+  if (result < 0) {
+    throw data;
+  }
+  return result;
+}
+
 export function getConfirmedCount(data): Map<string, number> {
   const confirmedCount = new Map<string, number>();
   for (const province of data) {
+    const province_remain = getRemain(province.total);
     if (['香港', '澳门', '台湾'].includes(province.name)) {
       const suffix = province.name == '台湾' ? '省' : '特别行政区';
-      confirmedCount.set(province.name + suffix, province.total.confirm);
+      confirmedCount.set(province.name + suffix, province_remain);
       continue;
     }
     if (['北京', '上海', '天津'].includes(province.name)) {
       const provinceName = province.name + '市';
-      confirmedCount.set(provinceName, province.total.confirm);
+      confirmedCount.set(provinceName, province_remain);
       continue;
     }
     for (const city of province.children) {
+      const city_remain = getRemain(city.total);
       const normalizedName: string = normalizeCityName(province.name, city.name);
       if (normalizedName != '') {
         if (confirmedCount.has(normalizedName)) {
-          confirmedCount.set(normalizedName, confirmedCount.get(normalizedName) + city.total.confirm);
+          confirmedCount.set(normalizedName, confirmedCount.get(normalizedName) + city_remain);
         } else {
-          confirmedCount.set(normalizedName, city.total.confirm);
+          confirmedCount.set(normalizedName, city_remain);
         }
       }
     }
