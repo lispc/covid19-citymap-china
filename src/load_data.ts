@@ -111,10 +111,12 @@ function normalizeCityName(provinceName: string, cityName: string): string {
   return '';
 }
 
-function getRemain(data): number {
-  const result = data.confirm - data.dead - data.heal;
-  if (result < 0) {
-    throw data;
+function getRemain(area): number {
+  const total = area.total;
+  const result = total.confirm - total.dead - total.heal;
+  if (result < 0 && area.name != '地区待确认') {
+    console.log('ERROR remain: ', area);
+    return 0;
   }
   return result;
 }
@@ -122,7 +124,7 @@ function getRemain(data): number {
 export function getConfirmedCount(data): Map<string, number> {
   const confirmedCount = new Map<string, number>();
   for (const province of data) {
-    const province_remain = getRemain(province.total);
+    const province_remain = getRemain(province);
     if (['香港', '澳门', '台湾'].includes(province.name)) {
       const suffix = province.name == '台湾' ? '省' : '特别行政区';
       confirmedCount.set(province.name + suffix, province_remain);
@@ -134,7 +136,7 @@ export function getConfirmedCount(data): Map<string, number> {
       continue;
     }
     for (const city of province.children) {
-      const city_remain = getRemain(city.total);
+      const city_remain = getRemain(city);
       const normalizedName: string = normalizeCityName(province.name, city.name);
       if (normalizedName != '') {
         if (confirmedCount.has(normalizedName)) {
