@@ -1,11 +1,11 @@
-import { loadTecentData, getConfirmedCount, getColor } from './load_data';
-var map;
-var disProvince;
-var disChongqing;
-var layer;
-var verbose = false;
-var confirmedCount = new Map();
-var cache = new Map();
+import { loadTencentData, getConfirmedCount, getColor } from './load_data';
+let map;
+let disProvince;
+let disChongqing;
+let layer;
+const verbose = false;
+let confirmedCount = new Map();
+const cache = new Map();
 
 function getCountByName(name) {
   let count = 0;
@@ -21,7 +21,6 @@ function getColorByName(name) {
 }
 
 function initVirusMap() {
-
   map = new AMap.Map('container', {
     zoom: window.screen.width <= 600 ? 3 : 4,
     center: [104.5, 38.5],
@@ -31,7 +30,7 @@ function initVirusMap() {
 
   // 创建省份图层
   // 排除重庆(500000)
-  var all_provinces = [
+  const allProvinces = [
     '110000',
     '120000',
     '130000',
@@ -68,10 +67,10 @@ function initVirusMap() {
   ];
   disProvince = new AMap.DistrictLayer.Province({
     zIndex: 12,
-    adcode: all_provinces,
+    adcode: allProvinces,
     depth: 1,
     styles: {
-      fill: function(properties) {
+      fill: function (properties) {
         return getColorByName(properties.NAME_CHN);
       },
       'province-stroke': 'black',
@@ -87,7 +86,7 @@ function initVirusMap() {
     adcode: ['500000'],
     depth: 2,
     styles: {
-      fill: function(properties) {
+      fill: function (properties) {
         return getColorByName(properties.NAME_CHN);
       },
       'province-stroke': 'black',
@@ -97,21 +96,21 @@ function initVirusMap() {
   });
 
   disChongqing.setMap(map);
-  map.on('complete', function() {
+  map.on('complete', function () {
     layer = new AMap.LabelsLayer({
       fitView: true,
     });
     map.add(layer);
-    map.on('click', clickHander);
+    map.on('click', clickHandler);
   });
 }
 
-function clickHander(ev) {
+function clickHandler(ev) {
   if (verbose) {
     console.log('ev', ev);
   }
-  var px = ev.pixel;
-  var props = disProvince.getDistrictByContainerPos(px);
+  const px = ev.pixel;
+  let props = disProvince.getDistrictByContainerPos(px);
   if (verbose) {
     console.log('props1', props);
   }
@@ -127,7 +126,7 @@ function clickHander(ev) {
     if (['110000', '120000', '310000', '710000', '810000', '820000'].includes(props.adcode_pro.toString())) {
       const text = props.NAME_CHN + seperator + getCountByName(props.NAME_CHN);
       //console.log('text', text);
-      var labelMarker = new AMap.LabelMarker({
+      const labelMarker = new AMap.LabelMarker({
         position: [props.x, props.y],
         text: { content: text },
         rank: 2,
@@ -135,12 +134,12 @@ function clickHander(ev) {
       layer.add(labelMarker);
     } else {
       // 展示点击区域所在省份每个市的病例数字
-      AMap.plugin('AMap.DistrictSearch', function() {
-        const is_chongqing = props.adcode_pro.toString() == '500000';
-        const subdistrict = is_chongqing ? 2 : 1;
+      AMap.plugin('AMap.DistrictSearch', function () {
+        const isChongqing = props.adcode_pro.toString() == '500000';
+        const subdistrict = isChongqing ? 2 : 1;
         //console.log('subdistrict', subdistrict)
         function districtsHandler(result) {
-          if (!is_chongqing) {
+          if (!isChongqing) {
             for (const entry of result.districtList[0].districtList) {
               const text = entry.name + seperator + getCountByName(entry.name);
               //console.log("text", text);
@@ -152,7 +151,7 @@ function clickHander(ev) {
               if (verbose) {
                 console.log('option', option);
               }
-              var labelMarker = new AMap.LabelMarker(option);
+              const labelMarker = new AMap.LabelMarker(option);
               layer.add(labelMarker);
             }
           } else {
@@ -168,30 +167,30 @@ function clickHander(ev) {
               if (verbose) {
                 console.log('option, 重庆郊县', option);
               }
-              var labelMarker = new AMap.LabelMarker(option);
+              const labelMarker = new AMap.LabelMarker(option);
               layer.add(labelMarker);
             }
             // 重庆城区
-            var confirmedCount = 0;
-            const chongqing_downtown = result.districtList[0].districtList[1];
-            for (const entry of chongqing_downtown.districtList) {
+            let confirmedCount = 0;
+            const chongqingDowntown = result.districtList[0].districtList[1];
+            for (const entry of chongqingDowntown.districtList) {
               confirmedCount += getCountByName(entry.name);
             }
             const option = {
-              position: chongqing_downtown.center,
+              position: chongqingDowntown.center,
               text: {
-                content: chongqing_downtown.name + seperator + confirmedCount,
+                content: chongqingDowntown.name + seperator + confirmedCount,
               },
               rank: props.adcode_cit.toString() == '500100' ? 2 : 1,
             };
             if (verbose) {
               console.log('option, 重庆城区', option);
             }
-            var labelMarker = new AMap.LabelMarker(option);
+            const labelMarker = new AMap.LabelMarker(option);
             layer.add(labelMarker);
           }
         }
-        var districtSearch = new AMap.DistrictSearch({
+        const districtSearch = new AMap.DistrictSearch({
           level: 'district',
           subdistrict: subdistrict,
         });
@@ -199,7 +198,7 @@ function clickHander(ev) {
         if (cache.get(k)) {
           districtsHandler(cache.get(k));
         } else {
-          districtSearch.search(k, function(status, result) {
+          districtSearch.search(k, function (status, result) {
             if (verbose) {
               console.log('status', status);
               console.log('result', result);
@@ -215,8 +214,8 @@ function clickHander(ev) {
   }
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  loadTecentData({ jsonp: true }).then(data => {
+document.addEventListener('DOMContentLoaded', function () {
+  loadTencentData({ jsonp: true }).then((data) => {
     confirmedCount = getConfirmedCount(data);
     // fix some bugs of AMap
     confirmedCount.set('邳州市', confirmedCount.get('徐州市'));
