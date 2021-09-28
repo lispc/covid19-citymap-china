@@ -12,7 +12,7 @@
 
 ```bash
 # 可以直接访问
-$ yarn webpack-dev-server
+$ yarn webpack serve
 # 或者打包后使用静态文件服务器 host
 $ yarn webpack
 ```

@@ -141,7 +141,11 @@ function clickHandler(ev) {
         function districtsHandler(result) {
           if (!isChongqing) {
             for (const entry of result.districtList[0].districtList) {
-              const text = entry.name + seperator + getCountByName(entry.name);
+              let count = getCountByName(entry.name);
+              if (count == 0) {
+                continue;
+              }
+              const text = entry.name + seperator + count;
               //console.log("text", text);
               const option = {
                 position: entry.center,
