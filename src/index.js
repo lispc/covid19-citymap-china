@@ -121,10 +121,10 @@ function clickHandler(ev) {
     console.log('props1', props);
   }
   if (props) {
-    const seperator = ' ';
+    const seperator = ':';
     // 京津沪港澳台
     if (['110000', '120000', '310000', '710000', '810000', '820000'].includes(props.adcode_pro.toString())) {
-      const text = props.NAME_CHN + seperator + getCountByName(props.NAME_CHN);
+      const text = props.NAME_CHN.replace('市', '') + seperator + getCountByName(props.NAME_CHN);
       //console.log('text', text);
       const labelMarker = new AMap.LabelMarker({
         position: [props.x, props.y],
@@ -145,7 +145,7 @@ function clickHandler(ev) {
               if (count == 0) {
                 continue;
               }
-              const text = entry.name + seperator + count;
+              const text = entry.name.replace('市', '') + seperator + count;
               //console.log("text", text);
               const option = {
                 position: entry.center,
@@ -161,10 +161,14 @@ function clickHandler(ev) {
           } else {
             // 重庆郊县
             for (const entry of result.districtList[0].districtList[0].districtList) {
+              let count = getCountByName(entry.name);
+              if (count == 0) {
+                continue;
+              }
               const option = {
                 position: entry.center,
                 text: {
-                  content: entry.name + seperator + getCountByName(entry.name),
+                  content: entry.name + seperator + count,
                 },
                 rank: entry.adcode == props.adcode.toString() ? 2 : 1,
               };
@@ -180,18 +184,20 @@ function clickHandler(ev) {
             for (const entry of chongqingDowntown.districtList) {
               confirmedCount += getCountByName(entry.name);
             }
-            const option = {
-              position: chongqingDowntown.center,
-              text: {
-                content: chongqingDowntown.name + seperator + confirmedCount,
-              },
-              rank: props.adcode_cit.toString() == '500100' ? 2 : 1,
-            };
-            if (verbose) {
-              console.log('option, 重庆城区', option);
+            if (confirmedCount > 0) {
+              const option = {
+                position: chongqingDowntown.center,
+                text: {
+                  content: chongqingDowntown.name + seperator + confirmedCount,
+                },
+                rank: props.adcode_cit.toString() == '500100' ? 2 : 1,
+              };
+              if (verbose) {
+                console.log('option, 重庆城区', option);
+              }
+              const labelMarker = new AMap.LabelMarker(option);
+              layer.add(labelMarker);
             }
-            const labelMarker = new AMap.LabelMarker(option);
-            layer.add(labelMarker);
           }
         }
         const districtSearch = new AMap.DistrictSearch({
