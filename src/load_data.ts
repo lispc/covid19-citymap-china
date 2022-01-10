@@ -1,6 +1,5 @@
 import * as cities from './valid_city_names.json';
 import axios from 'axios';
-import * as jsonpAdapter from 'axios-jsonp';
 
 const cityNames = new Set<string>(cities);
 const cityNameShortToFull = new Map<string, string>();
@@ -62,14 +61,15 @@ const manualMappingWithProvince = new Map<string, string>([
   ['西藏-地区待确认', '拉萨市'],
   ['重庆-高新区', '九龙坡区'],
 ]);
-export async function loadTencentData({ jsonp = true }): Promise<Array<any>> {
+export async function loadTencentData(): Promise<Array<any>> {
+  const url = 'https://api.inews.qq.com/newsqa/v1/query/inner/publish/modules/list?modules=statisGradeCityDetail';
   const options: Record<string, any> = {
-    url: 'https://view.inews.qq.com/g2/getOnsInfo?name=disease_h5',
+    url,
     method: 'get',
-    adapter: jsonp ? jsonpAdapter : undefined,
   };
   const response = await axios(options);
-  return JSON.parse(response.data.data).areaTree[0].children;
+  const data = response.data.data;
+  return data.statisGradeCityDetail;
 }
 
 function normalizeCityName(provinceName: string, cityName: string): string {
@@ -111,42 +111,32 @@ function normalizeCityName(provinceName: string, cityName: string): string {
   return '';
 }
 
-function getRemain(area): number {
-  const total = area.total;
-  const result = total.confirm - total.dead - total.heal;
-  if (result < 0 && area.name != '地区待确认') {
-    console.log('ERROR remain: ', area);
-    return 0;
-  }
-  return result;
-}
-
 export function getConfirmedCount(data): Map<string, number> {
   const confirmedCount = new Map<string, number>();
-  for (const province of data) {
-    const provinceRemain = getRemain(province);
-    if (['香港', '澳门', '台湾'].includes(province.name)) {
-      const suffix = province.name == '台湾' ? '省' : '特别行政区';
-      confirmedCount.set(province.name + suffix, provinceRemain);
+  for (const cityData of data) {
+    const provinceName = cityData.province;
+    const cityName = cityData.city;
+    const nowConfirm = cityData.nowConfirm;
+    if (['香港', '澳门', '台湾'].includes(provinceName)) {
+      const suffix = provinceName == '台湾' ? '省' : '特别行政区';
+      confirmedCount.set(provinceName + suffix, nowConfirm);
       continue;
     }
-    if (['北京', '上海', '天津'].includes(province.name)) {
-      const provinceName = province.name + '市';
-      confirmedCount.set(provinceName, provinceRemain);
+    if (['北京', '上海', '天津'].includes(provinceName)) {
+      const suffix = '市';
+      confirmedCount.set(provinceName + suffix, nowConfirm);
       continue;
     }
-    for (const city of province.children) {
-      const cityRemain = getRemain(city);
-      const normalizedName: string = normalizeCityName(province.name, city.name);
-      if (normalizedName != '') {
-        if (confirmedCount.has(normalizedName)) {
-          confirmedCount.set(normalizedName, confirmedCount.get(normalizedName) + cityRemain);
-        } else {
-          confirmedCount.set(normalizedName, cityRemain);
-        }
+    const normalizedName: string = normalizeCityName(provinceName, cityName);
+    if (normalizedName != '') {
+      if (confirmedCount.has(normalizedName)) {
+        confirmedCount.set(normalizedName, confirmedCount.get(normalizedName) + nowConfirm);
+      } else {
+        confirmedCount.set(normalizedName, nowConfirm);
       }
     }
   }
+  console.log({ confirmedCount });
   return confirmedCount;
 }
 
@@ -166,7 +156,7 @@ export function getColor(count: number): string {
 }
 
 function printConfirmedCount(): void {
-  loadTencentData({ jsonp: false }).then((data) => {
+  loadTencentData().then((data) => {
     console.dir(getConfirmedCount(data), { depth: null });
   });
 }

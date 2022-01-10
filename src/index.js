@@ -20,7 +20,7 @@ function getColorByName(name) {
   return color;
 }
 
-function initVirusMap() {
+function initCovidMap() {
   map = new AMap.Map('container', {
     zoom: window.screen.width <= 600 ? 3 : 4,
     center: [104.5, 38.5],
@@ -222,8 +222,12 @@ document.addEventListener('DOMContentLoaded', function () {
   loadTencentData({ jsonp: true }).then((data) => {
     confirmedCount = getConfirmedCount(data);
     // fix some bugs of AMap
-    confirmedCount.set('邳州市', confirmedCount.get('徐州市'));
-    confirmedCount.set('莱芜市', confirmedCount.get('济南市'));
-    initVirusMap();
+    if (confirmedCount.get('徐州市')) {
+      confirmedCount.set('邳州市', confirmedCount.get('徐州市'));
+    }
+    if (confirmedCount.get('济南市')) {
+      confirmedCount.set('莱芜市', confirmedCount.get('济南市'));
+    }
+    initCovidMap();
   });
 });
