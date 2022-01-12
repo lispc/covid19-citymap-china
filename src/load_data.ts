@@ -73,6 +73,16 @@ export async function loadTencentData(): Promise<Array<any>> {
 }
 
 function normalizeCityName(provinceName: string, cityName: string): string {
+  /*
+    if (['香港', '澳门', '台湾'].includes(provinceName)) {
+      const suffix = provinceName == '台湾' ? '省' : '特别行政区';
+      return provinceName + suffix;
+    }
+    */
+  // 直辖市
+  if (['北京', '上海', '天津'].includes(provinceName)) {
+    return provinceName + '市';
+  }
   // 手动规则
   if (manualMappingWithProvince.has(provinceName + '-' + cityName)) {
     return manualMappingWithProvince.get(provinceName + '-' + cityName);
@@ -117,16 +127,6 @@ export function getConfirmedCount(data): Map<string, number> {
     const provinceName = cityData.province;
     const cityName = cityData.city;
     const nowConfirm = cityData.nowConfirm;
-    if (['香港', '澳门', '台湾'].includes(provinceName)) {
-      const suffix = provinceName == '台湾' ? '省' : '特别行政区';
-      confirmedCount.set(provinceName + suffix, nowConfirm);
-      continue;
-    }
-    if (['北京', '上海', '天津'].includes(provinceName)) {
-      const suffix = '市';
-      confirmedCount.set(provinceName + suffix, nowConfirm);
-      continue;
-    }
     const normalizedName: string = normalizeCityName(provinceName, cityName);
     if (normalizedName != '') {
       if (confirmedCount.has(normalizedName)) {
