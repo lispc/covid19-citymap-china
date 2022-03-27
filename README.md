@@ -25,6 +25,7 @@ $ yarn webpack
 ```bash
 # 可以使用下面的命令直接 print 每个城市的病例数
 $ ts-node src/load_data.ts
+```
 
 
 ## 效果
