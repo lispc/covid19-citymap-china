@@ -6,7 +6,7 @@
 ## 使用说明
 
 ### 方式一（推荐）：直接网页访问
-本项目已经部署在 Github Pages 上了。可以直接访问 [这里](https://lispczz.github.io/pneumonia/)。
+本项目已经部署在 Github Pages 上了。可以直接访问 [这里](https://lispc.github.io/covid19-citymap-china/)。
 
 ### 方式二：自己手动生成 
 
