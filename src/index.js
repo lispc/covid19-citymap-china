@@ -1,9 +1,12 @@
-import { loadTencentData, getConfirmedCount, getColor } from './load_data';
+import { loadData, getConfirmedCount, getColor } from './load_data';
 let map;
 let disProvince;
 let disChongqing;
 let layer;
 const verbose = false;
+
+const textStyle = { backgroundColor: '#FFFFFF' };
+
 let confirmedCount = new Map();
 const cache = new Map();
 
@@ -128,7 +131,7 @@ function clickHandler(ev) {
       //console.log('text', text);
       const labelMarker = new AMap.LabelMarker({
         position: [props.x, props.y],
-        text: { content: text },
+        text: { content: text, style: textStyle },
         rank: 2,
       });
       layer.add(labelMarker);
@@ -149,7 +152,7 @@ function clickHandler(ev) {
               //console.log("text", text);
               const option = {
                 position: entry.center,
-                text: { content: text },
+                text: { content: text, style: textStyle },
                 rank: entry.adcode == props.adcode.toString() ? 2 : 1,
               };
               if (verbose) {
@@ -169,6 +172,7 @@ function clickHandler(ev) {
                 position: entry.center,
                 text: {
                   content: entry.name + seperator + count,
+                  style: textStyle,
                 },
                 rank: entry.adcode == props.adcode.toString() ? 2 : 1,
               };
@@ -189,6 +193,7 @@ function clickHandler(ev) {
                 position: chongqingDowntown.center,
                 text: {
                   content: chongqingDowntown.name + seperator + confirmedCount,
+                  style: textStyle,
                 },
                 rank: props.adcode_cit.toString() == '500100' ? 2 : 1,
               };
@@ -225,7 +230,7 @@ function clickHandler(ev) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  loadTencentData({ jsonp: true }).then((data) => {
+  loadData().then((data) => {
     confirmedCount = getConfirmedCount(data);
     // fix some bugs of AMap
     if (confirmedCount.get('徐州市')) {
