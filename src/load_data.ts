@@ -115,7 +115,11 @@ export function getConfirmedCount(data): Map<string, number> {
   const confirmedCount = new Map<string, number>();
   for (const provinceData of data) {
     if (municipalityList.has(provinceData.name)) {
-      confirmedCount.set(municipalityList.get(provinceData.name), Number(provinceData.econNum));
+      let num = Number(provinceData.econNum);
+      if (provinceData.name == '上海') {
+        num += Number(provinceData.asymptomNum);
+      }
+      confirmedCount.set(municipalityList.get(provinceData.name), num);
       continue;
     }
     for (const cityData of provinceData.city) {
