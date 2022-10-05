@@ -84,7 +84,7 @@ const manualMappingWithProvince = new Map<string, string>([['重庆-高新区', 
 
 export async function loadData(): Promise<Array<any>> {
   const url = 'https://news.sina.com.cn/project/fymap/ncp2020_full_data.json';
-  if (document) {
+  if (typeof document != "undefined") {
     const result = await fetchJsonp(url, {
       jsonpCallbackFunction: 'jsoncallback',
     });
@@ -106,6 +106,15 @@ function normalizeCityName(provinceName: string, cityName: string): string {
   }
   if (manualMapping.has(cityName)) {
     return manualMapping.get(cityName);
+  }
+  // 前缀匹配
+  // 规范市名，除了 张家口市/张家界市，阿拉善盟/阿拉尔市 外，前两个字都是唯一的
+  // 所以可以用前两个字
+  const shortName = cityName.substr(0, 2);
+  if (cityNameShortToFull.has(shortName)) {
+    const normalizedName = cityNameShortToFull.get(shortName);
+    console.log(provinceName, cityName, '=>', normalizedName);
+    return normalizedName;
   }
   console.log('!!!Cannot match, discard:', provinceName, cityName);
   return '';
